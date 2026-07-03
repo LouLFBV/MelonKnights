@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI; // Indispensable pour le NavMeshAgent
 
@@ -8,8 +9,7 @@ public class BossController : MonoBehaviour
     private NavMeshAgent _agent;
 
     [SerializeField] private Transform playerTransform;
-    [SerializeField] private GameObject flammes;
-    [SerializeField] private GameObject flammesInAttack;
+    [SerializeField] private BossUI bossUI;
 
     [Header("Combat Settings")]
     [SerializeField] private Transform attackPoint;
@@ -29,7 +29,6 @@ public class BossController : MonoBehaviour
     private float _attackTimer = 0f;
     private bool _isAttacking = false;
     private bool _isDead = false;
-    private bool _isBoosted = false;
 
     void Awake()
     {
@@ -133,15 +132,6 @@ public class BossController : MonoBehaviour
         Debug.Log("Le Boss attaque le joueur !");
     }
 
-    public void AE_ActiveAttackFlames()
-    {
-        flammesInAttack.SetActive(true);
-    }
-    public void AE_DesativeAttackFlames()
-    {
-        flammesInAttack.SetActive(false);
-    }
-
     private void FlipTowardsPlayer()
     {
         // Ne pas flip pendant qu'il frappe (optionnel, retire cette ligne si tu veux qu'il se retourne même en attaquant)
@@ -150,10 +140,12 @@ public class BossController : MonoBehaviour
         if (playerTransform.position.x < transform.position.x)
         {
             transform.localScale = new Vector3(1f, 1f, 1f); // Regarde à gauche
+            bossUI.FlipHealthBar(false);
         }
         else if (playerTransform.position.x > transform.position.x)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);  // Regarde à droite
+            bossUI.FlipHealthBar(true);
         }
     }
 
@@ -173,34 +165,15 @@ public class BossController : MonoBehaviour
     private void OnEnable()
     {
         if (_healSystem != null)
-        {
             _healSystem.OnDeath += OnBossDeath;
-            _healSystem.OnHealthChanged += ActiveFlames;
-        }
     }
 
     private void OnDisable()
     {
         if (_healSystem != null)
-        {
             _healSystem.OnDeath -= OnBossDeath;
-            _healSystem.OnHealthChanged -= ActiveFlames;
-
-        }
     }
 
-    private void ActiveFlames()
-    {
-        if (_healSystem.IsMidLife())
-        {
-            flammes.SetActive(true);
-            if(!_isBoosted)
-            {
-                attackDamage *= 2;
-                _isBoosted = true;
-            }
-        }
-    }
     public void AE_Despawn()
     {
         gameObject.SetActive(false);

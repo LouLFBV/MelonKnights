@@ -15,12 +15,11 @@ public class UIPlayer : MonoBehaviour
 
     [Header("Coins Settings")]
     [SerializeField] private TextMeshProUGUI coinText;
-    private int _coinAmount;
+    private int _coinAmount = 0;
 
     [Header("Audio Settings")]
     [SerializeField] private AudioSource starAudioSource;
 
-    public event System.Action OnStarAmountChanged;
     private PlayerInput _playerInput;
 
     private void Awake()
@@ -40,6 +39,7 @@ public class UIPlayer : MonoBehaviour
     private void Start()
     {
         ManageCursor(false);
+        UpdateCoinText();
     }
 
     private void OnEnable()
@@ -75,9 +75,14 @@ public class UIPlayer : MonoBehaviour
         SetPauseMenuState(!panelMenu.activeSelf);
     }
 
-    private void UpdateCoinAmount(int coinAdded)
+    public void AddCoin(int coinAdded)
     {
         _coinAmount += coinAdded;
+        UpdateCoinText();
+    }
+
+    private void UpdateCoinText()
+    {
         coinText.text = _coinAmount.ToString();
     }
 
@@ -112,15 +117,15 @@ public class UIPlayer : MonoBehaviour
 
     public void ManageCursor(bool showCursor)
     {
-        Cursor.visible = showCursor;
+        //Cursor.visible = showCursor;
 
-        if (showCursor)
-        {
-            Cursor.lockState = CursorLockMode.None;
-        }
-        else
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-        }
+        //if (showCursor)
+        //{
+        //    Cursor.lockState = CursorLockMode.None;
+        //}
+        //else
+        //{
+        //    Cursor.lockState = CursorLockMode.Locked;
+        //}
     }
 }

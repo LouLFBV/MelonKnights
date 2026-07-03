@@ -4,6 +4,7 @@ public class BossUI : MonoBehaviour
 {
     private HealthSystem _healSystem;
 
+    [SerializeField] private GameObject healthBarCanvas;
     [SerializeField] private CanvasGroup healthBarUI;
     [SerializeField] private Image healthAmount;
     void Awake()
@@ -35,6 +36,13 @@ public class BossUI : MonoBehaviour
             DespawnHealthBar();
             // Update the health UI here
             Debug.Log($"Boss Health: {currentHealth}/{maxHealth}");
+    }
+    public void FlipHealthBar(bool right)
+    {
+        if (!right)
+            healthBarCanvas.transform.localScale = new Vector3(1f, 1f, 1f);
+        else
+            healthBarCanvas.transform.localScale = new Vector3(-1f, 1f, 1f);
     }
 
     private void DespawnHealthBar()
