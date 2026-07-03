@@ -1,20 +1,26 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
 
 public class UIPlayer : MonoBehaviour
 {
     public static UIPlayer Instance;
 
-    [SerializeField] private GameObject[] healthBarImage;
-    [SerializeField] private GameObject[] starImage;
-    [SerializeField] private HealthSystem playerHealthSystem;
     [SerializeField] private GameObject panelMenu;
+
+    [Header("Health Settings")]
+    [SerializeField] private Image healthBarImage;
+    [SerializeField] private HealthSystem playerHealthSystem;
+
+    [Header("Coins Settings")]
+    [SerializeField] private TextMeshProUGUI coinText;
+    private int _coinAmount;
 
     [Header("Audio Settings")]
     [SerializeField] private AudioSource starAudioSource;
 
     public event System.Action OnStarAmountChanged;
-    private int _starAmount;
     private PlayerInput _playerInput;
 
     private void Awake()
@@ -69,39 +75,22 @@ public class UIPlayer : MonoBehaviour
         SetPauseMenuState(!panelMenu.activeSelf);
     }
 
-    public int GetStarAmount()
+    private void UpdateCoinAmount(int coinAdded)
     {
-        return _starAmount;
+        _coinAmount += coinAdded;
+        coinText.text = _coinAmount.ToString();
+    }
+
+    public int GetCoin()
+    {
+        return _coinAmount;
     }
 
     private void UpdateHealthBar()
     {
-        for (int i = 0; i < healthBarImage.Length; i++)
-        {
-            healthBarImage[i].SetActive(false);
-        }
-
-        if (playerHealthSystem.currentHealth >= 0 && playerHealthSystem.currentHealth < healthBarImage.Length)
-        {
-            healthBarImage[playerHealthSystem.currentHealth].SetActive(true);
-        }
+        healthBarImage.fillAmount = (float)playerHealthSystem.currentHealth / playerHealthSystem.maxHealth;
     }
 
-    public void UpdateStarAmount(int starAmount)
-    {
-        starAudioSource.PlayOneShot(starAudioSource.clip);
-        _starAmount += starAmount;
-        OnStarAmountChanged?.Invoke();
-        for (int i = 0; i < starImage.Length; i++)
-        {
-            starImage[i].SetActive(false);
-        }
-
-        if (_starAmount >= 0 && _starAmount < starImage.Length)
-        {
-            starImage[_starAmount].SetActive(true);
-        }
-    }
 
     public void SetPauseMenuState(bool isActive)
     {
