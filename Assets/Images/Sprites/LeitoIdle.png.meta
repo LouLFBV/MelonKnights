@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: e988ad33680f78e4ab0a0255222f0358
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4948358818552367160
+    second: LeitoIdle_0
+  - first:
+      213: 1703229840010540418
+    second: LeitoIdle_1
+  - first:
+      213: 4104073844658832819
+    second: LeitoIdle_2
+  - first:
+      213: -7774929455296430346
+    second: LeitoIdle_3
+  - first:
+      213: -8336477697350023800
+    second: LeitoIdle_4
+  - first:
+      213: -8532286410745179403
+    second: LeitoIdle_5
+  - first:
+      213: 4710515848586436381
+    second: LeitoIdle_6
+  - first:
+      213: 7088436032258705589
+    second: LeitoIdle_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeitoIdle_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 201
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4909482, y: 0.13504425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7b30f3fd5e35bb0800000000000000
+      internalID: -4948358818552367160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoIdle_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 201
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4909482, y: 0.1350442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2857ca0f38613a710800000000000000
+      internalID: 1703229840010540418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoIdle_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 137
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5090203, y: 0.14149769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b58cdada6994f830800000000000000
+      internalID: 4104073844658832819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoIdle_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 137
+        width: 50
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5090203, y: 0.1414977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6feb55f8ad6e91490800000000000000
+      internalID: -7774929455296430346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoIdle_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.50263613, y: 0.15445445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8854c7be3b1ee4c80800000000000000
+      internalID: -8336477697350023800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoIdle_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 73
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5026361, y: 0.1544545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f214a527ba379980800000000000000
+      internalID: -8532286410745179403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoIdle_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9
+        width: 51
+        height: 53
+      alignment: 9
+      pivot: {x: 0.49483657, y: 0.1483253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f97d7f43d1f5140800000000000000
+      internalID: 4710515848586436381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoIdle_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 9
+        width: 50
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4948366, y: 0.1483253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b80cd3e30f2f5260800000000000000
+      internalID: 7088436032258705589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 39dfdc916381d9c4baed4528dce3cd30
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LeitoIdle_0: -4948358818552367160
+      LeitoIdle_1: 1703229840010540418
+      LeitoIdle_2: 4104073844658832819
+      LeitoIdle_3: -7774929455296430346
+      LeitoIdle_4: -8336477697350023800
+      LeitoIdle_5: -8532286410745179403
+      LeitoIdle_6: 4710515848586436381
+      LeitoIdle_7: 7088436032258705589
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

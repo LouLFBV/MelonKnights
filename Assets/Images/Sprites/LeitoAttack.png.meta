@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 3fe8269d8878269449d7ffa800267513
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3714395419540270426
+    second: LeitoAttack_0
+  - first:
+      213: 5125074183595753550
+    second: LeitoAttack_1
+  - first:
+      213: 888158414599401817
+    second: LeitoAttack_2
+  - first:
+      213: 3972998878352066100
+    second: LeitoAttack_3
+  - first:
+      213: 4284826242486623165
+    second: LeitoAttack_4
+  - first:
+      213: 3562593205387475062
+    second: LeitoAttack_5
+  - first:
+      213: 2327297085187870606
+    second: LeitoAttack_6
+  - first:
+      213: 3394377009446823864
+    second: LeitoAttack_7
+  - first:
+      213: -3361940799044646567
+    second: LeitoAttack_8
+  - first:
+      213: -1759089903745789692
+    second: LeitoAttack_9
+  - first:
+      213: 7974915216391007673
+    second: LeitoAttack_10
+  - first:
+      213: -2108138962900726195
+    second: LeitoAttack_11
+  - first:
+      213: 2471951854237368353
+    second: LeitoAttack_12
+  - first:
+      213: 8439947181681526263
+    second: LeitoAttack_13
+  - first:
+      213: -6275288322119567640
+    second: LeitoAttack_14
+  - first:
+      213: 7592543909282967468
+    second: LeitoAttack_15
+  - first:
+      213: 5172300571854744522
+    second: LeitoAttack_16
+  - first:
+      213: -7950158677779376695
+    second: LeitoAttack_17
+  - first:
+      213: 6211816469222371905
+    second: LeitoAttack_18
+  - first:
+      213: -7816388964347581485
+    second: LeitoAttack_19
+  - first:
+      213: -6448853392086386342
+    second: LeitoAttack_20
+  - first:
+      213: -6566329560560860985
+    second: LeitoAttack_21
+  - first:
+      213: -3226506224745996642
+    second: LeitoAttack_22
+  - first:
+      213: 2225271678440930347
+    second: LeitoAttack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeitoAttack_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 444
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d290154fe2c8330800000000000000
+      internalID: 3714395419540270426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 443
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4000c0f0dbef1740800000000000000
+      internalID: 5125074183595753550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 443
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951b8765f5f535c00800000000000000
+      internalID: 888158414599401817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 443
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43643351e6de22730800000000000000
+      internalID: 3972998878352066100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 443
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbdfabf3c2c67b30800000000000000
+      internalID: 4284826242486623165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_5
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 443
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678375615afd07130800000000000000
+      internalID: 3562593205387475062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 316
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fcc615e583c4020800000000000000
+      internalID: 2327297085187870606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 313
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7a4d9e7ef3b1f20800000000000000
+      internalID: 3394377009446823864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 316
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9590d05d7acf751d0800000000000000
+      internalID: -3361940799044646567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 313
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40191477d057697e0800000000000000
+      internalID: -1759089903745789692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_10
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 314
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bde7dae2279cae60800000000000000
+      internalID: 7974915216391007673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_11
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 316
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e442b58c26eb2e0800000000000000
+      internalID: -2108138962900726195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 188
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120cfad4d132e4220800000000000000
+      internalID: 2471951854237368353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 188
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5cf27be37b02570800000000000000
+      internalID: 8439947181681526263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_14
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 188
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6f7e8d482b9e8a0800000000000000
+      internalID: -6275288322119567640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 188
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafed5e55722e5960800000000000000
+      internalID: 7592543909282967468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 183
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acba3f057f3b7c740800000000000000
+      internalID: 5172300571854744522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 183
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c598f6edcc5ba190800000000000000
+      internalID: -7950158677779376695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 60
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142bbe9ca2ec43650800000000000000
+      internalID: 6211816469222371905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 57
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db67c166ab968390800000000000000
+      internalID: -7816388964347581485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 60
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a593e14e1021186a0800000000000000
+      internalID: -6448853392086386342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 57
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c08f98fd06bfd4a0800000000000000
+      internalID: -6566329560560860985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 58
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e9d60fea52933d0800000000000000
+      internalID: -3226506224745996642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeitoAttack_23
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 60
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c75323dc0c1ee10800000000000000
+      internalID: 2225271678440930347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 58c9a351f95174b42a28103cb7bd2ae6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":125.0,"y":125.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      LeitoAttack_0: 3714395419540270426
+      LeitoAttack_1: 5125074183595753550
+      LeitoAttack_10: 7974915216391007673
+      LeitoAttack_11: -2108138962900726195
+      LeitoAttack_12: 2471951854237368353
+      LeitoAttack_13: 8439947181681526263
+      LeitoAttack_14: -6275288322119567640
+      LeitoAttack_15: 7592543909282967468
+      LeitoAttack_16: 5172300571854744522
+      LeitoAttack_17: -7950158677779376695
+      LeitoAttack_18: 6211816469222371905
+      LeitoAttack_19: -7816388964347581485
+      LeitoAttack_2: 888158414599401817
+      LeitoAttack_20: -6448853392086386342
+      LeitoAttack_21: -6566329560560860985
+      LeitoAttack_22: -3226506224745996642
+      LeitoAttack_23: 2225271678440930347
+      LeitoAttack_3: 3972998878352066100
+      LeitoAttack_4: 4284826242486623165
+      LeitoAttack_5: 3562593205387475062
+      LeitoAttack_6: 2327297085187870606
+      LeitoAttack_7: 3394377009446823864
+      LeitoAttack_8: -3361940799044646567
+      LeitoAttack_9: -1759089903745789692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

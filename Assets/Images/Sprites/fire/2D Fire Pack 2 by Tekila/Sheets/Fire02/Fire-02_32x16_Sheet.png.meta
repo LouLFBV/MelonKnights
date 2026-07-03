@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: a2ec4f2ecaef9fd4fbda97356be577ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8415253441286481206
+    second: Fire-02_32x16_Sheet_0
+  - first:
+      213: -4537641809185740306
+    second: Fire-02_32x16_Sheet_1
+  - first:
+      213: -3631462748941755675
+    second: Fire-02_32x16_Sheet_2
+  - first:
+      213: 1115100334945977676
+    second: Fire-02_32x16_Sheet_3
+  - first:
+      213: -2243719351960664557
+    second: Fire-02_32x16_Sheet_4
+  - first:
+      213: 5674548121550576763
+    second: Fire-02_32x16_Sheet_5
+  - first:
+      213: -2811389750234132848
+    second: Fire-02_32x16_Sheet_6
+  - first:
+      213: -1979822673458507974
+    second: Fire-02_32x16_Sheet_7
+  - first:
+      213: -4000049354904702757
+    second: Fire-02_32x16_Sheet_8
+  - first:
+      213: 6551377442809909186
+    second: Fire-02_32x16_Sheet_9
+  - first:
+      213: 1397809654489497170
+    second: Fire-02_32x16_Sheet_10
+  - first:
+      213: -2314631233518277630
+    second: Fire-02_32x16_Sheet_11
+  - first:
+      213: -3753639894196935213
+    second: Fire-02_32x16_Sheet_12
+  - first:
+      213: 4453218236183132916
+    second: Fire-02_32x16_Sheet_13
+  - first:
+      213: 1433791133430374986
+    second: Fire-02_32x16_Sheet_14
+  - first:
+      213: 8522819176406027326
+    second: Fire-02_32x16_Sheet_15
+  - first:
+      213: -4164031342926071125
+    second: Fire-02_32x16_Sheet_16
+  - first:
+      213: 8158795937051513222
+    second: Fire-02_32x16_Sheet_17
+  - first:
+      213: -120123820947638314
+    second: Fire-02_32x16_Sheet_18
+  - first:
+      213: 8414814687504607155
+    second: Fire-02_32x16_Sheet_19
+  - first:
+      213: 6097759612446309055
+    second: Fire-02_32x16_Sheet_20
+  - first:
+      213: 3506148404409567048
+    second: Fire-02_32x16_Sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca5c31c493073b80800000000000000
+      internalID: -8415253441286481206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9e585e0de0701c0800000000000000
+      internalID: -4537641809185740306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea5342ced37a9dc0800000000000000
+      internalID: -3631462748941755675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45cf59b8d1a97f00800000000000000
+      internalID: 1115100334945977676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31607ba1325bcd0e0800000000000000
+      internalID: -2243719351960664557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cd1e5937b00ce40800000000000000
+      internalID: 5674548121550576763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ece14eaefebf8d0800000000000000
+      internalID: -2811389750234132848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fcd3e94c14684e0800000000000000
+      internalID: -1979822673458507974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0ffdc0e48fc78c0800000000000000
+      internalID: -4000049354904702757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf0134d21b2bea50800000000000000
+      internalID: 6551377442809909186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e357f8974066310800000000000000
+      internalID: 1397809654489497170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c6e141827c0efd0800000000000000
+      internalID: -2314631233518277630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d528a3676468ebc0800000000000000
+      internalID: -3753639894196935213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fabcf244620dcd30800000000000000
+      internalID: 4453218236183132916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42e8367079d5e310800000000000000
+      internalID: 1433791133430374986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c819692e2274670800000000000000
+      internalID: 8522819176406027326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa7c4b3e836636c0800000000000000
+      internalID: -4164031342926071125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6811bd67dadd93170800000000000000
+      internalID: 8158795937051513222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d77a53750c355ef0800000000000000
+      internalID: -120123820947638314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7a37bef5d67c470800000000000000
+      internalID: 8414814687504607155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbaf5996f089f9450800000000000000
+      internalID: 6097759612446309055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-02_32x16_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 82
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84782aeb56758a030800000000000000
+      internalID: 3506148404409567048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fire-02_32x16_Sheet_0: -8415253441286481206
+      Fire-02_32x16_Sheet_1: -4537641809185740306
+      Fire-02_32x16_Sheet_10: 1397809654489497170
+      Fire-02_32x16_Sheet_11: -2314631233518277630
+      Fire-02_32x16_Sheet_12: -3753639894196935213
+      Fire-02_32x16_Sheet_13: 4453218236183132916
+      Fire-02_32x16_Sheet_14: 1433791133430374986
+      Fire-02_32x16_Sheet_15: 8522819176406027326
+      Fire-02_32x16_Sheet_16: -4164031342926071125
+      Fire-02_32x16_Sheet_17: 8158795937051513222
+      Fire-02_32x16_Sheet_18: -120123820947638314
+      Fire-02_32x16_Sheet_19: 8414814687504607155
+      Fire-02_32x16_Sheet_2: -3631462748941755675
+      Fire-02_32x16_Sheet_20: 6097759612446309055
+      Fire-02_32x16_Sheet_21: 3506148404409567048
+      Fire-02_32x16_Sheet_3: 1115100334945977676
+      Fire-02_32x16_Sheet_4: -2243719351960664557
+      Fire-02_32x16_Sheet_5: 5674548121550576763
+      Fire-02_32x16_Sheet_6: -2811389750234132848
+      Fire-02_32x16_Sheet_7: -1979822673458507974
+      Fire-02_32x16_Sheet_8: -4000049354904702757
+      Fire-02_32x16_Sheet_9: 6551377442809909186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
