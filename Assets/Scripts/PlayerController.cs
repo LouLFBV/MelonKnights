@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
     private bool _canMove = true;
     public bool CanMove => _canMove;
     private Vector2 _lastDirection = Vector2.down;
+    public Vector2 LastDirection => _lastDirection;
     public bool JustReleasedThisFrame { get; private set; }
     public event Action OnValidatePressed;
     public event Action OnCancelPressed; 
@@ -143,14 +144,9 @@ public class PlayerController : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnDeath += PlayerDeath;
-            healthSystem.OnHealthChanged += ResetAttackPlayer;
         }
     }
 
-    private void ResetAttackPlayer()
-    {
-        playerAttack.AE_OnAttackFinished();
-    }
 
     private void OnDisable()
     {
@@ -170,7 +166,6 @@ public class PlayerController : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnDeath -= PlayerDeath;
-            healthSystem.OnHealthChanged -= ResetAttackPlayer;
         }
     }
 

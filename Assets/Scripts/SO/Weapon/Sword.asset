@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
   weaponName: "\xC9p\xE9e"
   icon: {fileID: -3198679051268237854, guid: 0925730f19c33974d80d6e27929746e6, type: 3}
-  damage: 0
-  attackCooldown: 0
-  attackRange: 0
+  damage: 3
+  attackCooldown: 1.5
+  attackRange: 2
   animator: {fileID: 0}
-  visualPrefab: {fileID: 0}
   weaponType: 0
+  slashPrefab: {fileID: 1265078758839253183, guid: 56ac17903beadbe4b9bc39661423ab7b, type: 3}
+  projectilePrefab: {fileID: 0}

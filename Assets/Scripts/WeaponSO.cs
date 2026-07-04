@@ -10,6 +10,9 @@ public class WeaponSO : ScriptableObject
     public float attackRange;
     public RuntimeAnimatorController animator;
     public WeaponType weaponType;
+
+    public GameObject slashPrefab; // L'effet visuel du coup d'épée/dague
+    public GameObject projectilePrefab; // Pour les armes magiques/arcs
 }
 
 public enum WeaponType

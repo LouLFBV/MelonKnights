@@ -11,6 +11,10 @@ public class Starter : MonoBehaviour
     [SerializeField] private PlayerAttack playerAttack;
     [SerializeField] private GameObject panel;
 
+    private void Start()
+    {
+        panel.SetActive(true);
+    }
     public void SelectSword()
     {
         EquipWeapon(sword);

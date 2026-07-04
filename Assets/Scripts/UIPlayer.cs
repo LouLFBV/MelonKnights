@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using System.Collections.Generic;
 
 public class UIPlayer : MonoBehaviour
 {
@@ -28,8 +29,10 @@ public class UIPlayer : MonoBehaviour
 
 
     [Header("Weapon Icon Settings")]
-    [SerializeField] private Image iconWeapon;
     [SerializeField] private PlayerAttack playerAttack;
+    [SerializeField] private GameObject swordVisual;
+    [SerializeField] private GameObject daggerVisual;
+    [SerializeField] private GameObject staffVisual;
 
 
     [Header("Audio Settings")]
@@ -107,9 +110,24 @@ public class UIPlayer : MonoBehaviour
 
     private void UpdateIconWeapon(WeaponSO weaponSO)
     {
-        if (weaponSO != null && iconWeapon != null)
+        if (weaponSO != null)
         {
-            iconWeapon.sprite = weaponSO.icon;
+            swordVisual.SetActive(false);
+            daggerVisual.SetActive(false);
+            staffVisual.SetActive(false);
+
+            switch (weaponSO.weaponType)
+            {
+                case WeaponType.Sword:
+                     swordVisual.SetActive(true);
+                    break;
+                case WeaponType.Dagger:
+                    daggerVisual.SetActive(true);
+                    break;
+                case WeaponType.Staff:
+                    staffVisual.SetActive(true);
+                    break;
+            }
         }
     }
 

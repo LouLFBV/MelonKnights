@@ -9,6 +9,7 @@ public class BossController : MonoBehaviour
 
     [SerializeField] private EnemySO enemySO;
     [SerializeField] private Transform playerTransform;
+    [SerializeField] private Transform coreTransform;
     [SerializeField] private BossUI bossUI;
 
     [Header("Combat Settings")]
@@ -16,7 +17,6 @@ public class BossController : MonoBehaviour
     [SerializeField] private int attackDamage = 1;
     [SerializeField] private float attackPointRange = 2f;
     [SerializeField] private float attackRange = 2f;
-    [SerializeField] private float detectionRange = 10f;
 
     [Header("Animation Parameters")]
     [SerializeField] private string attackBoolName = "IsAttacking";
@@ -66,7 +66,10 @@ public class BossController : MonoBehaviour
             Debug.LogError("EnemySO non assigné.", this);
 
         if (playerTransform == null)
-            Debug.LogError("Player Transform non assigné.", this);
+        {
+            Debug.LogWarning("Player Transform non assigné, on le cherche.", this);
+            playerTransform = CoreDefense.Instance.transform;
+        }
 
         if (attackPoint == null)
             Debug.LogError("Attack Point non assigné.", this);
@@ -108,7 +111,7 @@ public class BossController : MonoBehaviour
                 _bossAnimator.SetBool(attackBoolName, true);
             }
         }
-        else if (distance <= detectionRange)
+        else /*if (distance <= detectionRange)*/
         {
             _agent.isStopped = false;
 
@@ -118,10 +121,10 @@ public class BossController : MonoBehaviour
                 _agent.SetDestination(playerTransform.position);
             }
         }
-        else
-        {
-            _agent.isStopped = true;
-        }
+        //else
+        //{
+        //    _agent.isStopped = true;
+        //}
     }
 
     private void UpdateAnimatorParameters()
@@ -244,8 +247,8 @@ public class BossController : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, attackRange);
 
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(transform.position, detectionRange);
+        //Gizmos.color = Color.cyan;
+        //Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 #endif
 }

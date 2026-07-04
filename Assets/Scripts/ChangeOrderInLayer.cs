@@ -2,15 +2,32 @@ using UnityEngine;
 
 public class ChangeOrderInLayer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Transform transformPosition;
+    [SerializeField] private int orderInLayerDown = 9;
+    [SerializeField] private int orderInLayerUp = 12;
+    private SpriteRenderer spriteRenderer;
+    private Transform playerTransform;
+
+    private void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (PlayerController.Instance != null)
+        {
+            playerTransform = PlayerController.Instance.transform;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (playerTransform == null)
+            return;
+
+        int targetOrder = playerTransform.position.y < transformPosition.position.y
+            ? orderInLayerDown
+            : orderInLayerUp;
+
+        if (spriteRenderer.sortingOrder != targetOrder)
+            spriteRenderer.sortingOrder = targetOrder;
     }
 }

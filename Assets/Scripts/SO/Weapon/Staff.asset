@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
   weaponName: "B\xE2ton"
   icon: {fileID: 1052420783451498313, guid: ad458e11aee7ac94c9e1e80d57d80a0b, type: 3}
-  damage: 0
-  attackCooldown: 0
-  attackRange: 0
+  damage: 3
+  attackCooldown: 1.5
+  attackRange: 8
   animator: {fileID: 0}
-  visualPrefab: {fileID: 0}
   weaponType: 2
+  slashPrefab: {fileID: 0}
+  projectilePrefab: {fileID: 5800496497877032576, guid: a5cc2183743f20b42827a2666a0ca99e, type: 3}

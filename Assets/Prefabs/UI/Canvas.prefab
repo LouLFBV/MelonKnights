@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7002234147441662359, guid: bbf03f329093e4242b6052a8d1377613, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 536832f3b40e37b48a4bab7eebc367b5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -133,14 +133,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7002234147441662359, guid: bbf03f329093e4242b6052a8d1377613, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 536832f3b40e37b48a4bab7eebc367b5, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -186,7 +186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.000010222, y: -1.5}
+  m_AnchoredPosition: {x: 0, y: -1.5}
   m_SizeDelta: {x: 800, y: 500.20792}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &5044382275407567797
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &6716046261492400018
 MonoBehaviour:
   m_ObjectHideFlags: 0
