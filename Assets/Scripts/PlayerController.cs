@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private XpSystem xpSystem;
     [SerializeField] private PlayerAttack playerAttack;
 
+    private WeaponVisual currentWeaponVisual;
+
+
     public XpSystem XpSystem => xpSystem;
 
     private Rigidbody2D rb;
@@ -28,7 +31,7 @@ public class PlayerController : MonoBehaviour
     private InputAction cancelAction; 
     private bool _canMove = true;
     public bool CanMove => _canMove;
-
+    private Vector2 _lastDirection = Vector2.down;
     public bool JustReleasedThisFrame { get; private set; }
     public event Action OnValidatePressed;
     public event Action OnCancelPressed; 
@@ -74,14 +77,38 @@ public class PlayerController : MonoBehaviour
 
         if (moveInput != Vector2.zero)
         {
+
+            _lastDirection = moveInput.normalized;
+
             animator.SetFloat("X", moveInput.x);
             animator.SetFloat("Y", moveInput.y);
             animator.SetFloat("Speed", moveInput.sqrMagnitude);
+
+            UpdateWeaponVisual();
         }
         else
         {
             animator.SetFloat("Speed", 0f);
         }
+    }
+
+    private void UpdateWeaponVisual()
+    {
+        if (currentWeaponVisual != null)
+        {
+            currentWeaponVisual.SetDirection(_lastDirection);
+        }
+    }
+
+    public void EquipWeapon(WeaponVisual weapon)
+    {
+        if (currentWeaponVisual != null)
+            currentWeaponVisual.gameObject.SetActive(false);
+
+        currentWeaponVisual = weapon;
+
+        currentWeaponVisual.gameObject.SetActive(true);
+        currentWeaponVisual.SetDirection(_lastDirection);
     }
 
     private void OnEnable()
