@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c445e7c35df11384a92583b0e1bf0455, type: 3}
+  m_Name: Turret_Ice
+  m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
+  turretName: Tourelle Basique
+  icon: {fileID: -7666812891430715680, guid: 660bf5dfb7b7b5342a02fe2f42a29da2, type: 3}
+  turretPrefab: {fileID: 0}
+  cost: 10

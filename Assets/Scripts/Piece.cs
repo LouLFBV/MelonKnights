@@ -26,9 +26,9 @@ public class Piece : MonoBehaviour
 
     private void CollectPiece()
     {
-        // Méthode qui va faire glisser la pièce vers le joueur et la détruire ensuite
-        // la vitesse de la pièce augmente sur la durée
-        UIPlayer.Instance.AddCoin(coinAmount);
+        // Mï¿½thode qui va faire glisser la piï¿½ce vers le joueur et la dï¿½truire ensuite
+        // la vitesse de la piï¿½ce augmente sur la durï¿½e
+        // UIPlayer.Instance.AddCoin(coinAmount);
     }
 
     private void OnDrawGizmos()
