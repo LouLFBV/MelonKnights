@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f609bb35093386147b35f021fa755dc0
+guid: 82ef1db6da579954e946dad7c20ca3a4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639187635320959941
+  platformSettingsDirtyTick: 639187635878270016
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: sol
+  - name: sol_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 9
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: aa7258dc8e2fa4348825def6b7754d75
+    spriteID: 8f5a4c6a73685e948ade4019ebc88309
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -149,7 +149,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: sol_0
+  - name: sol_2_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -161,7 +161,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 32
-    spriteID: 6708758f64a4a9a4499eb16646defa50
+    spriteID: b3236ebef6a2c704b90d73bd778638c0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -174,17 +174,17 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1502599084
+      value0: 3833308049
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: sol
+    name: sol_2
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: sol
+    - name: sol_2
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -192,7 +192,7 @@ ScriptedImporter:
         y: 0
         width: 32
         height: 32
-      spriteId: aa7258dc8e2fa4348825def6b7754d75
+      spriteId: 8f5a4c6a73685e948ade4019ebc88309
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
