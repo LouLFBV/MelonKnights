@@ -140,6 +140,15 @@ public class UIPlayer : MonoBehaviour
         coinAudioSource.PlayOneShot(coinAudioSource.clip);
     }
 
+    public bool SpendCoin(int amount)
+    {
+        if (_coinAmount < amount) return false;
+
+        _coinAmount -= amount;
+        UpdateCoinText();
+        return true;
+    }
+
     private void UpdateCoinText()
     {
         coinText.text = _coinAmount.ToString();
