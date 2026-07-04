@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class UIPlayer : MonoBehaviour
 {
@@ -11,7 +12,16 @@ public class UIPlayer : MonoBehaviour
 
     [Header("Health Settings")]
     [SerializeField] private Image healthBarImage;
+    [SerializeField] private TextMeshProUGUI currentHealthText;
     [SerializeField] private HealthSystem playerHealthSystem;
+
+
+    [Header("XP Settings")]
+    [SerializeField] private Image xpBarImage;
+    [SerializeField] private TextMeshProUGUI xpLevelText;
+    [SerializeField] private XpSystem xpSystem;
+
+
 
     [Header("Coins Settings")]
     [SerializeField] private TextMeshProUGUI coinText;
@@ -40,6 +50,9 @@ public class UIPlayer : MonoBehaviour
     {
         ManageCursor(false);
         UpdateCoinText();
+        UpdateHealthBar();
+        UpdateCoinText();
+        UpdateXpBar();
     }
 
     private void OnEnable()
@@ -49,6 +62,12 @@ public class UIPlayer : MonoBehaviour
         if (playerHealthSystem != null)
         {
             playerHealthSystem.OnHealthChanged += UpdateHealthBar;
+        }
+
+        if(xpSystem != null)
+        {
+            xpSystem.OnXpChanged += UpdateXpBar;
+            xpSystem.OnLevelUp += UpdateXpLevelText;
         }
     }
 
@@ -63,6 +82,22 @@ public class UIPlayer : MonoBehaviour
         {
             playerHealthSystem.OnHealthChanged -= UpdateHealthBar;
         }
+
+        if (xpSystem != null)
+        {
+            xpSystem.OnXpChanged -= UpdateXpBar;
+            xpSystem.OnLevelUp -= UpdateXpLevelText;
+        }
+    }
+
+    private void UpdateXpLevelText()
+    {
+        xpLevelText.text = $"Niveau : {xpSystem.levelPlayer}";
+    }
+
+    private void UpdateXpBar()
+    {
+        xpBarImage.fillAmount = (float)xpSystem.currentXp / xpSystem.maxXp;
     }
 
     private void OnPausePerformed(InputAction.CallbackContext context)
@@ -93,6 +128,7 @@ public class UIPlayer : MonoBehaviour
 
     private void UpdateHealthBar()
     {
+        currentHealthText.text = $"{playerHealthSystem.currentHealth} / {playerHealthSystem.maxHealth}";
         healthBarImage.fillAmount = (float)playerHealthSystem.currentHealth / playerHealthSystem.maxHealth;
     }
 

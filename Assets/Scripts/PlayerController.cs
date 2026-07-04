@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,10 +12,11 @@ public class PlayerController : MonoBehaviour
 
 
     [Header("Composants")]
-    [SerializeField] private GameObject facePlayer;
     [SerializeField] private Animator panelTransitionAnimator; // Nom de la scène à charger
     [SerializeField] private HealthSystem healthSystem;
-    [SerializeField] private GameObject[] faceImage;
+    [SerializeField] private XpSystem xpSystem;
+
+    public XpSystem XpSystem => xpSystem;
 
     private Rigidbody2D rb;
     public Animator animator;
@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
     private InputAction valideAction;
     private InputAction cancelAction; 
     private bool _canMove = true;
-    private int _currentFaceIndex = -1; 
     public bool CanMove => _canMove;
 
     public bool JustReleasedThisFrame { get; private set; }
@@ -102,7 +101,6 @@ public class PlayerController : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnDeath += PlayerDeath;
-            healthSystem.OnHealthChanged += ChangeFace;
         }
     }
 
@@ -124,48 +122,10 @@ public class PlayerController : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnDeath -= PlayerDeath;
-            healthSystem.OnHealthChanged -= ChangeFace;
         }
     }
 
 
-    private void ChangeFace()
-    {
-        // Sécurité : on vérifie que le tableau contient bien des objets
-        if (faceImage == null || faceImage.Length == 0)
-        {
-            Debug.LogWarning("Le tableau faceImage est vide ou non assigné dans l'inspecteur !");
-            return;
-        }
-
-        int randomIndex = _currentFaceIndex;
-
-        // Si on a plusieurs visages disponibles, on cherche un index DIFFÉRENT du précédent
-        if (faceImage.Length > 1)
-        {
-            while (randomIndex == _currentFaceIndex)
-            {
-                randomIndex = UnityEngine.Random.Range(0, faceImage.Length);
-            }
-        }
-        else
-        {
-            // S'il n'y a qu'un seul visage dans le tableau, on n'a pas le choix de toute façon
-            randomIndex = 0;
-        }
-
-        // On mémorise ce nouvel index pour le prochain changement
-        _currentFaceIndex = randomIndex;
-
-        // Boucle pour activer le nouveau visage et éteindre les autres
-        for (int i = 0; i < faceImage.Length; i++)
-        {
-            if (faceImage[i] != null)
-            {
-                faceImage[i].SetActive(i == randomIndex);
-            }
-        }
-    }
 
     private void OnValidePerformed(InputAction.CallbackContext context)
     {
@@ -190,7 +150,6 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerDeath()
     {
-        facePlayer.SetActive(false);
         SetCanMove(false);
         if (animator != null)
         {

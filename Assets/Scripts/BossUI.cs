@@ -34,8 +34,6 @@ public class BossUI : MonoBehaviour
         }
         else
             DespawnHealthBar();
-            // Update the health UI here
-            Debug.Log($"Boss Health: {currentHealth}/{maxHealth}");
     }
     public void FlipHealthBar(bool right)
     {

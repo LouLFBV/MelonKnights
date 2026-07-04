@@ -9,37 +9,40 @@ public class Piece : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float acceleration = 2f;
 
-    private Transform _playerPosition;
+    [HideInInspector] public Transform playerPosition;
     private bool _isCollecting = false;
 
-    void Start()
+    private void Start()
     {
         if (PlayerController.Instance != null)
         {
-            _playerPosition = PlayerController.Instance.transform;
+            playerPosition = PlayerController.Instance.transform;
         }
     }
-
     void Update()
     {
         // On vérifie la distance et si on n'est pas déjà en train de ramasser
-        if (!_isCollecting && _playerPosition != null &&
-            Vector3.Distance(transform.position, _playerPosition.position) <= distanceToMove)
+        if (!_isCollecting && playerPosition != null &&
+            Vector3.Distance(transform.position, playerPosition.position) <= distanceToMove)
         {
             StartCoroutine(CollectRoutine());
         }
     }
 
+    public void SetCoinAmount(int amount)
+    {
+        coinAmount = amount;
+    }
     private IEnumerator CollectRoutine()
     {
         _isCollecting = true;
         float currentSpeed = moveSpeed;
 
         // Tant que la pièce n'est pas très proche du joueur
-        while (Vector3.Distance(transform.position, _playerPosition.position) > 0.1f)
+        while (Vector3.Distance(transform.position, playerPosition.position) > 0.1f)
         {
             // Déplacement vers le joueur
-            transform.position = Vector3.MoveTowards(transform.position, _playerPosition.position, currentSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, playerPosition.position, currentSpeed * Time.deltaTime);
 
             // Augmentation de la vitesse
             currentSpeed += acceleration * Time.deltaTime;

@@ -8,6 +8,7 @@ public class BossController : MonoBehaviour
     private Animator _bossAnimator;
     private NavMeshAgent _agent;
 
+    [SerializeField] private EnemySO enemySO;
     [SerializeField] private Transform playerTransform;
     [SerializeField] private BossUI bossUI;
 
@@ -25,6 +26,10 @@ public class BossController : MonoBehaviour
     [SerializeField] private string speedFloatName = "Speed";
     [SerializeField] private string dieTriggerName = "Die";
 
+    [Header("Other Settings")]
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Piece coinDropOnDeath;
+
     private float _cooldownTimer = 0f;
     private float _attackTimer = 0f;
     private bool _isAttacking = false;
@@ -39,8 +44,6 @@ public class BossController : MonoBehaviour
 
     void Start()
     {
-
-        // Configuration essentielle pour le NavMesh en 2D (évite que le boss ne bascule en 3D)
         if (_agent != null)
         {
             _agent.updateRotation = false;
@@ -137,15 +140,15 @@ public class BossController : MonoBehaviour
         // Ne pas flip pendant qu'il frappe (optionnel, retire cette ligne si tu veux qu'il se retourne même en attaquant)
         if (_isAttacking) return;
 
+        if (spriteRenderer == null) return; // Sécurité
+
         if (playerTransform.position.x < transform.position.x)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f); // Regarde à gauche
-            bossUI.FlipHealthBar(false);
+            spriteRenderer.flipX = false; // Regarde à gauche
         }
         else if (playerTransform.position.x > transform.position.x)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);  // Regarde à droite
-            bossUI.FlipHealthBar(true);
+            spriteRenderer.flipX = true; // Regarde à droite
         }
     }
 
@@ -176,6 +179,14 @@ public class BossController : MonoBehaviour
 
     public void AE_Despawn()
     {
+        PlayerController.Instance.XpSystem.AddXP(enemySO.xpDrop);
+        Piece piece = Instantiate(coinDropOnDeath, transform.position, Quaternion.identity);
+        if (piece != null)
+        {
+            piece.SetCoinAmount(enemySO.coinDrop);
+            piece.playerPosition = PlayerController.Instance.transform;
+            piece.transform.position = new Vector3(transform.position.x, transform.position.y, 0f);
+        }
         gameObject.SetActive(false);
     }
 

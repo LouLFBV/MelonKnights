@@ -2,6 +2,7 @@
 
 public class HealthSystem : MonoBehaviour
 {
+    [SerializeField] private EnemySO enemySO;
     public int maxHealth = 8;
     [HideInInspector] public int currentHealth;
     public event System.Action OnHealthChanged;
@@ -9,6 +10,8 @@ public class HealthSystem : MonoBehaviour
 
     private void Start()
     {
+        if (enemySO != null)
+            maxHealth = enemySO.pv;
         currentHealth = maxHealth;
     }
     public void TakeDamage(int damage)
@@ -17,16 +20,12 @@ public class HealthSystem : MonoBehaviour
         {
             currentHealth -= damage;
             OnHealthChanged?.Invoke();
+            Debug.Log($"Current Health: {currentHealth}/{maxHealth}");
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
                 OnDeath?.Invoke();
             }
         }
-    }
-
-    public bool IsMidLife()
-    {
-        return currentHealth <= maxHealth/2;
     }
 }
