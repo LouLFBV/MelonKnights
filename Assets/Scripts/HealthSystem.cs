@@ -8,7 +8,7 @@ public class HealthSystem : MonoBehaviour
     public event System.Action OnHealthChanged;
     public event System.Action OnDeath;
 
-    private void Start()
+    private void Awake()
     {
         if (enemySO != null)
             maxHealth = enemySO.pv;

@@ -1,10 +1,9 @@
-using System;
 using UnityEngine;
-using UnityEngine.AI; // Indispensable pour le NavMeshAgent
+using UnityEngine.AI;
 
 public class BossController : MonoBehaviour
 {
-    private HealthSystem _healSystem;
+    private HealthSystem _healthSystem;
     private Animator _bossAnimator;
     private NavMeshAgent _agent;
 
@@ -14,197 +13,239 @@ public class BossController : MonoBehaviour
 
     [Header("Combat Settings")]
     [SerializeField] private Transform attackPoint;
-    [SerializeField] private int attackDamage = 1;       // Distance à laquelle le boss attaque
-    [SerializeField] private float attackPointRange = 2f;       // Distance à laquelle le boss attaque
-    [SerializeField] private float attackRange = 2f;       // Distance à laquelle le boss attaque
-    [SerializeField] private float attackDuration = 3f;    // Combien de temps le bool reste vrai
-    [SerializeField] private float attackCooldown = 2f;    // Temps de repos après l'attaque
-    [SerializeField] private float detectionRange = 10f;    // Temps de repos après l'attaque
+    [SerializeField] private int attackDamage = 1;
+    [SerializeField] private float attackPointRange = 2f;
+    [SerializeField] private float attackRange = 2f;
+    [SerializeField] private float detectionRange = 10f;
 
     [Header("Animation Parameters")]
     [SerializeField] private string attackBoolName = "IsAttacking";
-    [SerializeField] private string speedFloatName = "Speed";
+    [SerializeField] private string horizFloatName = "H";
+    [SerializeField] private string vertFloatName = "V";
     [SerializeField] private string dieTriggerName = "Die";
+    [SerializeField] private string speedFloatName = "Speed";
+
+    [Header("Attack Settings")]
+    [SerializeField] private float attackCooldown = 3f;
+
+    private float _lastAttackTime = -Mathf.Infinity;
 
     [Header("Other Settings")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Piece coinDropOnDeath;
 
-    private float _cooldownTimer = 0f;
-    private float _attackTimer = 0f;
-    private bool _isAttacking = false;
-    private bool _isDead = false;
+    private bool _isAttacking;
+    private bool _isDead;
 
-    void Awake()
+    private void Awake()
     {
-        _healSystem = GetComponent<HealthSystem>();
+        _healthSystem = GetComponent<HealthSystem>();
         _bossAnimator = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
+
+        if (_healthSystem != null)
+            _healthSystem.OnDeath += OnBossDeath;
     }
 
-    void Start()
+    private void OnDestroy()
     {
-        if (_agent != null)
+        if (_healthSystem != null)
+            _healthSystem.OnDeath -= OnBossDeath;
+    }
+
+    private void Start()
+    {
+        if (_agent == null)
         {
-            _agent.updateRotation = false;
-            _agent.updateUpAxis = false;
+            Debug.LogError("NavMeshAgent manquant sur le Boss.", this);
+            enabled = false;
+            return;
         }
+
+        if (enemySO == null)
+            Debug.LogError("EnemySO non assigné.", this);
+
+        if (playerTransform == null)
+            Debug.LogError("Player Transform non assigné.", this);
+
+        if (attackPoint == null)
+            Debug.LogError("Attack Point non assigné.", this);
+
+        if (spriteRenderer == null)
+            Debug.LogError("SpriteRenderer non assigné.", this);
+
+        _agent.updateRotation = false;
+        _agent.updateUpAxis = false;
+
+        if (enemySO != null)
+            _agent.speed = enemySO.speed;
     }
 
-    void Update()
+    private void Update()
     {
-        if (_isDead || playerTransform == null) return;
+        if (_isDead || playerTransform == null)
+            return;
 
-        // Gestion du miroir (Flip X) pour que le boss regarde toujours le joueur
-        FlipTowardsPlayer();
+        if (!_isAttacking)
+            HandleMovement();
 
-        if (_isAttacking)
+        UpdateAnimatorParameters();
+    }
+
+    private void HandleMovement()
+    {
+        float distance = Vector2.Distance(transform.position, playerTransform.position);
+
+        if (distance <= attackRange)
         {
-            HandleAttackState();
+            _agent.isStopped = true;
+
+            if (!_isAttacking && Time.time >= _lastAttackTime + attackCooldown)
+            {
+                _lastAttackTime = Time.time;
+
+                _isAttacking = true;
+                _bossAnimator.SetBool(attackBoolName, true);
+            }
+        }
+        else if (distance <= detectionRange)
+        {
+            _agent.isStopped = false;
+
+            // Evite de recalculer le chemin à chaque frame
+            if (Vector3.Distance(_agent.destination, playerTransform.position) > 0.2f)
+            {
+                _agent.SetDestination(playerTransform.position);
+            }
         }
         else
         {
-            HandleMovementAndCombat();
-        }
-
-        // Met à jour la vitesse dans l'animator pour déclencher l'anim de course/marche si tu en as une
-        _bossAnimator.SetFloat(speedFloatName, _agent.velocity.sqrMagnitude);
-    }
-
-    private void HandleMovementAndCombat()
-    {
-        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
-
-        // Gestion du cooldown de l'attaque
-        if (_cooldownTimer > 0)
-        {
-            _cooldownTimer -= Time.deltaTime;
-        }
-
-        // Si le joueur est à portée et que le boss n'est pas en cooldown -> Attaque !
-        if (distanceToPlayer <= attackRange && _cooldownTimer <= 0)
-        {
-            StartAttack();
-        }
-        else if (distanceToPlayer < detectionRange)
-        {
-            // Sinon, on poursuit le joueur
-            _agent.isStopped = false;
-            _agent.SetDestination(playerTransform.position);
+            _agent.isStopped = true;
         }
     }
 
-    private void StartAttack()
+    private void UpdateAnimatorParameters()
     {
-        _isAttacking = true;
-        _attackTimer = attackDuration;
-        _agent.isStopped = true; // Le boss s'arrête pour frapper
-        _agent.velocity = Vector3.zero;
+        if (_agent == null)
+            return;
 
-        _bossAnimator.SetBool(attackBoolName, true);
-    }
+        Vector2 velocity = _agent.velocity;
 
-    private void HandleAttackState()
-    {
-        _attackTimer -= Time.deltaTime;
+        float speed = velocity.magnitude;
 
-        if (_attackTimer <= 0f)
+        if (speed > 0.01f)
         {
-            // Fin de la tempête d'attaque
-            _isAttacking = false;
-            _cooldownTimer = attackCooldown;
+            velocity.Normalize();
 
-            _bossAnimator.SetBool(attackBoolName, false);
-            _agent.isStopped = false; // Il peut de nouveau bouger
+            _bossAnimator.SetFloat(horizFloatName, velocity.x);
+            _bossAnimator.SetFloat(vertFloatName, velocity.y);
         }
+
+        _bossAnimator.SetFloat(speedFloatName, speed);
     }
 
-    public void AE_AttackPlayer()
+    //==========================================================================
+    // Animation Events
+    //==========================================================================
+
+    // Début de l'animation
+    public void AE_StartAttack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackPointRange);
-        foreach (Collider2D enemy in hitEnemies)
+        if (_agent != null)
+            _agent.isStopped = true;
+    }
+
+    // Moment où le coup touche
+    public void AE_Attack()
+    {
+        if (_isDead)
+            return;
+
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            attackPointRange
+        );
+
+        foreach (Collider2D hit in hits)
         {
-            if (enemy.CompareTag("Player"))
+            if (hit.CompareTag("Player") &&
+                hit.TryGetComponent(out HealthSystem playerHealth))
             {
-                if (enemy.TryGetComponent<HealthSystem>(out var enemyHealth))
-                {
-                    enemyHealth.TakeDamage(attackDamage);
-                }
+                playerHealth.TakeDamage(attackDamage);
+            }
+            if (hit.CompareTag("Tower") &&
+                hit.TryGetComponent(out HealthSystem towerHealth))
+            {
+                towerHealth.TakeDamage(attackDamage);
             }
         }
-        Debug.Log("Le Boss attaque le joueur !");
     }
 
-    private void FlipTowardsPlayer()
+    // Fin de l'animation
+    public void AE_EndAttack()
     {
-        // Ne pas flip pendant qu'il frappe (optionnel, retire cette ligne si tu veux qu'il se retourne même en attaquant)
-        if (_isAttacking) return;
+        if (_isDead)
+            return;
 
-        if (spriteRenderer == null) return; // Sécurité
+        _isAttacking = false;
 
-        if (playerTransform.position.x < transform.position.x)
-        {
-            spriteRenderer.flipX = false; // Regarde à gauche
-        }
-        else if (playerTransform.position.x > transform.position.x)
-        {
-            spriteRenderer.flipX = true; // Regarde à droite
-        }
+        if (_agent != null)
+            _agent.isStopped = false;
+
+        _bossAnimator.SetBool(attackBoolName, false);
     }
+
+    //==========================================================================
+    // Boss Death
+    //==========================================================================
 
     private void OnBossDeath()
     {
-        if (_isDead) return;
+        if (_isDead)
+            return;
 
         _isDead = true;
-        _agent.isStopped = true;
-        _agent.enabled = false; // Coupe le pathfinding à la mort
+        _isAttacking = false;
+
+        if (_agent != null)
+        {
+            _agent.isStopped = true;
+            _agent.enabled = false;
+        }
 
         _bossAnimator.SetBool(attackBoolName, false);
         _bossAnimator.SetTrigger(dieTriggerName);
-        Debug.Log("Le Boss est tombé au combat.");
-    }
-
-    private void OnEnable()
-    {
-        if (_healSystem != null)
-            _healSystem.OnDeath += OnBossDeath;
-    }
-
-    private void OnDisable()
-    {
-        if (_healSystem != null)
-            _healSystem.OnDeath -= OnBossDeath;
     }
 
     public void AE_Despawn()
     {
         PlayerController.Instance.XpSystem.AddXP(enemySO.xpDrop);
-        Piece piece = Instantiate(coinDropOnDeath, transform.position, Quaternion.identity);
-        if (piece != null)
-        {
-            piece.SetCoinAmount(enemySO.coinDrop);
-            piece.playerPosition = PlayerController.Instance.transform;
-            piece.transform.position = new Vector3(transform.position.x, transform.position.y, 0f);
-        }
+
+        Piece piece = Instantiate(
+            coinDropOnDeath,
+            transform.position,
+            Quaternion.identity);
+        piece.transform.position = new Vector3(transform.position.x, transform.position.y, 0f);
+
+        piece.SetCoinAmount(enemySO.coinDrop);
+
         gameObject.SetActive(false);
     }
 
-    private void OnDrawGizmos()
+#if UNITY_EDITOR
+    private void OnDrawGizmosSelected()
     {
-        if (attackPoint != null)
-        {
-            Gizmos.color = Color.cyan;
-            Gizmos.DrawWireSphere(attackPoint.position, attackPointRange);
+        if (attackPoint == null)
+            return;
 
-            Gizmos.color += Color.magenta;
-            Gizmos.DrawWireSphere(transform.position, attackRange);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackPointRange);
 
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
 
-            Gizmos.color += Color.red;
-            Gizmos.DrawWireSphere(transform.position, detectionRange);
-
-        }
-
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
+#endif
 }

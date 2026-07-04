@@ -1,0 +1,1350 @@
+fileFormatVersion: 2
+guid: 65fa878fdf7320e4dbd5ea70ebea308b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6525503828028228602
+    second: homme_a_la_main2_0
+  - first:
+      213: -5456584364646544018
+    second: homme_a_la_main2_1
+  - first:
+      213: 5006954109251818048
+    second: homme_a_la_main2_2
+  - first:
+      213: 34040327930876457
+    second: homme_a_la_main2_3
+  - first:
+      213: 1915844463561020768
+    second: homme_a_la_main2_4
+  - first:
+      213: -8300321590229329943
+    second: homme_a_la_main2_5
+  - first:
+      213: 6023034049065795575
+    second: homme_a_la_main2_6
+  - first:
+      213: 76556735103653378
+    second: homme_a_la_main2_7
+  - first:
+      213: -5172423464082742483
+    second: homme_a_la_main2_8
+  - first:
+      213: 1491789454770830736
+    second: homme_a_la_main2_9
+  - first:
+      213: 141703140574829367
+    second: homme_a_la_main2_10
+  - first:
+      213: 1366488182270712453
+    second: homme_a_la_main2_11
+  - first:
+      213: 9092735665457948368
+    second: homme_a_la_main2_12
+  - first:
+      213: -795739594740896426
+    second: homme_a_la_main2_13
+  - first:
+      213: 2747477755007451608
+    second: homme_a_la_main2_14
+  - first:
+      213: 1467082077575090638
+    second: homme_a_la_main2_15
+  - first:
+      213: -5874126082634332154
+    second: homme_a_la_main2_16
+  - first:
+      213: -2097905804392211043
+    second: homme_a_la_main2_17
+  - first:
+      213: -3441991714068109471
+    second: homme_a_la_main2_18
+  - first:
+      213: -7128844015641055049
+    second: homme_a_la_main2_19
+  - first:
+      213: 148221384202272315
+    second: homme_a_la_main2_20
+  - first:
+      213: 8350324106133150715
+    second: homme_a_la_main2_21
+  - first:
+      213: -2304064202679249186
+    second: homme_a_la_main2_22
+  - first:
+      213: -2923639233809477895
+    second: homme_a_la_main2_23
+  - first:
+      213: -1671935247723138815
+    second: homme_a_la_main2_24
+  - first:
+      213: -8194831944081696083
+    second: homme_a_la_main2_25
+  - first:
+      213: -5690963407427507182
+    second: homme_a_la_main2_26
+  - first:
+      213: 1767511018663706441
+    second: homme_a_la_main2_27
+  - first:
+      213: -2813909493901253857
+    second: homme_a_la_main2_28
+  - first:
+      213: 5132498210214215506
+    second: homme_a_la_main2_29
+  - first:
+      213: 1684100638646634975
+    second: homme_a_la_main2_30
+  - first:
+      213: -7135391233819608636
+    second: homme_a_la_main2_31
+  - first:
+      213: 2992081013058312653
+    second: homme_a_la_main2_32
+  - first:
+      213: 8502346067673279128
+    second: homme_a_la_main2_33
+  - first:
+      213: 4402772863416517434
+    second: homme_a_la_main2_34
+  - first:
+      213: -7183050467238320503
+    second: homme_a_la_main2_35
+  - first:
+      213: -7603628538061582176
+    second: homme_a_la_main2_36
+  - first:
+      213: -4215516616659149614
+    second: homme_a_la_main2_37
+  - first:
+      213: -6902078485466127853
+    second: homme_a_la_main2_38
+  - first:
+      213: -4012775320163139575
+    second: homme_a_la_main2_39
+  - first:
+      213: 9154858912615482019
+    second: homme_a_la_main2_40
+  - first:
+      213: -3723047043875445695
+    second: homme_a_la_main2_41
+  - first:
+      213: -2903063290323380820
+    second: homme_a_la_main2_42
+  - first:
+      213: -1873515136569441037
+    second: homme_a_la_main2_43
+  - first:
+      213: 1453723445106346477
+    second: homme_a_la_main2_44
+  - first:
+      213: -7958734252651280867
+    second: homme_a_la_main2_45
+  - first:
+      213: 439652807554592274
+    second: homme_a_la_main2_46
+  - first:
+      213: 991995125126657793
+    second: homme_a_la_main2_47
+  - first:
+      213: -7379348167499924287
+    second: homme_a_la_main2_48
+  - first:
+      213: 5166433712580443538
+    second: homme_a_la_main2_49
+  - first:
+      213: 1078555814449842377
+    second: homme_a_la_main2_50
+  - first:
+      213: -1232509290363081022
+    second: homme_a_la_main2_51
+  - first:
+      213: 4992949388237213040
+    second: homme_a_la_main2_52
+  - first:
+      213: 7624314833351535726
+    second: homme_a_la_main2_53
+  - first:
+      213: 6631290737835449350
+    second: homme_a_la_main2_54
+  - first:
+      213: 2604075550118205640
+    second: homme_a_la_main2_55
+  - first:
+      213: 3091101156173781092
+    second: homme_a_la_main2_56
+  - first:
+      213: 5565605988515077916
+    second: homme_a_la_main2_57
+  - first:
+      213: -6422076530409763708
+    second: homme_a_la_main2_58
+  - first:
+      213: -5491268836101201430
+    second: homme_a_la_main2_59
+  - first:
+      213: 5882483605624836286
+    second: homme_a_la_main2_60
+  - first:
+      213: -6312569947995326029
+    second: homme_a_la_main2_61
+  - first:
+      213: -1327319172348079008
+    second: homme_a_la_main2_62
+  - first:
+      213: 2025636916739096887
+    second: homme_a_la_main2_63
+  - first:
+      213: 7666547651893201141
+    second: homme_a_la_main2_64
+  - first:
+      213: 6121126245290878156
+    second: homme_a_la_main2_65
+  - first:
+      213: 6686346073550111899
+    second: homme_a_la_main2_66
+  - first:
+      213: 8179942440977059322
+    second: homme_a_la_main2_67
+  - first:
+      213: -8260621364549299699
+    second: homme_a_la_main2_68
+  - first:
+      213: -1506724586393019175
+    second: homme_a_la_main2_69
+  - first:
+      213: 9139433859309495051
+    second: homme_a_la_main2_70
+  - first:
+      213: -7115007789766523663
+    second: homme_a_la_main2_71
+  - first:
+      213: -6610122025649574147
+    second: homme_a_la_main2_72
+  - first:
+      213: 4936793918651633843
+    second: homme_a_la_main2_73
+  - first:
+      213: 3491326644217021776
+    second: homme_a_la_main2_74
+  - first:
+      213: 4590359734854411580
+    second: homme_a_la_main2_75
+  - first:
+      213: 8687455981923880012
+    second: homme_a_la_main2_76
+  - first:
+      213: -3968002749946586925
+    second: homme_a_la_main2_77
+  - first:
+      213: 5040293278267498395
+    second: homme_a_la_main2_78
+  - first:
+      213: 1317914807962073538
+    second: homme_a_la_main2_79
+  - first:
+      213: 2005010545491495458
+    second: homme_a_la_main2_80
+  - first:
+      213: -7093248449968845706
+    second: homme_a_la_main2_81
+  - first:
+      213: 2180919264588140658
+    second: homme_a_la_main2_82
+  - first:
+      213: -8320169991359192925
+    second: homme_a_la_main2_83
+  - first:
+      213: -1341662544642336079
+    second: homme_a_la_main2_84
+  - first:
+      213: 6243930610318175691
+    second: homme_a_la_main2_85
+  - first:
+      213: 1183065086050064315
+    second: homme_a_la_main2_86
+  - first:
+      213: -8286410608660705970
+    second: homme_a_la_main2_87
+  - first:
+      213: 8874167110201188887
+    second: homme_a_la_main2_88
+  - first:
+      213: -2051691311035622493
+    second: homme_a_la_main2_89
+  - first:
+      213: 8893716236221028081
+    second: homme_a_la_main2_90
+  - first:
+      213: -8406680695494801564
+    second: homme_a_la_main2_91
+  - first:
+      213: -2908973542527508913
+    second: homme_a_la_main2_92
+  - first:
+      213: 2246788651899612047
+    second: homme_a_la_main2_93
+  - first:
+      213: 6042010172751852498
+    second: homme_a_la_main2_94
+  - first:
+      213: -6809267599142808988
+    second: homme_a_la_main2_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: homme_a_la_main2_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 844
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af30312782f3f8a50800000000000000
+      internalID: 6525503828028228602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 843
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dca4a3e615644b0800000000000000
+      internalID: -5456584364646544018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 843
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04213a00c364c7540800000000000000
+      internalID: 5006954109251818048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 843
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9229b567f7fe87000800000000000000
+      internalID: 34040327930876457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 843
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06514779362769a10800000000000000
+      internalID: 1915844463561020768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 843
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e710ec9d755fcc80800000000000000
+      internalID: -8300321590229329943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 780
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff36a46e8d169350800000000000000
+      internalID: 6023034049065795575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 780
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2065409e1fbff0100800000000000000
+      internalID: 76556735103653378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 780
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23e37b934cd738b0800000000000000
+      internalID: -5172423464082742483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 780
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09df943fa96e3b410800000000000000
+      internalID: 1491789454770830736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 780
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b158d614e67f100800000000000000
+      internalID: 141703140574829367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 780
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ad30603cdb6f210800000000000000
+      internalID: 1366488182270712453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 716
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6652099e2ef2e70800000000000000
+      internalID: 9092735665457948368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 716
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d61c9fd07f4f4f0800000000000000
+      internalID: -795739594740896426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 716
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1c18f1670012620800000000000000
+      internalID: 2747477755007451608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 716
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1943a606f1c5410800000000000000
+      internalID: 1467082077575090638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_16
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 716
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60849b64379ea7ea0800000000000000
+      internalID: -5874126082634332154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 716
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dd8fc39cdb2e2e0800000000000000
+      internalID: -2097905804392211043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 652
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167e123c5c69b30d0800000000000000
+      internalID: -3441991714068109471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 652
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0bb845322411d90800000000000000
+      internalID: -7128844015641055049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 652
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e3e7940969e0200800000000000000
+      internalID: 148221384202272315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 652
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb9279588f42e370800000000000000
+      internalID: 8350324106133150715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 652
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed61c9ba0d15600e0800000000000000
+      internalID: -2304064202679249186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 652
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe04616b952d67d0800000000000000
+      internalID: -2923639233809477895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_76
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 332
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c4a6cff2b009870800000000000000
+      internalID: 8687455981923880012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_77
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 332
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d819a5b582dee8c0800000000000000
+      internalID: -3968002749946586925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_78
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 332
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f5cee2808b2f540800000000000000
+      internalID: 5040293278267498395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_79
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 333
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69248885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c97ec4098c2a4210800000000000000
+      internalID: 1317914807962073538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_80
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 333
+        width: 33
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7031829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22acee6d77a33db10800000000000000
+      internalID: 2005010545491495458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_81
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 330
+        width: 36
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c440ccd18bf8d90800000000000000
+      internalID: -7093248449968845706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_88
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 204
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7122ff828ff572b70800000000000000
+      internalID: 8874167110201188887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_89
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 204
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab57f87f9de683e0800000000000000
+      internalID: -2051691311035622493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_90
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 140
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f61411cbc3dc6b70800000000000000
+      internalID: 8893716236221028081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_91
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 140
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46706eca278755b80800000000000000
+      internalID: -8406680695494801564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_92
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 76
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e53a8b9ff31a7d0800000000000000
+      internalID: -2908973542527508913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_93
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 76
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bead9ff523e2f10800000000000000
+      internalID: 2246788651899612047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_94
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 12
+        width: 22
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3bb2c7d3889d350800000000000000
+      internalID: 6042010172751852498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_a_la_main2_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 12
+        width: 22
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4621484123f9081a0800000000000000
+      internalID: -6809267599142808988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9620ba56187a1ea408224c599bb1c8f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      homme_a_la_main2_0: 6525503828028228602
+      homme_a_la_main2_1: -5456584364646544018
+      homme_a_la_main2_10: 141703140574829367
+      homme_a_la_main2_11: 1366488182270712453
+      homme_a_la_main2_12: 9092735665457948368
+      homme_a_la_main2_13: -795739594740896426
+      homme_a_la_main2_14: 2747477755007451608
+      homme_a_la_main2_15: 1467082077575090638
+      homme_a_la_main2_16: -5874126082634332154
+      homme_a_la_main2_17: -2097905804392211043
+      homme_a_la_main2_18: -3441991714068109471
+      homme_a_la_main2_19: -7128844015641055049
+      homme_a_la_main2_2: 5006954109251818048
+      homme_a_la_main2_20: 148221384202272315
+      homme_a_la_main2_21: 8350324106133150715
+      homme_a_la_main2_22: -2304064202679249186
+      homme_a_la_main2_23: -2923639233809477895
+      homme_a_la_main2_24: -1671935247723138815
+      homme_a_la_main2_25: -8194831944081696083
+      homme_a_la_main2_26: -5690963407427507182
+      homme_a_la_main2_27: 1767511018663706441
+      homme_a_la_main2_28: -2813909493901253857
+      homme_a_la_main2_29: 5132498210214215506
+      homme_a_la_main2_3: 34040327930876457
+      homme_a_la_main2_30: 1684100638646634975
+      homme_a_la_main2_31: -7135391233819608636
+      homme_a_la_main2_32: 2992081013058312653
+      homme_a_la_main2_33: 8502346067673279128
+      homme_a_la_main2_34: 4402772863416517434
+      homme_a_la_main2_35: -7183050467238320503
+      homme_a_la_main2_36: -7603628538061582176
+      homme_a_la_main2_37: -4215516616659149614
+      homme_a_la_main2_38: -6902078485466127853
+      homme_a_la_main2_39: -4012775320163139575
+      homme_a_la_main2_4: 1915844463561020768
+      homme_a_la_main2_40: 9154858912615482019
+      homme_a_la_main2_41: -3723047043875445695
+      homme_a_la_main2_42: -2903063290323380820
+      homme_a_la_main2_43: -1873515136569441037
+      homme_a_la_main2_44: 1453723445106346477
+      homme_a_la_main2_45: -7958734252651280867
+      homme_a_la_main2_46: 439652807554592274
+      homme_a_la_main2_47: 991995125126657793
+      homme_a_la_main2_48: -7379348167499924287
+      homme_a_la_main2_49: 5166433712580443538
+      homme_a_la_main2_5: -8300321590229329943
+      homme_a_la_main2_50: 1078555814449842377
+      homme_a_la_main2_51: -1232509290363081022
+      homme_a_la_main2_52: 4992949388237213040
+      homme_a_la_main2_53: 7624314833351535726
+      homme_a_la_main2_54: 6631290737835449350
+      homme_a_la_main2_55: 2604075550118205640
+      homme_a_la_main2_56: 3091101156173781092
+      homme_a_la_main2_57: 5565605988515077916
+      homme_a_la_main2_58: -6422076530409763708
+      homme_a_la_main2_59: -5491268836101201430
+      homme_a_la_main2_6: 6023034049065795575
+      homme_a_la_main2_60: 5882483605624836286
+      homme_a_la_main2_61: -6312569947995326029
+      homme_a_la_main2_62: -1327319172348079008
+      homme_a_la_main2_63: 2025636916739096887
+      homme_a_la_main2_64: 7666547651893201141
+      homme_a_la_main2_65: 6121126245290878156
+      homme_a_la_main2_66: 6686346073550111899
+      homme_a_la_main2_67: 8179942440977059322
+      homme_a_la_main2_68: -8260621364549299699
+      homme_a_la_main2_69: -1506724586393019175
+      homme_a_la_main2_7: 76556735103653378
+      homme_a_la_main2_70: 9139433859309495051
+      homme_a_la_main2_71: -7115007789766523663
+      homme_a_la_main2_72: -6610122025649574147
+      homme_a_la_main2_73: 4936793918651633843
+      homme_a_la_main2_74: 3491326644217021776
+      homme_a_la_main2_75: 4590359734854411580
+      homme_a_la_main2_76: 8687455981923880012
+      homme_a_la_main2_77: -3968002749946586925
+      homme_a_la_main2_78: 5040293278267498395
+      homme_a_la_main2_79: 1317914807962073538
+      homme_a_la_main2_8: -5172423464082742483
+      homme_a_la_main2_80: 2005010545491495458
+      homme_a_la_main2_81: -7093248449968845706
+      homme_a_la_main2_82: 2180919264588140658
+      homme_a_la_main2_83: -8320169991359192925
+      homme_a_la_main2_84: -1341662544642336079
+      homme_a_la_main2_85: 6243930610318175691
+      homme_a_la_main2_86: 1183065086050064315
+      homme_a_la_main2_87: -8286410608660705970
+      homme_a_la_main2_88: 8874167110201188887
+      homme_a_la_main2_89: -2051691311035622493
+      homme_a_la_main2_9: 1491789454770830736
+      homme_a_la_main2_90: 8893716236221028081
+      homme_a_la_main2_91: -8406680695494801564
+      homme_a_la_main2_92: -2908973542527508913
+      homme_a_la_main2_93: 2246788651899612047
+      homme_a_la_main2_94: 6042010172751852498
+      homme_a_la_main2_95: -6809267599142808988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

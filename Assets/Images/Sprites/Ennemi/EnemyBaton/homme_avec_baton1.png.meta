@@ -1,0 +1,3250 @@
+fileFormatVersion: 2
+guid: fd245bba8f37dea49bece4783e0f544e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1232023067242695926
+    second: homme_avec_baton1_0
+  - first:
+      213: -5346392566074135791
+    second: homme_avec_baton1_1
+  - first:
+      213: 7362220209963857367
+    second: homme_avec_baton1_2
+  - first:
+      213: -671028727630961119
+    second: homme_avec_baton1_3
+  - first:
+      213: 3003724555868490286
+    second: homme_avec_baton1_4
+  - first:
+      213: -4787973268796308148
+    second: homme_avec_baton1_5
+  - first:
+      213: 2493294920655158589
+    second: homme_avec_baton1_6
+  - first:
+      213: -1977592927000492425
+    second: homme_avec_baton1_7
+  - first:
+      213: -8095480841590544929
+    second: homme_avec_baton1_8
+  - first:
+      213: 6600881062622966140
+    second: homme_avec_baton1_9
+  - first:
+      213: 8417435048365360128
+    second: homme_avec_baton1_10
+  - first:
+      213: -6257296615476953486
+    second: homme_avec_baton1_11
+  - first:
+      213: 7404850488651640013
+    second: homme_avec_baton1_12
+  - first:
+      213: 3596029267240848363
+    second: homme_avec_baton1_13
+  - first:
+      213: -1898736304875699510
+    second: homme_avec_baton1_14
+  - first:
+      213: 8671406449394464143
+    second: homme_avec_baton1_15
+  - first:
+      213: -7891771998478604397
+    second: homme_avec_baton1_16
+  - first:
+      213: -4233431161243286160
+    second: homme_avec_baton1_17
+  - first:
+      213: 2707784965009570906
+    second: homme_avec_baton1_18
+  - first:
+      213: -581871292974506263
+    second: homme_avec_baton1_19
+  - first:
+      213: 6454548589715538760
+    second: homme_avec_baton1_20
+  - first:
+      213: 837233011229752219
+    second: homme_avec_baton1_21
+  - first:
+      213: 5376968475876590471
+    second: homme_avec_baton1_22
+  - first:
+      213: -7647003975603983241
+    second: homme_avec_baton1_23
+  - first:
+      213: 5998871072931309015
+    second: homme_avec_baton1_24
+  - first:
+      213: 4367277256560116837
+    second: homme_avec_baton1_25
+  - first:
+      213: 7550150375707802397
+    second: homme_avec_baton1_26
+  - first:
+      213: -1547424944142300447
+    second: homme_avec_baton1_27
+  - first:
+      213: -6047251066100293539
+    second: homme_avec_baton1_28
+  - first:
+      213: 6899555731901568913
+    second: homme_avec_baton1_29
+  - first:
+      213: -6597243923275276566
+    second: homme_avec_baton1_30
+  - first:
+      213: -8311979415463043768
+    second: homme_avec_baton1_31
+  - first:
+      213: 2022228021976578541
+    second: homme_avec_baton1_32
+  - first:
+      213: -967843765384974536
+    second: homme_avec_baton1_33
+  - first:
+      213: -7652727756192837315
+    second: homme_avec_baton1_34
+  - first:
+      213: 4319477749206151963
+    second: homme_avec_baton1_35
+  - first:
+      213: 2186507867349274288
+    second: homme_avec_baton1_36
+  - first:
+      213: -306264975864977199
+    second: homme_avec_baton1_37
+  - first:
+      213: -5828552774855500152
+    second: homme_avec_baton1_38
+  - first:
+      213: -8432819821326595250
+    second: homme_avec_baton1_39
+  - first:
+      213: -4952830257957929517
+    second: homme_avec_baton1_40
+  - first:
+      213: -6452597212912280472
+    second: homme_avec_baton1_41
+  - first:
+      213: -9044753864909911542
+    second: homme_avec_baton1_42
+  - first:
+      213: 8894958691355518168
+    second: homme_avec_baton1_43
+  - first:
+      213: 673549292535473937
+    second: homme_avec_baton1_44
+  - first:
+      213: 5772136628344952250
+    second: homme_avec_baton1_45
+  - first:
+      213: 2719634608986887301
+    second: homme_avec_baton1_46
+  - first:
+      213: 3661097945774440928
+    second: homme_avec_baton1_47
+  - first:
+      213: -4488642076530046185
+    second: homme_avec_baton1_48
+  - first:
+      213: 1705952333106231805
+    second: homme_avec_baton1_49
+  - first:
+      213: 4587875452006274480
+    second: homme_avec_baton1_50
+  - first:
+      213: 7527620790287290258
+    second: homme_avec_baton1_51
+  - first:
+      213: -4943464091316914285
+    second: homme_avec_baton1_52
+  - first:
+      213: -1564235510751201932
+    second: homme_avec_baton1_53
+  - first:
+      213: 5334536021153884257
+    second: homme_avec_baton1_54
+  - first:
+      213: 7391194847203309239
+    second: homme_avec_baton1_55
+  - first:
+      213: 8480994782247476029
+    second: homme_avec_baton1_56
+  - first:
+      213: 1173978661859425952
+    second: homme_avec_baton1_57
+  - first:
+      213: -2637573321420359001
+    second: homme_avec_baton1_58
+  - first:
+      213: -8963169550836171007
+    second: homme_avec_baton1_59
+  - first:
+      213: 617144793326327445
+    second: homme_avec_baton1_60
+  - first:
+      213: 2553576691414610317
+    second: homme_avec_baton1_61
+  - first:
+      213: -5419920100723814014
+    second: homme_avec_baton1_62
+  - first:
+      213: -5742722066542085044
+    second: homme_avec_baton1_63
+  - first:
+      213: -844077920673963959
+    second: homme_avec_baton1_64
+  - first:
+      213: 5432854244316260603
+    second: homme_avec_baton1_65
+  - first:
+      213: 8788312005420109789
+    second: homme_avec_baton1_66
+  - first:
+      213: -105872390368404610
+    second: homme_avec_baton1_67
+  - first:
+      213: 8912228902519865262
+    second: homme_avec_baton1_68
+  - first:
+      213: -5128570525379361956
+    second: homme_avec_baton1_69
+  - first:
+      213: 1045694895148294818
+    second: homme_avec_baton1_70
+  - first:
+      213: -8053606761138928521
+    second: homme_avec_baton1_71
+  - first:
+      213: 3547041865170497871
+    second: homme_avec_baton1_72
+  - first:
+      213: 7149916110321865023
+    second: homme_avec_baton1_73
+  - first:
+      213: 5650041589287373522
+    second: homme_avec_baton1_74
+  - first:
+      213: -3895286802097029846
+    second: homme_avec_baton1_75
+  - first:
+      213: 1199427356828626488
+    second: homme_avec_baton1_76
+  - first:
+      213: -1725347935863017606
+    second: homme_avec_baton1_77
+  - first:
+      213: -6203481855170529256
+    second: homme_avec_baton1_78
+  - first:
+      213: -4749537809380876035
+    second: homme_avec_baton1_79
+  - first:
+      213: 4369981531129215180
+    second: homme_avec_baton1_80
+  - first:
+      213: 4006582782213380583
+    second: homme_avec_baton1_81
+  - first:
+      213: -2678704479491864258
+    second: homme_avec_baton1_82
+  - first:
+      213: -3830018189216000035
+    second: homme_avec_baton1_83
+  - first:
+      213: 9016691796521034188
+    second: homme_avec_baton1_84
+  - first:
+      213: 1479156802007564647
+    second: homme_avec_baton1_85
+  - first:
+      213: 4031831620503203510
+    second: homme_avec_baton1_86
+  - first:
+      213: -5734629914581574138
+    second: homme_avec_baton1_87
+  - first:
+      213: 4464601505623245532
+    second: homme_avec_baton1_88
+  - first:
+      213: -2490619298078903594
+    second: homme_avec_baton1_89
+  - first:
+      213: 7955170550656189320
+    second: homme_avec_baton1_90
+  - first:
+      213: -1812978170873393010
+    second: homme_avec_baton1_91
+  - first:
+      213: 6734300976664363584
+    second: homme_avec_baton1_92
+  - first:
+      213: -5220323435776863096
+    second: homme_avec_baton1_93
+  - first:
+      213: -7277352710158058676
+    second: homme_avec_baton1_94
+  - first:
+      213: 6586765628810072759
+    second: homme_avec_baton1_95
+  - first:
+      213: 3678685691711069119
+    second: homme_avec_baton1_96
+  - first:
+      213: 9103416253060944400
+    second: homme_avec_baton1_97
+  - first:
+      213: 6872962903949578492
+    second: homme_avec_baton1_98
+  - first:
+      213: 7781870909602390624
+    second: homme_avec_baton1_99
+  - first:
+      213: 2058425823773845222
+    second: homme_avec_baton1_100
+  - first:
+      213: 12285032607759133
+    second: homme_avec_baton1_101
+  - first:
+      213: 6700376996041988719
+    second: homme_avec_baton1_102
+  - first:
+      213: -3977484117170349330
+    second: homme_avec_baton1_103
+  - first:
+      213: -191991531918848845
+    second: homme_avec_baton1_104
+  - first:
+      213: -6172825104820533753
+    second: homme_avec_baton1_105
+  - first:
+      213: -6289356832691191486
+    second: homme_avec_baton1_106
+  - first:
+      213: 4823248393097116026
+    second: homme_avec_baton1_107
+  - first:
+      213: -5232160162900374568
+    second: homme_avec_baton1_108
+  - first:
+      213: 7269423124651176695
+    second: homme_avec_baton1_109
+  - first:
+      213: -2176061346204778655
+    second: homme_avec_baton1_110
+  - first:
+      213: -6062550656408158564
+    second: homme_avec_baton1_111
+  - first:
+      213: 5774441913625587972
+    second: homme_avec_baton1_112
+  - first:
+      213: 2588586567968669363
+    second: homme_avec_baton1_113
+  - first:
+      213: -8631002563607002548
+    second: homme_avec_baton1_114
+  - first:
+      213: 4154922465399790118
+    second: homme_avec_baton1_115
+  - first:
+      213: 4038926264434870109
+    second: homme_avec_baton1_116
+  - first:
+      213: -3369410475839729012
+    second: homme_avec_baton1_117
+  - first:
+      213: -6615850785778674737
+    second: homme_avec_baton1_118
+  - first:
+      213: 6560509376607995276
+    second: homme_avec_baton1_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: homme_avec_baton1_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 965
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0379e14c89f6eee0800000000000000
+      internalID: -1232023067242695926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 965
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bac5d994ccdc5b0800000000000000
+      internalID: -5346392566074135791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 965
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5f815364cdb2660800000000000000
+      internalID: 7362220209963857367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 965
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126697f6de600b6f0800000000000000
+      internalID: -671028727630961119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 965
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ac8a3b19f5fa920800000000000000
+      internalID: 3003724555868490286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 965
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4584570ea3bd8db0800000000000000
+      internalID: -4787973268796308148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 965
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dbfe13586f99220800000000000000
+      internalID: 2493294920655158589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 901
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7768fcbe5bd2e84e0800000000000000
+      internalID: -1977592927000492425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 901
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5e307f01317af80800000000000000
+      internalID: -8095480841590544929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 901
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71be3e7a5a0b9b50800000000000000
+      internalID: 6600881062622966140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 901
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0048db9349cb0d470800000000000000
+      internalID: 8417435048365360128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 901
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27efd3c71ed9929a0800000000000000
+      internalID: -6257296615476953486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 901
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc65fe694053c660800000000000000
+      internalID: 7404850488651640013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 901
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb8cc3e099a7e130800000000000000
+      internalID: 3596029267240848363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 837
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac20fb1046556a5e0800000000000000
+      internalID: -1898736304875699510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 837
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85303ff836075870800000000000000
+      internalID: 8671406449394464143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 837
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397ee460e2bca7290800000000000000
+      internalID: -7891771998478604397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 837
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075460dd9c4df35c0800000000000000
+      internalID: -4233431161243286160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 837
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cf987441cf39520800000000000000
+      internalID: 2707784965009570906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_19
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 837
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eed1455427cce7f0800000000000000
+      internalID: -581871292974506263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 837
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8434e73aeb9239950800000000000000
+      internalID: 6454548589715538760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 773
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b7494ecf27e9b00800000000000000
+      internalID: 837233011229752219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_22
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 773
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78309152754de9a40800000000000000
+      internalID: 5376968475876590471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 773
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cef16566260e590800000000000000
+      internalID: -7647003975603983241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 773
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5ef6b1575404350800000000000000
+      internalID: 5998871072931309015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 773
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56488e8a68fab9c30800000000000000
+      internalID: 4367277256560116837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_26
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 773
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b78d8a3c587c860800000000000000
+      internalID: 7550150375707802397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_27
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 773
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eac1df3631768ae0800000000000000
+      internalID: -1547424944142300447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 709
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d506d71f139d31ca0800000000000000
+      internalID: -6047251066100293539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_29
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 707
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197d00cf16520cf50800000000000000
+      internalID: 6899555731901568913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 707
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee92900b91e174a0800000000000000
+      internalID: -6597243923275276566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 707
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d57f8a2cae5ac80800000000000000
+      internalID: -8311979415463043768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_32
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 707
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de931c8fba5601c10800000000000000
+      internalID: 2022228021976578541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_33
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 707
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fe62629378192f0800000000000000
+      internalID: -967843765384974536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_34
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 707
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d319a51d6ac0cc590800000000000000
+      internalID: -7652727756192837315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_35
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 707
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13f2a8902ed1fb30800000000000000
+      internalID: 4319477749206151963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 645
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be43fb1259085e10800000000000000
+      internalID: 2186507867349274288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_37
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 645
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8ac6a80adefbbf0800000000000000
+      internalID: -306264975864977199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_38
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 645
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ede1cd122dc1fa0800000000000000
+      internalID: -5828552774855500152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 645
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b84fe2d0b98fa80800000000000000
+      internalID: -8432819821326595250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_40
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 645
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd7c912f13044bb0800000000000000
+      internalID: -4952830257957929517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_41
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 645
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c10bda505c376a0800000000000000
+      internalID: -6452597212912280472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_42
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 645
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a0431f7449a7280800000000000000
+      internalID: -9044753864909911542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 645
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4e4026dcd317b70800000000000000
+      internalID: 8894958691355518168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_44
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 581
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117ea40538de85900800000000000000
+      internalID: 673549292535473937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_45
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 582
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5958f6eafba1050800000000000000
+      internalID: 5772136628344952250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_46
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 582
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584958384451eb520800000000000000
+      internalID: 2719634608986887301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_47
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 582
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e14cc13f25dec230800000000000000
+      internalID: 3661097945774440928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_48
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 582
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b0e8030d325b1c0800000000000000
+      internalID: -4488642076530046185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_49
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 582
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9bb82cb92cca710800000000000000
+      internalID: 1705952333106231805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 582
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5919e7a686baf30800000000000000
+      internalID: 4587875452006274480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_51
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 582
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f4be8c93b777860800000000000000
+      internalID: 7527620790287290258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_52
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 517
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397f72db999456bb0800000000000000
+      internalID: -4943464091316914285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_53
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 517
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4757f943718ba4ae0800000000000000
+      internalID: -1564235510751201932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_54
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 517
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16827666f34180a40800000000000000
+      internalID: 5334536021153884257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_55
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 517
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b63045ad8cc29660800000000000000
+      internalID: 7391194847203309239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 517
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b5dc9f1db82b570800000000000000
+      internalID: 8480994782247476029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 517
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aef40a7f5fca4010800000000000000
+      internalID: 1173978661859425952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 517
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa31b3e905756bd0800000000000000
+      internalID: -2637573321420359001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_59
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 517
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fffcc48cc6c9380800000000000000
+      internalID: -8963169550836171007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_60
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 454
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59692357be9809800800000000000000
+      internalID: 617144793326327445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_61
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 454
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d813c7ea870207320800000000000000
+      internalID: 2553576691414610317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_62
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 453
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2819b55626398c4b0800000000000000
+      internalID: -5419920100723814014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_63
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 452
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c36fbe4b0cd40b0800000000000000
+      internalID: -5742722066542085044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_64
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 453
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9406a7f6a9b3944f0800000000000000
+      internalID: -844077920673963959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_65
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 454
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8a1f49620656b40800000000000000
+      internalID: 5432854244316260603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_66
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 453
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfcd5ad43b56f970800000000000000
+      internalID: 8788312005420109789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_67
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 452
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bd1943f9dd78ef0800000000000000
+      internalID: -105872390368404610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_68
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 453
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf7aa3c7f89eab70800000000000000
+      internalID: 8912228902519865262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_69
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 387
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53893d8748a3d8b0800000000000000
+      internalID: -5128570525379361956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_70
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 387
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2e0c087fd038e00800000000000000
+      internalID: 1045694895148294818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 387
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77441a11257db3090800000000000000
+      internalID: -8053606761138928521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_72
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 387
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f413de888cf993130800000000000000
+      internalID: 3547041865170497871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 387
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31d39902da993360800000000000000
+      internalID: 7149916110321865023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_74
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 388
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da48a7e3eaf86e40800000000000000
+      internalID: 5650041589287373522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_75
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 388
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d3db6aa4921f9c0800000000000000
+      internalID: -3895286802097029846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_76
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 387
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ee7a183d835a010800000000000000
+      internalID: 1199427356828626488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 387
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f6ee091355e08e0800000000000000
+      internalID: -1725347935863017606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_78
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 323
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818baf3ce1ec8e9a0800000000000000
+      internalID: -6203481855170529256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_79
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 324
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0e098c680461eb0800000000000000
+      internalID: -4749537809380876035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_80
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 321
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc879f5ac0b45ac30800000000000000
+      internalID: 4369981531129215180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_81
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 322
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9560900dd3a9730800000000000000
+      internalID: 4006582782213380583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_82
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 324
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39c3a1e77453dad0800000000000000
+      internalID: -2678704479491864258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_83
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 325
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7de7ccfba09dac0800000000000000
+      internalID: -3830018189216000035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_84
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 324
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1a0dc9a69b12d70800000000000000
+      internalID: 9016691796521034188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_85
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 324
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76183c64645078410800000000000000
+      internalID: 1479156802007564647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_86
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 324
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bee74e4f71f3f730800000000000000
+      internalID: 4031831620503203510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_87
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 261
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e590fd9708a60b0800000000000000
+      internalID: -5734629914581574138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_88
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 261
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd209563a6375fd30800000000000000
+      internalID: 4464601505623245532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_89
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 262
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2364bb1fa8f6dd0800000000000000
+      internalID: -2490619298078903594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_90
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 262
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883c28fa771766e60800000000000000
+      internalID: 7955170550656189320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 261
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80dd8b85f107d6e0800000000000000
+      internalID: -1812978170873393010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_92
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 261
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04245a4fe0b057d50800000000000000
+      internalID: 6734300976664363584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_93
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 261
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8849fdd5e7fad87b0800000000000000
+      internalID: -5220323435776863096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_94
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 261
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b7dc56446a10b90800000000000000
+      internalID: -7277352710158058676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_95
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 261
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b21af3f074e86b50800000000000000
+      internalID: 6586765628810072759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_96
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 197
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb10c665215d0330800000000000000
+      internalID: 3678685691711069119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_97
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 196
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0121736a9d4d55e70800000000000000
+      internalID: 9103416253060944400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_98
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 196
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf01a5cb85ba16f50800000000000000
+      internalID: 6872962903949578492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_99
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 196
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062ebc6bc52cefb60800000000000000
+      internalID: 7781870909602390624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_100
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 196
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6e786716ff09c10800000000000000
+      internalID: 2058425823773845222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_101
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 196
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bb3ac0c25ab2000800000000000000
+      internalID: 12285032607759133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_102
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 133
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a1846b0658cfc50800000000000000
+      internalID: 6700376996041988719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_103
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 133
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea9d40e4432dc8c0800000000000000
+      internalID: -3977484117170349330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_104
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 133
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc081c08b8e55df0800000000000000
+      internalID: -191991531918848845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_105
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 133
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7060f8ea548b55aa0800000000000000
+      internalID: -6172825104820533753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_106
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 133
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24104c97847b7b8a0800000000000000
+      internalID: -6289356832691191486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_107
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 133
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79f60edbde9fe240800000000000000
+      internalID: 4823248393097116026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_108
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 69
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db8f529d02a367b0800000000000000
+      internalID: -5232160162900374568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_109
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 69
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2f7da11dd22e460800000000000000
+      internalID: 7269423124651176695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_110
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 69
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f71022cb31dc1e0800000000000000
+      internalID: -2176061346204778655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_111
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 69
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9efafb7c4e7ddba0800000000000000
+      internalID: -6062550656408158564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_112
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 69
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401b7cd7350f22050800000000000000
+      internalID: 5774441913625587972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_113
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 69
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bebe16c4c18ce320800000000000000
+      internalID: 2588586567968669363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_114
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 5
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4208bcb5e4883880800000000000000
+      internalID: -8631002563607002548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ad173f7ff39a930800000000000000
+      internalID: 4154922465399790118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_116
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 5
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57c2a1d9062d0830800000000000000
+      internalID: 4038926264434870109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_117
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 5
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82d71d26037d31d0800000000000000
+      internalID: -3369410475839729012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_118
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 5
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc35caa33c6cf24a0800000000000000
+      internalID: -6615850785778674737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton1_119
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 5
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85c65ad48c9b0b50800000000000000
+      internalID: 6560509376607995276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      homme_avec_baton1_0: -1232023067242695926
+      homme_avec_baton1_1: -5346392566074135791
+      homme_avec_baton1_10: 8417435048365360128
+      homme_avec_baton1_100: 2058425823773845222
+      homme_avec_baton1_101: 12285032607759133
+      homme_avec_baton1_102: 6700376996041988719
+      homme_avec_baton1_103: -3977484117170349330
+      homme_avec_baton1_104: -191991531918848845
+      homme_avec_baton1_105: -6172825104820533753
+      homme_avec_baton1_106: -6289356832691191486
+      homme_avec_baton1_107: 4823248393097116026
+      homme_avec_baton1_108: -5232160162900374568
+      homme_avec_baton1_109: 7269423124651176695
+      homme_avec_baton1_11: -6257296615476953486
+      homme_avec_baton1_110: -2176061346204778655
+      homme_avec_baton1_111: -6062550656408158564
+      homme_avec_baton1_112: 5774441913625587972
+      homme_avec_baton1_113: 2588586567968669363
+      homme_avec_baton1_114: -8631002563607002548
+      homme_avec_baton1_115: 4154922465399790118
+      homme_avec_baton1_116: 4038926264434870109
+      homme_avec_baton1_117: -3369410475839729012
+      homme_avec_baton1_118: -6615850785778674737
+      homme_avec_baton1_119: 6560509376607995276
+      homme_avec_baton1_12: 7404850488651640013
+      homme_avec_baton1_13: 3596029267240848363
+      homme_avec_baton1_14: -1898736304875699510
+      homme_avec_baton1_15: 8671406449394464143
+      homme_avec_baton1_16: -7891771998478604397
+      homme_avec_baton1_17: -4233431161243286160
+      homme_avec_baton1_18: 2707784965009570906
+      homme_avec_baton1_19: -581871292974506263
+      homme_avec_baton1_2: 7362220209963857367
+      homme_avec_baton1_20: 6454548589715538760
+      homme_avec_baton1_21: 837233011229752219
+      homme_avec_baton1_22: 5376968475876590471
+      homme_avec_baton1_23: -7647003975603983241
+      homme_avec_baton1_24: 5998871072931309015
+      homme_avec_baton1_25: 4367277256560116837
+      homme_avec_baton1_26: 7550150375707802397
+      homme_avec_baton1_27: -1547424944142300447
+      homme_avec_baton1_28: -6047251066100293539
+      homme_avec_baton1_29: 6899555731901568913
+      homme_avec_baton1_3: -671028727630961119
+      homme_avec_baton1_30: -6597243923275276566
+      homme_avec_baton1_31: -8311979415463043768
+      homme_avec_baton1_32: 2022228021976578541
+      homme_avec_baton1_33: -967843765384974536
+      homme_avec_baton1_34: -7652727756192837315
+      homme_avec_baton1_35: 4319477749206151963
+      homme_avec_baton1_36: 2186507867349274288
+      homme_avec_baton1_37: -306264975864977199
+      homme_avec_baton1_38: -5828552774855500152
+      homme_avec_baton1_39: -8432819821326595250
+      homme_avec_baton1_4: 3003724555868490286
+      homme_avec_baton1_40: -4952830257957929517
+      homme_avec_baton1_41: -6452597212912280472
+      homme_avec_baton1_42: -9044753864909911542
+      homme_avec_baton1_43: 8894958691355518168
+      homme_avec_baton1_44: 673549292535473937
+      homme_avec_baton1_45: 5772136628344952250
+      homme_avec_baton1_46: 2719634608986887301
+      homme_avec_baton1_47: 3661097945774440928
+      homme_avec_baton1_48: -4488642076530046185
+      homme_avec_baton1_49: 1705952333106231805
+      homme_avec_baton1_5: -4787973268796308148
+      homme_avec_baton1_50: 4587875452006274480
+      homme_avec_baton1_51: 7527620790287290258
+      homme_avec_baton1_52: -4943464091316914285
+      homme_avec_baton1_53: -1564235510751201932
+      homme_avec_baton1_54: 5334536021153884257
+      homme_avec_baton1_55: 7391194847203309239
+      homme_avec_baton1_56: 8480994782247476029
+      homme_avec_baton1_57: 1173978661859425952
+      homme_avec_baton1_58: -2637573321420359001
+      homme_avec_baton1_59: -8963169550836171007
+      homme_avec_baton1_6: 2493294920655158589
+      homme_avec_baton1_60: 617144793326327445
+      homme_avec_baton1_61: 2553576691414610317
+      homme_avec_baton1_62: -5419920100723814014
+      homme_avec_baton1_63: -5742722066542085044
+      homme_avec_baton1_64: -844077920673963959
+      homme_avec_baton1_65: 5432854244316260603
+      homme_avec_baton1_66: 8788312005420109789
+      homme_avec_baton1_67: -105872390368404610
+      homme_avec_baton1_68: 8912228902519865262
+      homme_avec_baton1_69: -5128570525379361956
+      homme_avec_baton1_7: -1977592927000492425
+      homme_avec_baton1_70: 1045694895148294818
+      homme_avec_baton1_71: -8053606761138928521
+      homme_avec_baton1_72: 3547041865170497871
+      homme_avec_baton1_73: 7149916110321865023
+      homme_avec_baton1_74: 5650041589287373522
+      homme_avec_baton1_75: -3895286802097029846
+      homme_avec_baton1_76: 1199427356828626488
+      homme_avec_baton1_77: -1725347935863017606
+      homme_avec_baton1_78: -6203481855170529256
+      homme_avec_baton1_79: -4749537809380876035
+      homme_avec_baton1_8: -8095480841590544929
+      homme_avec_baton1_80: 4369981531129215180
+      homme_avec_baton1_81: 4006582782213380583
+      homme_avec_baton1_82: -2678704479491864258
+      homme_avec_baton1_83: -3830018189216000035
+      homme_avec_baton1_84: 9016691796521034188
+      homme_avec_baton1_85: 1479156802007564647
+      homme_avec_baton1_86: 4031831620503203510
+      homme_avec_baton1_87: -5734629914581574138
+      homme_avec_baton1_88: 4464601505623245532
+      homme_avec_baton1_89: -2490619298078903594
+      homme_avec_baton1_9: 6600881062622966140
+      homme_avec_baton1_90: 7955170550656189320
+      homme_avec_baton1_91: -1812978170873393010
+      homme_avec_baton1_92: 6734300976664363584
+      homme_avec_baton1_93: -5220323435776863096
+      homme_avec_baton1_94: -7277352710158058676
+      homme_avec_baton1_95: 6586765628810072759
+      homme_avec_baton1_96: 3678685691711069119
+      homme_avec_baton1_97: 9103416253060944400
+      homme_avec_baton1_98: 6872962903949578492
+      homme_avec_baton1_99: 7781870909602390624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

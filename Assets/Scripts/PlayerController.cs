@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator panelTransitionAnimator; // Nom de la scène à charger
     [SerializeField] private HealthSystem healthSystem;
     [SerializeField] private XpSystem xpSystem;
+    [SerializeField] private PlayerAttack playerAttack;
 
     public XpSystem XpSystem => xpSystem;
 
@@ -101,7 +102,13 @@ public class PlayerController : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnDeath += PlayerDeath;
+            healthSystem.OnHealthChanged += ResetAttackPlayer;
         }
+    }
+
+    private void ResetAttackPlayer()
+    {
+        playerAttack.AE_OnAttackFinished();
     }
 
     private void OnDisable()
@@ -117,11 +124,12 @@ public class PlayerController : MonoBehaviour
         }
         if (cancelAction != null)
         {
-            cancelAction.performed -= OnCancelPerformed; // <--- NOUVEAU
+            cancelAction.performed -= OnCancelPerformed; 
         }
         if (healthSystem != null)
         {
             healthSystem.OnDeath -= PlayerDeath;
+            healthSystem.OnHealthChanged -= ResetAttackPlayer;
         }
     }
 
@@ -134,7 +142,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCancelPerformed(InputAction.CallbackContext context)
     {
-        OnCancelPressed?.Invoke(); // <--- NOUVEAU : On prévient qu'on veut quitter
+        OnCancelPressed?.Invoke(); 
     }
 
     private void OnMovePerformed(InputAction.CallbackContext context)

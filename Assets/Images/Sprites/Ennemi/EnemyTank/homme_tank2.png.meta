@@ -1,0 +1,822 @@
+fileFormatVersion: 2
+guid: b97519808881511428d83e0ee9897833
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8750441958525796808
+    second: homme_tank2_0
+  - first:
+      213: 2076454447028217402
+    second: homme_tank2_1
+  - first:
+      213: 9001727071863300216
+    second: homme_tank2_2
+  - first:
+      213: -497679914980140424
+    second: homme_tank2_3
+  - first:
+      213: -3774697403752365041
+    second: homme_tank2_4
+  - first:
+      213: -1148215911438307792
+    second: homme_tank2_5
+  - first:
+      213: 1186486870475505280
+    second: homme_tank2_6
+  - first:
+      213: 4977066308257786563
+    second: homme_tank2_7
+  - first:
+      213: 5695672751979561050
+    second: homme_tank2_8
+  - first:
+      213: -5108050924526546020
+    second: homme_tank2_9
+  - first:
+      213: -5427372131764808958
+    second: homme_tank2_10
+  - first:
+      213: 8373191927816084010
+    second: homme_tank2_11
+  - first:
+      213: 6757520878726798742
+    second: homme_tank2_12
+  - first:
+      213: -867398012063410038
+    second: homme_tank2_13
+  - first:
+      213: -5058962528663357296
+    second: homme_tank2_14
+  - first:
+      213: 8111143761590559144
+    second: homme_tank2_15
+  - first:
+      213: 3358457885880253486
+    second: homme_tank2_16
+  - first:
+      213: 903612654092746115
+    second: homme_tank2_17
+  - first:
+      213: 9035748383853820205
+    second: homme_tank2_18
+  - first:
+      213: 8602501744416809858
+    second: homme_tank2_19
+  - first:
+      213: 4309589467906396557
+    second: homme_tank2_20
+  - first:
+      213: 6974056951069822337
+    second: homme_tank2_21
+  - first:
+      213: -1590158334636192587
+    second: homme_tank2_22
+  - first:
+      213: 3714826968615402981
+    second: homme_tank2_23
+  - first:
+      213: -6478811693903760845
+    second: homme_tank2_24
+  - first:
+      213: -1425736723069862053
+    second: homme_tank2_25
+  - first:
+      213: -8685306132334342298
+    second: homme_tank2_26
+  - first:
+      213: 8673927487789542714
+    second: homme_tank2_27
+  - first:
+      213: -3516605013223444091
+    second: homme_tank2_28
+  - first:
+      213: 1139370287620521258
+    second: homme_tank2_29
+  - first:
+      213: -6358371840542454696
+    second: homme_tank2_30
+  - first:
+      213: -3228978985506337713
+    second: homme_tank2_31
+  - first:
+      213: -8858604528257640310
+    second: homme_tank2_32
+  - first:
+      213: 1023484748573277147
+    second: homme_tank2_33
+  - first:
+      213: 7503701081360924189
+    second: homme_tank2_34
+  - first:
+      213: -730039486844666060
+    second: homme_tank2_35
+  - first:
+      213: 7985868898000618974
+    second: homme_tank2_36
+  - first:
+      213: 4299684030833235365
+    second: homme_tank2_37
+  - first:
+      213: -5710907494259119722
+    second: homme_tank2_38
+  - first:
+      213: -1806122660370032129
+    second: homme_tank2_39
+  - first:
+      213: 6331780937662025244
+    second: homme_tank2_40
+  - first:
+      213: 5578174216866221560
+    second: homme_tank2_41
+  - first:
+      213: -3854461213441328321
+    second: homme_tank2_42
+  - first:
+      213: 2712999076768949657
+    second: homme_tank2_43
+  - first:
+      213: -831624531029698939
+    second: homme_tank2_44
+  - first:
+      213: 994759334961796369
+    second: homme_tank2_45
+  - first:
+      213: 513336313188683793
+    second: homme_tank2_46
+  - first:
+      213: 8002137062106623074
+    second: homme_tank2_47
+  - first:
+      213: -2001693643093237753
+    second: homme_tank2_48
+  - first:
+      213: 5388752493738104466
+    second: homme_tank2_49
+  - first:
+      213: -2294945367922680292
+    second: homme_tank2_50
+  - first:
+      213: 182894967081349092
+    second: homme_tank2_51
+  - first:
+      213: -1574024351694953300
+    second: homme_tank2_52
+  - first:
+      213: -5711141447502818221
+    second: homme_tank2_53
+  - first:
+      213: 2781422339968208928
+    second: homme_tank2_54
+  - first:
+      213: 1789900753822882698
+    second: homme_tank2_55
+  - first:
+      213: -87364190779064406
+    second: homme_tank2_56
+  - first:
+      213: -73173086334840582
+    second: homme_tank2_57
+  - first:
+      213: -2856048614441348966
+    second: homme_tank2_58
+  - first:
+      213: 8058103489286637162
+    second: homme_tank2_59
+  - first:
+      213: -2652606111076133210
+    second: homme_tank2_60
+  - first:
+      213: 3822623110001905531
+    second: homme_tank2_61
+  - first:
+      213: -8655623415541637047
+    second: homme_tank2_62
+  - first:
+      213: -5897829054768627577
+    second: homme_tank2_63
+  - first:
+      213: 572759369537548648
+    second: homme_tank2_64
+  - first:
+      213: -8439509137311561541
+    second: homme_tank2_65
+  - first:
+      213: -5295527689763062133
+    second: homme_tank2_66
+  - first:
+      213: 6307900337448303667
+    second: homme_tank2_67
+  - first:
+      213: -8885037640642035239
+    second: homme_tank2_68
+  - first:
+      213: 8564033781510808946
+    second: homme_tank2_69
+  - first:
+      213: 7462324386382999479
+    second: homme_tank2_70
+  - first:
+      213: -6190722627770344245
+    second: homme_tank2_71
+  - first:
+      213: -8953714255837202641
+    second: homme_tank2_72
+  - first:
+      213: -8719041043132445967
+    second: homme_tank2_73
+  - first:
+      213: -1939845958188144599
+    second: homme_tank2_74
+  - first:
+      213: 5488374046738762115
+    second: homme_tank2_75
+  - first:
+      213: 5212213698210233236
+    second: homme_tank2_76
+  - first:
+      213: -7566875593553466863
+    second: homme_tank2_77
+  - first:
+      213: -5339475868565187790
+    second: homme_tank2_78
+  - first:
+      213: 7550440066731297356
+    second: homme_tank2_79
+  - first:
+      213: 5540297507069076516
+    second: homme_tank2_80
+  - first:
+      213: -3800907912685016459
+    second: homme_tank2_81
+  - first:
+      213: 6999299194474119512
+    second: homme_tank2_82
+  - first:
+      213: 5693603959644310851
+    second: homme_tank2_83
+  - first:
+      213: -3325332060120586213
+    second: homme_tank2_84
+  - first:
+      213: -715199798557798260
+    second: homme_tank2_85
+  - first:
+      213: 4082505431758755682
+    second: homme_tank2_86
+  - first:
+      213: 938660644235756703
+    second: homme_tank2_87
+  - first:
+      213: 5912062772928001919
+    second: homme_tank2_88
+  - first:
+      213: 1873245794162224018
+    second: homme_tank2_89
+  - first:
+      213: 1693557399038437495
+    second: homme_tank2_90
+  - first:
+      213: -928791281126236664
+    second: homme_tank2_91
+  - first:
+      213: 7568437245584365159
+    second: homme_tank2_92
+  - first:
+      213: -4304046436825774148
+    second: homme_tank2_93
+  - first:
+      213: -2691004741209593834
+    second: homme_tank2_94
+  - first:
+      213: -1156094473180852296
+    second: homme_tank2_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: homme_tank2_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1350
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e756a866f209680800000000000000
+      internalID: -8750441958525796808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1350
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36a56b615c01dc10800000000000000
+      internalID: 2076454447028217402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1350
+        width: 32
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5061693, y: 0.5521517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870ed63241f8cec70800000000000000
+      internalID: 9001727071863300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1350
+        width: 32
+        height: 53
+      alignment: 9
+      pivot: {x: 0.51087, y: 0.6148521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a13cf01c2e719f0800000000000000
+      internalID: -497679914980140424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1350
+        width: 44
+        height: 53
+      alignment: 9
+      pivot: {x: 0.62648356, y: 0.62797576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0440c2e5b49d9bc0800000000000000
+      internalID: -3774697403752365041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1350
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.49714985, y: 0.98893076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ea44946b7b010f0800000000000000
+      internalID: -1148215911438307792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1224
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ddbc2bf6987cd50800000000000000
+      internalID: 6757520878726798742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1224
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88941c8a1266f3f0800000000000000
+      internalID: -867398012063410038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1159
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098320b3264fac9b0800000000000000
+      internalID: -5058962528663357296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1159
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a12bb7c642909070800000000000000
+      internalID: 8111143761590559144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1094
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c700147a3ab9e20800000000000000
+      internalID: 3358457885880253486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1094
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dfebddbe64a8c00800000000000000
+      internalID: 903612654092746115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1031
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29ba6b184d656d70800000000000000
+      internalID: 9035748383853820205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank2_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1031
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28364af22c9326770800000000000000
+      internalID: 8602501744416809858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 54b33ff93f8e44243847648bcab77ef7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      homme_tank2_0: -8750441958525796808
+      homme_tank2_1: 2076454447028217402
+      homme_tank2_10: -5427372131764808958
+      homme_tank2_11: 8373191927816084010
+      homme_tank2_12: 6757520878726798742
+      homme_tank2_13: -867398012063410038
+      homme_tank2_14: -5058962528663357296
+      homme_tank2_15: 8111143761590559144
+      homme_tank2_16: 3358457885880253486
+      homme_tank2_17: 903612654092746115
+      homme_tank2_18: 9035748383853820205
+      homme_tank2_19: 8602501744416809858
+      homme_tank2_2: 9001727071863300216
+      homme_tank2_20: 4309589467906396557
+      homme_tank2_21: 6974056951069822337
+      homme_tank2_22: -1590158334636192587
+      homme_tank2_23: 3714826968615402981
+      homme_tank2_24: -6478811693903760845
+      homme_tank2_25: -1425736723069862053
+      homme_tank2_26: -8685306132334342298
+      homme_tank2_27: 8673927487789542714
+      homme_tank2_28: -3516605013223444091
+      homme_tank2_29: 1139370287620521258
+      homme_tank2_3: -497679914980140424
+      homme_tank2_30: -6358371840542454696
+      homme_tank2_31: -3228978985506337713
+      homme_tank2_32: -8858604528257640310
+      homme_tank2_33: 1023484748573277147
+      homme_tank2_34: 7503701081360924189
+      homme_tank2_35: -730039486844666060
+      homme_tank2_36: 7985868898000618974
+      homme_tank2_37: 4299684030833235365
+      homme_tank2_38: -5710907494259119722
+      homme_tank2_39: -1806122660370032129
+      homme_tank2_4: -3774697403752365041
+      homme_tank2_40: 6331780937662025244
+      homme_tank2_41: 5578174216866221560
+      homme_tank2_42: -3854461213441328321
+      homme_tank2_43: 2712999076768949657
+      homme_tank2_44: -831624531029698939
+      homme_tank2_45: 994759334961796369
+      homme_tank2_46: 513336313188683793
+      homme_tank2_47: 8002137062106623074
+      homme_tank2_48: -2001693643093237753
+      homme_tank2_49: 5388752493738104466
+      homme_tank2_5: -1148215911438307792
+      homme_tank2_50: -2294945367922680292
+      homme_tank2_51: 182894967081349092
+      homme_tank2_52: -1574024351694953300
+      homme_tank2_53: -5711141447502818221
+      homme_tank2_54: 2781422339968208928
+      homme_tank2_55: 1789900753822882698
+      homme_tank2_56: -87364190779064406
+      homme_tank2_57: -73173086334840582
+      homme_tank2_58: -2856048614441348966
+      homme_tank2_59: 8058103489286637162
+      homme_tank2_6: 1186486870475505280
+      homme_tank2_60: -2652606111076133210
+      homme_tank2_61: 3822623110001905531
+      homme_tank2_62: -8655623415541637047
+      homme_tank2_63: -5897829054768627577
+      homme_tank2_64: 572759369537548648
+      homme_tank2_65: -8439509137311561541
+      homme_tank2_66: -5295527689763062133
+      homme_tank2_67: 6307900337448303667
+      homme_tank2_68: -8885037640642035239
+      homme_tank2_69: 8564033781510808946
+      homme_tank2_7: 4977066308257786563
+      homme_tank2_70: 7462324386382999479
+      homme_tank2_71: -6190722627770344245
+      homme_tank2_72: -8953714255837202641
+      homme_tank2_73: -8719041043132445967
+      homme_tank2_74: -1939845958188144599
+      homme_tank2_75: 5488374046738762115
+      homme_tank2_76: 5212213698210233236
+      homme_tank2_77: -7566875593553466863
+      homme_tank2_78: -5339475868565187790
+      homme_tank2_79: 7550440066731297356
+      homme_tank2_8: 5695672751979561050
+      homme_tank2_80: 5540297507069076516
+      homme_tank2_81: -3800907912685016459
+      homme_tank2_82: 6999299194474119512
+      homme_tank2_83: 5693603959644310851
+      homme_tank2_84: -3325332060120586213
+      homme_tank2_85: -715199798557798260
+      homme_tank2_86: 4082505431758755682
+      homme_tank2_87: 938660644235756703
+      homme_tank2_88: 5912062772928001919
+      homme_tank2_89: 1873245794162224018
+      homme_tank2_9: -5108050924526546020
+      homme_tank2_90: 1693557399038437495
+      homme_tank2_91: -928791281126236664
+      homme_tank2_92: 7568437245584365159
+      homme_tank2_93: -4304046436825774148
+      homme_tank2_94: -2691004741209593834
+      homme_tank2_95: -1156094473180852296
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

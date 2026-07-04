@@ -1,0 +1,1218 @@
+fileFormatVersion: 2
+guid: 513368194de1a7d49b9f56d50a2570bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4923085077321600661
+    second: homme_avec_baton3_0
+  - first:
+      213: -4004654185732730282
+    second: homme_avec_baton3_1
+  - first:
+      213: -861207273380656342
+    second: homme_avec_baton3_2
+  - first:
+      213: -3697030334816935137
+    second: homme_avec_baton3_3
+  - first:
+      213: -9015146316063451422
+    second: homme_avec_baton3_4
+  - first:
+      213: 2779174156565531475
+    second: homme_avec_baton3_5
+  - first:
+      213: 5416281150974202752
+    second: homme_avec_baton3_6
+  - first:
+      213: 1989689185181082004
+    second: homme_avec_baton3_7
+  - first:
+      213: 6936704042852839444
+    second: homme_avec_baton3_8
+  - first:
+      213: -2026097587746904586
+    second: homme_avec_baton3_9
+  - first:
+      213: -381822965502105561
+    second: homme_avec_baton3_10
+  - first:
+      213: -3054709011784842636
+    second: homme_avec_baton3_11
+  - first:
+      213: -1610641133226732563
+    second: homme_avec_baton3_12
+  - first:
+      213: 3283420709256038589
+    second: homme_avec_baton3_13
+  - first:
+      213: -2118886454116672885
+    second: homme_avec_baton3_14
+  - first:
+      213: 5847529161871054899
+    second: homme_avec_baton3_15
+  - first:
+      213: -7128767025653302602
+    second: homme_avec_baton3_16
+  - first:
+      213: -4974946857232715409
+    second: homme_avec_baton3_17
+  - first:
+      213: 3612644585160433947
+    second: homme_avec_baton3_18
+  - first:
+      213: 3330272825832534591
+    second: homme_avec_baton3_19
+  - first:
+      213: -1939577123917706437
+    second: homme_avec_baton3_20
+  - first:
+      213: -6476367005987567051
+    second: homme_avec_baton3_21
+  - first:
+      213: -6836047727328322041
+    second: homme_avec_baton3_22
+  - first:
+      213: 92857093612326359
+    second: homme_avec_baton3_23
+  - first:
+      213: -1962541733862592297
+    second: homme_avec_baton3_24
+  - first:
+      213: 136200471308124658
+    second: homme_avec_baton3_25
+  - first:
+      213: 5113421830993421993
+    second: homme_avec_baton3_26
+  - first:
+      213: 6864307608618872486
+    second: homme_avec_baton3_27
+  - first:
+      213: -9085575560654748634
+    second: homme_avec_baton3_28
+  - first:
+      213: 2641614962453734109
+    second: homme_avec_baton3_29
+  - first:
+      213: -8237785134554863458
+    second: homme_avec_baton3_30
+  - first:
+      213: 6570669975618778636
+    second: homme_avec_baton3_31
+  - first:
+      213: -2321866014306046238
+    second: homme_avec_baton3_32
+  - first:
+      213: -8389046908032144714
+    second: homme_avec_baton3_33
+  - first:
+      213: -8656916579018152206
+    second: homme_avec_baton3_34
+  - first:
+      213: 7395223183350316124
+    second: homme_avec_baton3_35
+  - first:
+      213: -1191629982318787740
+    second: homme_avec_baton3_36
+  - first:
+      213: -7469383514875417637
+    second: homme_avec_baton3_37
+  - first:
+      213: 6985316424800706567
+    second: homme_avec_baton3_38
+  - first:
+      213: -3770824951933414655
+    second: homme_avec_baton3_39
+  - first:
+      213: -4643094492756802754
+    second: homme_avec_baton3_40
+  - first:
+      213: 2798535663469103407
+    second: homme_avec_baton3_41
+  - first:
+      213: -4073761934557340494
+    second: homme_avec_baton3_42
+  - first:
+      213: 4903856848954530020
+    second: homme_avec_baton3_43
+  - first:
+      213: 4342013485299103156
+    second: homme_avec_baton3_44
+  - first:
+      213: -2995549238643392643
+    second: homme_avec_baton3_45
+  - first:
+      213: 5022284720076011164
+    second: homme_avec_baton3_46
+  - first:
+      213: 5509857474227707700
+    second: homme_avec_baton3_47
+  - first:
+      213: -2616286503154534699
+    second: homme_avec_baton3_48
+  - first:
+      213: -2693012064541716628
+    second: homme_avec_baton3_49
+  - first:
+      213: 1486084634532734642
+    second: homme_avec_baton3_50
+  - first:
+      213: -4866085043402442444
+    second: homme_avec_baton3_51
+  - first:
+      213: 4205601577054505073
+    second: homme_avec_baton3_52
+  - first:
+      213: -5342504742246997249
+    second: homme_avec_baton3_53
+  - first:
+      213: 8061432991344119191
+    second: homme_avec_baton3_54
+  - first:
+      213: 6559904753888971061
+    second: homme_avec_baton3_55
+  - first:
+      213: -6574823283630572752
+    second: homme_avec_baton3_56
+  - first:
+      213: -1351022623062735988
+    second: homme_avec_baton3_57
+  - first:
+      213: 5746372687391507047
+    second: homme_avec_baton3_58
+  - first:
+      213: 2938979644775622933
+    second: homme_avec_baton3_59
+  - first:
+      213: 120583023717587548
+    second: homme_avec_baton3_60
+  - first:
+      213: -6981781570632992507
+    second: homme_avec_baton3_61
+  - first:
+      213: 3808436123944493918
+    second: homme_avec_baton3_62
+  - first:
+      213: -7377842474512290399
+    second: homme_avec_baton3_63
+  - first:
+      213: 22999307735807446
+    second: homme_avec_baton3_64
+  - first:
+      213: -7792716563668977628
+    second: homme_avec_baton3_65
+  - first:
+      213: -4327409301195854160
+    second: homme_avec_baton3_66
+  - first:
+      213: -2604846907013654622
+    second: homme_avec_baton3_67
+  - first:
+      213: 8790114981217118942
+    second: homme_avec_baton3_68
+  - first:
+      213: 5305723834791420853
+    second: homme_avec_baton3_69
+  - first:
+      213: -5366845967350168757
+    second: homme_avec_baton3_70
+  - first:
+      213: -4135662172417372375
+    second: homme_avec_baton3_71
+  - first:
+      213: -7247512240711597522
+    second: homme_avec_baton3_72
+  - first:
+      213: 5099238921735259203
+    second: homme_avec_baton3_73
+  - first:
+      213: 4163690871235837684
+    second: homme_avec_baton3_74
+  - first:
+      213: -1608050759693321529
+    second: homme_avec_baton3_75
+  - first:
+      213: -8761539986226368545
+    second: homme_avec_baton3_76
+  - first:
+      213: -1717833631065067965
+    second: homme_avec_baton3_77
+  - first:
+      213: 3718482998217863828
+    second: homme_avec_baton3_78
+  - first:
+      213: -5064993570156885524
+    second: homme_avec_baton3_79
+  - first:
+      213: 5107687552003007955
+    second: homme_avec_baton3_80
+  - first:
+      213: 9074824336469259577
+    second: homme_avec_baton3_81
+  - first:
+      213: 8001393393629476515
+    second: homme_avec_baton3_82
+  - first:
+      213: 5379746279430278394
+    second: homme_avec_baton3_83
+  - first:
+      213: 96108356828376719
+    second: homme_avec_baton3_84
+  - first:
+      213: 1620523039015721351
+    second: homme_avec_baton3_85
+  - first:
+      213: -3750036253384102229
+    second: homme_avec_baton3_86
+  - first:
+      213: -6361993531785476536
+    second: homme_avec_baton3_87
+  - first:
+      213: -2742343598686109252
+    second: homme_avec_baton3_88
+  - first:
+      213: -4778818225563039137
+    second: homme_avec_baton3_89
+  - first:
+      213: 3873087515843612972
+    second: homme_avec_baton3_90
+  - first:
+      213: 2666286500038409522
+    second: homme_avec_baton3_91
+  - first:
+      213: -4506123782657084008
+    second: homme_avec_baton3_92
+  - first:
+      213: -6711644795742132382
+    second: homme_avec_baton3_93
+  - first:
+      213: -2673059532481454775
+    second: homme_avec_baton3_94
+  - first:
+      213: -7000170334960380554
+    second: homme_avec_baton3_95
+  - first:
+      213: 645283844681143902
+    second: homme_avec_baton3_96
+  - first:
+      213: -4176530863810126266
+    second: homme_avec_baton3_97
+  - first:
+      213: -3125491294573902964
+    second: homme_avec_baton3_98
+  - first:
+      213: -8369979057314489175
+    second: homme_avec_baton3_99
+  - first:
+      213: 2448746370977305721
+    second: homme_avec_baton3_100
+  - first:
+      213: 2328341931598170914
+    second: homme_avec_baton3_101
+  - first:
+      213: 4246237271106395493
+    second: homme_avec_baton3_102
+  - first:
+      213: -9077234977157959396
+    second: homme_avec_baton3_103
+  - first:
+      213: -4950555499830801478
+    second: homme_avec_baton3_104
+  - first:
+      213: -2704888916058274655
+    second: homme_avec_baton3_105
+  - first:
+      213: 8553487354008788523
+    second: homme_avec_baton3_106
+  - first:
+      213: -4963295323003101749
+    second: homme_avec_baton3_107
+  - first:
+      213: -2700308959385598717
+    second: homme_avec_baton3_108
+  - first:
+      213: -986670361480600724
+    second: homme_avec_baton3_109
+  - first:
+      213: -5582830290318587207
+    second: homme_avec_baton3_110
+  - first:
+      213: 3203346040345589251
+    second: homme_avec_baton3_111
+  - first:
+      213: 1216648601773121406
+    second: homme_avec_baton3_112
+  - first:
+      213: -6484526122433591347
+    second: homme_avec_baton3_113
+  - first:
+      213: 6995508875667377618
+    second: homme_avec_baton3_114
+  - first:
+      213: 687070021205927977
+    second: homme_avec_baton3_115
+  - first:
+      213: -8929748521103426533
+    second: homme_avec_baton3_116
+  - first:
+      213: 79911003617013689
+    second: homme_avec_baton3_117
+  - first:
+      213: -5657896694396932406
+    second: homme_avec_baton3_118
+  - first:
+      213: -3899361993440984078
+    second: homme_avec_baton3_119
+  - first:
+      213: -709572722185009578
+    second: homme_avec_baton3_120
+  - first:
+      213: 6825030231591588791
+    second: homme_avec_baton3_121
+  - first:
+      213: 3276138492516698760
+    second: homme_avec_baton3_122
+  - first:
+      213: 121707875744802921
+    second: homme_avec_baton3_123
+  - first:
+      213: 7989015236893988577
+    second: homme_avec_baton3_124
+  - first:
+      213: -7333842886754923406
+    second: homme_avec_baton3_125
+  - first:
+      213: 5973001239391900698
+    second: homme_avec_baton3_126
+  - first:
+      213: 3212320053633762703
+    second: homme_avec_baton3_127
+  - first:
+      213: 1373762928426880641
+    second: homme_avec_baton3_128
+  - first:
+      213: -2699415445439244324
+    second: homme_avec_baton3_129
+  - first:
+      213: 1001789075738823720
+    second: homme_avec_baton3_130
+  - first:
+      213: -3334769511534870837
+    second: homme_avec_baton3_131
+  - first:
+      213: -8403670282734887913
+    second: homme_avec_baton3_132
+  - first:
+      213: 1741574006797028760
+    second: homme_avec_baton3_133
+  - first:
+      213: -389111840413843156
+    second: homme_avec_baton3_134
+  - first:
+      213: 859083526352729615
+    second: homme_avec_baton3_135
+  - first:
+      213: -2986641337306185232
+    second: homme_avec_baton3_136
+  - first:
+      213: -7987439229476013396
+    second: homme_avec_baton3_137
+  - first:
+      213: 4676033934390636822
+    second: homme_avec_baton3_138
+  - first:
+      213: 4554925754952824181
+    second: homme_avec_baton3_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: homme_avec_baton3_116
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 677
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c7f0a2809231480800000000000000
+      internalID: -8929748521103426533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_117
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 676
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfac3862a6eb1100800000000000000
+      internalID: 79911003617013689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_118
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 676
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace2d9aeeec1b71b0800000000000000
+      internalID: -5657896694396932406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_119
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 676
+        width: 92
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f38a4a3deea2e9c0800000000000000
+      internalID: -3899361993440984078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_120
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 656
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6560bdf5e571726f0800000000000000
+      internalID: -709572722185009578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_121
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 660
+        width: 127
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b39157c5d067be50800000000000000
+      internalID: 6825030231591588791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_122
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 485
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a0179e99e277d20800000000000000
+      internalID: 3276138492516698760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_123
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 485
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968e22c0ba460b100800000000000000
+      internalID: 121707875744802921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_124
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 485
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6df34c70faede60800000000000000
+      internalID: 7989015236893988577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_125
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 485
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c827830c4f83a90800000000000000
+      internalID: -7333842886754923406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_126
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 485
+        width: 160
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a141cec1bfc54e250800000000000000
+      internalID: 5973001239391900698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_127
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 485
+        width: 105
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8544b5b114749c20800000000000000
+      internalID: 3212320053633762703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_128
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 292
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e0c7ada16901310800000000000000
+      internalID: 1373762928426880641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_129
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 288
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7146954ffb98ad0800000000000000
+      internalID: -2699415445439244324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_130
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 290
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c874f4bd117ed00800000000000000
+      internalID: 1001789075738823720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_131
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 293
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce39213cc488b1d0800000000000000
+      internalID: -3334769511534870837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_132
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 273
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c9414076a206b80800000000000000
+      internalID: -8403670282734887913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_133
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 277
+        width: 125
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dc039f4505b2810800000000000000
+      internalID: 1741574006797028760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_134
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 101
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c210c3eb7d8999af0800000000000000
+      internalID: -389111840413843156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_135
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 101
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06f4a46ae31ceb00800000000000000
+      internalID: 859083526352729615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_136
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 101
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f10e5217815d86d0800000000000000
+      internalID: -2986641337306185232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_137
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 101
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaff0e075ae62190800000000000000
+      internalID: -7987439229476013396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_138
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 101
+        width: 160
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611b601b61c94e040800000000000000
+      internalID: 4676033934390636822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_baton3_139
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 101
+        width: 114
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575bd3257d8563f30800000000000000
+      internalID: 4554925754952824181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8634ade3e53312645ab4874f863f84e4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      homme_avec_baton3_0: 4923085077321600661
+      homme_avec_baton3_1: -4004654185732730282
+      homme_avec_baton3_10: -381822965502105561
+      homme_avec_baton3_100: 2448746370977305721
+      homme_avec_baton3_101: 2328341931598170914
+      homme_avec_baton3_102: 4246237271106395493
+      homme_avec_baton3_103: -9077234977157959396
+      homme_avec_baton3_104: -4950555499830801478
+      homme_avec_baton3_105: -2704888916058274655
+      homme_avec_baton3_106: 8553487354008788523
+      homme_avec_baton3_107: -4963295323003101749
+      homme_avec_baton3_108: -2700308959385598717
+      homme_avec_baton3_109: -986670361480600724
+      homme_avec_baton3_11: -3054709011784842636
+      homme_avec_baton3_110: -5582830290318587207
+      homme_avec_baton3_111: 3203346040345589251
+      homme_avec_baton3_112: 1216648601773121406
+      homme_avec_baton3_113: -6484526122433591347
+      homme_avec_baton3_114: 6995508875667377618
+      homme_avec_baton3_115: 687070021205927977
+      homme_avec_baton3_116: -8929748521103426533
+      homme_avec_baton3_117: 79911003617013689
+      homme_avec_baton3_118: -5657896694396932406
+      homme_avec_baton3_119: -3899361993440984078
+      homme_avec_baton3_12: -1610641133226732563
+      homme_avec_baton3_120: -709572722185009578
+      homme_avec_baton3_121: 6825030231591588791
+      homme_avec_baton3_122: 3276138492516698760
+      homme_avec_baton3_123: 121707875744802921
+      homme_avec_baton3_124: 7989015236893988577
+      homme_avec_baton3_125: -7333842886754923406
+      homme_avec_baton3_126: 5973001239391900698
+      homme_avec_baton3_127: 3212320053633762703
+      homme_avec_baton3_128: 1373762928426880641
+      homme_avec_baton3_129: -2699415445439244324
+      homme_avec_baton3_13: 3283420709256038589
+      homme_avec_baton3_130: 1001789075738823720
+      homme_avec_baton3_131: -3334769511534870837
+      homme_avec_baton3_132: -8403670282734887913
+      homme_avec_baton3_133: 1741574006797028760
+      homme_avec_baton3_134: -389111840413843156
+      homme_avec_baton3_135: 859083526352729615
+      homme_avec_baton3_136: -2986641337306185232
+      homme_avec_baton3_137: -7987439229476013396
+      homme_avec_baton3_138: 4676033934390636822
+      homme_avec_baton3_139: 4554925754952824181
+      homme_avec_baton3_14: -2118886454116672885
+      homme_avec_baton3_15: 5847529161871054899
+      homme_avec_baton3_16: -7128767025653302602
+      homme_avec_baton3_17: -4974946857232715409
+      homme_avec_baton3_18: 3612644585160433947
+      homme_avec_baton3_19: 3330272825832534591
+      homme_avec_baton3_2: -861207273380656342
+      homme_avec_baton3_20: -1939577123917706437
+      homme_avec_baton3_21: -6476367005987567051
+      homme_avec_baton3_22: -6836047727328322041
+      homme_avec_baton3_23: 92857093612326359
+      homme_avec_baton3_24: -1962541733862592297
+      homme_avec_baton3_25: 136200471308124658
+      homme_avec_baton3_26: 5113421830993421993
+      homme_avec_baton3_27: 6864307608618872486
+      homme_avec_baton3_28: -9085575560654748634
+      homme_avec_baton3_29: 2641614962453734109
+      homme_avec_baton3_3: -3697030334816935137
+      homme_avec_baton3_30: -8237785134554863458
+      homme_avec_baton3_31: 6570669975618778636
+      homme_avec_baton3_32: -2321866014306046238
+      homme_avec_baton3_33: -8389046908032144714
+      homme_avec_baton3_34: -8656916579018152206
+      homme_avec_baton3_35: 7395223183350316124
+      homme_avec_baton3_36: -1191629982318787740
+      homme_avec_baton3_37: -7469383514875417637
+      homme_avec_baton3_38: 6985316424800706567
+      homme_avec_baton3_39: -3770824951933414655
+      homme_avec_baton3_4: -9015146316063451422
+      homme_avec_baton3_40: -4643094492756802754
+      homme_avec_baton3_41: 2798535663469103407
+      homme_avec_baton3_42: -4073761934557340494
+      homme_avec_baton3_43: 4903856848954530020
+      homme_avec_baton3_44: 4342013485299103156
+      homme_avec_baton3_45: -2995549238643392643
+      homme_avec_baton3_46: 5022284720076011164
+      homme_avec_baton3_47: 5509857474227707700
+      homme_avec_baton3_48: -2616286503154534699
+      homme_avec_baton3_49: -2693012064541716628
+      homme_avec_baton3_5: 2779174156565531475
+      homme_avec_baton3_50: 1486084634532734642
+      homme_avec_baton3_51: -4866085043402442444
+      homme_avec_baton3_52: 4205601577054505073
+      homme_avec_baton3_53: -5342504742246997249
+      homme_avec_baton3_54: 8061432991344119191
+      homme_avec_baton3_55: 6559904753888971061
+      homme_avec_baton3_56: -6574823283630572752
+      homme_avec_baton3_57: -1351022623062735988
+      homme_avec_baton3_58: 5746372687391507047
+      homme_avec_baton3_59: 2938979644775622933
+      homme_avec_baton3_6: 5416281150974202752
+      homme_avec_baton3_60: 120583023717587548
+      homme_avec_baton3_61: -6981781570632992507
+      homme_avec_baton3_62: 3808436123944493918
+      homme_avec_baton3_63: -7377842474512290399
+      homme_avec_baton3_64: 22999307735807446
+      homme_avec_baton3_65: -7792716563668977628
+      homme_avec_baton3_66: -4327409301195854160
+      homme_avec_baton3_67: -2604846907013654622
+      homme_avec_baton3_68: 8790114981217118942
+      homme_avec_baton3_69: 5305723834791420853
+      homme_avec_baton3_7: 1989689185181082004
+      homme_avec_baton3_70: -5366845967350168757
+      homme_avec_baton3_71: -4135662172417372375
+      homme_avec_baton3_72: -7247512240711597522
+      homme_avec_baton3_73: 5099238921735259203
+      homme_avec_baton3_74: 4163690871235837684
+      homme_avec_baton3_75: -1608050759693321529
+      homme_avec_baton3_76: -8761539986226368545
+      homme_avec_baton3_77: -1717833631065067965
+      homme_avec_baton3_78: 3718482998217863828
+      homme_avec_baton3_79: -5064993570156885524
+      homme_avec_baton3_8: 6936704042852839444
+      homme_avec_baton3_80: 5107687552003007955
+      homme_avec_baton3_81: 9074824336469259577
+      homme_avec_baton3_82: 8001393393629476515
+      homme_avec_baton3_83: 5379746279430278394
+      homme_avec_baton3_84: 96108356828376719
+      homme_avec_baton3_85: 1620523039015721351
+      homme_avec_baton3_86: -3750036253384102229
+      homme_avec_baton3_87: -6361993531785476536
+      homme_avec_baton3_88: -2742343598686109252
+      homme_avec_baton3_89: -4778818225563039137
+      homme_avec_baton3_9: -2026097587746904586
+      homme_avec_baton3_90: 3873087515843612972
+      homme_avec_baton3_91: 2666286500038409522
+      homme_avec_baton3_92: -4506123782657084008
+      homme_avec_baton3_93: -6711644795742132382
+      homme_avec_baton3_94: -2673059532481454775
+      homme_avec_baton3_95: -7000170334960380554
+      homme_avec_baton3_96: 645283844681143902
+      homme_avec_baton3_97: -4176530863810126266
+      homme_avec_baton3_98: -3125491294573902964
+      homme_avec_baton3_99: -8369979057314489175
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

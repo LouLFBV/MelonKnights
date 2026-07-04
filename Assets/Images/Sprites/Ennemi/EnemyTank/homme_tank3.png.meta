@@ -1,0 +1,3770 @@
+fileFormatVersion: 2
+guid: be876f40a458e5b44b8e3595a7c98b3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3868753854361754578
+    second: homme_tank3_0
+  - first:
+      213: -3988569994852561061
+    second: homme_tank3_1
+  - first:
+      213: 7756712891875307477
+    second: homme_tank3_2
+  - first:
+      213: 5747024042421790198
+    second: homme_tank3_3
+  - first:
+      213: 389811727740972585
+    second: homme_tank3_4
+  - first:
+      213: 7645506410439161383
+    second: homme_tank3_5
+  - first:
+      213: -3213955075224493553
+    second: homme_tank3_6
+  - first:
+      213: -7193200473008930380
+    second: homme_tank3_7
+  - first:
+      213: 2523799633379517729
+    second: homme_tank3_8
+  - first:
+      213: 7825366905812193649
+    second: homme_tank3_9
+  - first:
+      213: -2684617749114092780
+    second: homme_tank3_10
+  - first:
+      213: -8499514011949888685
+    second: homme_tank3_11
+  - first:
+      213: 898255427130311606
+    second: homme_tank3_12
+  - first:
+      213: -3024820257693808631
+    second: homme_tank3_13
+  - first:
+      213: -7190038146027781779
+    second: homme_tank3_14
+  - first:
+      213: -925074828753268201
+    second: homme_tank3_15
+  - first:
+      213: -8068152078474749701
+    second: homme_tank3_16
+  - first:
+      213: -8454972377755739046
+    second: homme_tank3_17
+  - first:
+      213: -4842435552234212109
+    second: homme_tank3_18
+  - first:
+      213: 1791948515409846766
+    second: homme_tank3_19
+  - first:
+      213: 9127053771693647949
+    second: homme_tank3_20
+  - first:
+      213: -1719864448788018565
+    second: homme_tank3_21
+  - first:
+      213: 8491187170077592803
+    second: homme_tank3_22
+  - first:
+      213: -4232110855471635176
+    second: homme_tank3_23
+  - first:
+      213: 5626628983521012809
+    second: homme_tank3_24
+  - first:
+      213: 3106632905765872850
+    second: homme_tank3_25
+  - first:
+      213: -364439450492908944
+    second: homme_tank3_26
+  - first:
+      213: -5742692685253396793
+    second: homme_tank3_27
+  - first:
+      213: 3419072234595542048
+    second: homme_tank3_28
+  - first:
+      213: 6588816175205267050
+    second: homme_tank3_29
+  - first:
+      213: 1173033989944731719
+    second: homme_tank3_30
+  - first:
+      213: 1820221209626562892
+    second: homme_tank3_31
+  - first:
+      213: -3139871788393021995
+    second: homme_tank3_32
+  - first:
+      213: 3474121635205739427
+    second: homme_tank3_33
+  - first:
+      213: 4782698404629841598
+    second: homme_tank3_34
+  - first:
+      213: 4410360312662867847
+    second: homme_tank3_35
+  - first:
+      213: 3613679004483075965
+    second: homme_tank3_36
+  - first:
+      213: 1682788328169880053
+    second: homme_tank3_37
+  - first:
+      213: 50158222984671156
+    second: homme_tank3_38
+  - first:
+      213: 4940046645289617574
+    second: homme_tank3_39
+  - first:
+      213: 7156593580789168350
+    second: homme_tank3_40
+  - first:
+      213: -7423046470682377216
+    second: homme_tank3_41
+  - first:
+      213: -2731386638277465072
+    second: homme_tank3_42
+  - first:
+      213: 8997318731759218801
+    second: homme_tank3_43
+  - first:
+      213: 874220790649108446
+    second: homme_tank3_44
+  - first:
+      213: -8680063528181101971
+    second: homme_tank3_45
+  - first:
+      213: 770725666392906867
+    second: homme_tank3_46
+  - first:
+      213: 8665147174795880351
+    second: homme_tank3_47
+  - first:
+      213: -6485771592128325689
+    second: homme_tank3_48
+  - first:
+      213: -4470818079201316741
+    second: homme_tank3_49
+  - first:
+      213: 5541356229159662226
+    second: homme_tank3_50
+  - first:
+      213: -3193187034170077238
+    second: homme_tank3_51
+  - first:
+      213: -3191234393196357931
+    second: homme_tank3_52
+  - first:
+      213: 2408818396431652246
+    second: homme_tank3_53
+  - first:
+      213: 4416124453912986012
+    second: homme_tank3_54
+  - first:
+      213: 8495783170413807094
+    second: homme_tank3_55
+  - first:
+      213: 8310426057242215629
+    second: homme_tank3_56
+  - first:
+      213: -7146044732545180978
+    second: homme_tank3_57
+  - first:
+      213: -5490075152378406411
+    second: homme_tank3_58
+  - first:
+      213: -8646017526040114162
+    second: homme_tank3_59
+  - first:
+      213: -8081571357406622697
+    second: homme_tank3_60
+  - first:
+      213: 1509120641153006679
+    second: homme_tank3_61
+  - first:
+      213: -135259937094887326
+    second: homme_tank3_62
+  - first:
+      213: 4034633629715551786
+    second: homme_tank3_63
+  - first:
+      213: 273562055441861506
+    second: homme_tank3_64
+  - first:
+      213: -5924132051680313555
+    second: homme_tank3_65
+  - first:
+      213: -5658273288222564231
+    second: homme_tank3_66
+  - first:
+      213: 8808732770290060619
+    second: homme_tank3_67
+  - first:
+      213: -8573010675258087402
+    second: homme_tank3_68
+  - first:
+      213: -851032467483247281
+    second: homme_tank3_69
+  - first:
+      213: 7400650189598118062
+    second: homme_tank3_70
+  - first:
+      213: 5143392294905625464
+    second: homme_tank3_71
+  - first:
+      213: -8382735696842540868
+    second: homme_tank3_72
+  - first:
+      213: -673809095769918173
+    second: homme_tank3_73
+  - first:
+      213: 4412928757925001306
+    second: homme_tank3_74
+  - first:
+      213: 8842834923246684880
+    second: homme_tank3_75
+  - first:
+      213: 1525356199738518583
+    second: homme_tank3_76
+  - first:
+      213: 8073531847173686526
+    second: homme_tank3_77
+  - first:
+      213: 650015383502899253
+    second: homme_tank3_78
+  - first:
+      213: 1912344881463359107
+    second: homme_tank3_79
+  - first:
+      213: -5024608046447328164
+    second: homme_tank3_80
+  - first:
+      213: -1907705764877941702
+    second: homme_tank3_81
+  - first:
+      213: 7809330846997840818
+    second: homme_tank3_82
+  - first:
+      213: 5132145646267775741
+    second: homme_tank3_83
+  - first:
+      213: 9135096060250028621
+    second: homme_tank3_84
+  - first:
+      213: 375466530025107320
+    second: homme_tank3_85
+  - first:
+      213: 3251776992226101025
+    second: homme_tank3_86
+  - first:
+      213: 196968254917272458
+    second: homme_tank3_87
+  - first:
+      213: -3944693809334199594
+    second: homme_tank3_88
+  - first:
+      213: 993769913757306044
+    second: homme_tank3_89
+  - first:
+      213: -1767331622376778553
+    second: homme_tank3_90
+  - first:
+      213: 4204523528921253044
+    second: homme_tank3_91
+  - first:
+      213: -6322993663568141830
+    second: homme_tank3_92
+  - first:
+      213: 3471199496598611987
+    second: homme_tank3_93
+  - first:
+      213: 310075016578832409
+    second: homme_tank3_94
+  - first:
+      213: 4289471162401531268
+    second: homme_tank3_95
+  - first:
+      213: -2465154950835107552
+    second: homme_tank3_96
+  - first:
+      213: 6353257786367068065
+    second: homme_tank3_97
+  - first:
+      213: -4713042618199506618
+    second: homme_tank3_98
+  - first:
+      213: -8487710793936159711
+    second: homme_tank3_99
+  - first:
+      213: 997865460813362730
+    second: homme_tank3_100
+  - first:
+      213: -8985689393299621212
+    second: homme_tank3_101
+  - first:
+      213: -6070219091214029303
+    second: homme_tank3_102
+  - first:
+      213: 8667464642584744311
+    second: homme_tank3_103
+  - first:
+      213: -88106859690049684
+    second: homme_tank3_104
+  - first:
+      213: 8190012220515463850
+    second: homme_tank3_105
+  - first:
+      213: 5602265621118390192
+    second: homme_tank3_106
+  - first:
+      213: -5483613279883085926
+    second: homme_tank3_107
+  - first:
+      213: 3543944509729274363
+    second: homme_tank3_108
+  - first:
+      213: 3403583536074540930
+    second: homme_tank3_109
+  - first:
+      213: 1210123758120776131
+    second: homme_tank3_110
+  - first:
+      213: -1284128033713362702
+    second: homme_tank3_111
+  - first:
+      213: 1283417751722529011
+    second: homme_tank3_112
+  - first:
+      213: 6868197578776743987
+    second: homme_tank3_113
+  - first:
+      213: 6114710763328543808
+    second: homme_tank3_114
+  - first:
+      213: -5263302980334734930
+    second: homme_tank3_115
+  - first:
+      213: 7739797230616528476
+    second: homme_tank3_116
+  - first:
+      213: -8969933485867870113
+    second: homme_tank3_117
+  - first:
+      213: -6714932687439654482
+    second: homme_tank3_118
+  - first:
+      213: -5615966565538599439
+    second: homme_tank3_119
+  - first:
+      213: 5723541831993777603
+    second: homme_tank3_120
+  - first:
+      213: -8370472836777039319
+    second: homme_tank3_121
+  - first:
+      213: -3550294076122882570
+    second: homme_tank3_122
+  - first:
+      213: -1283016163927982061
+    second: homme_tank3_123
+  - first:
+      213: -8817713394989298896
+    second: homme_tank3_124
+  - first:
+      213: 5953025493954628966
+    second: homme_tank3_125
+  - first:
+      213: -4459252252632438499
+    second: homme_tank3_126
+  - first:
+      213: 2449379711026606310
+    second: homme_tank3_127
+  - first:
+      213: -284155896019221479
+    second: homme_tank3_128
+  - first:
+      213: 3486795189960187805
+    second: homme_tank3_129
+  - first:
+      213: -6744614894705865487
+    second: homme_tank3_130
+  - first:
+      213: -5802322069105571575
+    second: homme_tank3_131
+  - first:
+      213: 482862378487825420
+    second: homme_tank3_132
+  - first:
+      213: 645111484705526961
+    second: homme_tank3_133
+  - first:
+      213: 1189412826117788426
+    second: homme_tank3_134
+  - first:
+      213: -1743823724909725610
+    second: homme_tank3_135
+  - first:
+      213: -1972425609849101163
+    second: homme_tank3_136
+  - first:
+      213: 7896219673550349515
+    second: homme_tank3_137
+  - first:
+      213: 8034090126247610638
+    second: homme_tank3_138
+  - first:
+      213: 532697593200593737
+    second: homme_tank3_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: homme_tank3_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1884
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbd7ac022390b530800000000000000
+      internalID: 3868753854361754578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1881
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f0807d8b0c5a8c0800000000000000
+      internalID: -3988569994852561061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1881
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfabe0474165ab60800000000000000
+      internalID: 7756712891875307477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1881
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f52e24eae781cf40800000000000000
+      internalID: 5747024042421790198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1884
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e284973b3e86500800000000000000
+      internalID: 389811727740972585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1881
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726b23a929b4a1a60800000000000000
+      internalID: 7645506410439161383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_6
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1881
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f022e2923ecb563d0800000000000000
+      internalID: -3213955075224493553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1881
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b18120f74e9c2c90800000000000000
+      internalID: -7193200473008930380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1819
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125e8d71566560320800000000000000
+      internalID: 2523799633379517729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1818
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17198028db9499c60800000000000000
+      internalID: 7825366905812193649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1818
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413885281625ebad0800000000000000
+      internalID: -2684617749114092780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1822
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b854ad909ab0a80800000000000000
+      internalID: -8499514011949888685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1819
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b34ba34d8e377c00800000000000000
+      internalID: 898255427130311606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1818
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90841c6700ea506d0800000000000000
+      internalID: -3024820257693808631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1818
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d618180966ad73c90800000000000000
+      internalID: -7190038146027781779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_15
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1820
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712918138597923f0800000000000000
+      internalID: -925074828753268201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1753
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8dea87e6a280090800000000000000
+      internalID: -8068152078474749701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1753
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c11263b67e9aa80800000000000000
+      internalID: -8454972377755739046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1754
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f47b5585863cccb0800000000000000
+      internalID: -4842435552234212109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1757
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1eacc3ea74ed810800000000000000
+      internalID: 1791948515409846766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_20
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1753
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4860b35c0fc9ae70800000000000000
+      internalID: 9127053771693647949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1753
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aca246560d128e0800000000000000
+      internalID: -1719864448788018565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1754
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec44d13eb1c6d570800000000000000
+      internalID: 8491187170077592803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_23
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1757
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815e98189958445c0800000000000000
+      internalID: -4232110855471635176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_24
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1691
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cefa5df3dc51e40800000000000000
+      internalID: 5626628983521012809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1690
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4e6bb0b2afc1b20800000000000000
+      internalID: 3106632905765872850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1690
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a4b3b204041faf0800000000000000
+      internalID: -364439450492908944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_27
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1694
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6bc39cd6bdd40b0800000000000000
+      internalID: -5742692685253396793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_28
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1691
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024e774151cf27f20800000000000000
+      internalID: 3419072234595542048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_29
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1690
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66357df66d207b50800000000000000
+      internalID: 6588816175205267050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_30
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1690
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7486d18e234774010800000000000000
+      internalID: 1173033989944731719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_31
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1692
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c415c64db89b24910800000000000000
+      internalID: 1820221209626562892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1627
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd30948e3fec64d0800000000000000
+      internalID: -3139871788393021995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1627
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3ffe4783f863030800000000000000
+      internalID: 3474121635205739427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_34
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1563
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb60ac3fbde8f5240800000000000000
+      internalID: 4782698404629841598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_35
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1563
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f30c7565fb43d30800000000000000
+      internalID: 4410360312662867847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1498
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f308298ed562230800000000000000
+      internalID: 3613679004483075965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1498
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f93db491177a5710800000000000000
+      internalID: 1682788328169880053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1435
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfe09753a232b000800000000000000
+      internalID: 50158222984671156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_39
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1435
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8095a10429e8440800000000000000
+      internalID: 4940046645289617574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1370
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed877c8c1f3515360800000000000000
+      internalID: 7156593580789168350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1371
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00482cb509a0cf890800000000000000
+      internalID: -7423046470682377216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_42
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1371
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c2931f25a281ad0800000000000000
+      internalID: -2731386638277465072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_43
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1371
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170f97977b5ecdc70800000000000000
+      internalID: 8997318731759218801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_44
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1371
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7b6e16d2bd12c00800000000000000
+      internalID: 874220790649108446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_45
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1371
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a01f6c5383a8780800000000000000
+      internalID: -8680063528181101971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_46
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1371
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c10acf8ea22ba00800000000000000
+      internalID: 770725666392906867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_47
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1371
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9720301279c04870800000000000000
+      internalID: 8665147174795880351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_48
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1371
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c71fdc9919edf5a0800000000000000
+      internalID: -6485771592128325689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_49
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1371
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70bfc5f4a674f1c0800000000000000
+      internalID: -4470818079201316741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_50
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1371
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292b5fc812ad6ec40800000000000000
+      internalID: 5541356229159662226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_51
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1371
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfc8e68f458fa3d0800000000000000
+      internalID: -3193187034170077238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_52
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1371
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6958e2a3576b3d0800000000000000
+      internalID: -3191234393196357931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1307
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6951cbfa197dd6120800000000000000
+      internalID: 2408818396431652246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_54
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1307
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91466f0bc9394d30800000000000000
+      internalID: 4416124453912986012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_55
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1307
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5c149e7c517e570800000000000000
+      internalID: 8495783170413807094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_56
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1307
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc48212f770945370800000000000000
+      internalID: 8310426057242215629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_57
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1307
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecad7975d2624dc90800000000000000
+      internalID: -7146044732545180978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_58
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1307
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f959409cb55fc3b0800000000000000
+      internalID: -5490075152378406411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_59
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1307
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cc39e5edc230880800000000000000
+      internalID: -8646017526040114162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_60
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1307
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c8ece1bad78df80800000000000000
+      internalID: -8081571357406622697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_61
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1307
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c722b3a3971f410800000000000000
+      internalID: 1509120641153006679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_62
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1307
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2681e19cdc57f1ef0800000000000000
+      internalID: -135259937094887326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_63
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1307
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a265a0ae8e5edf730800000000000000
+      internalID: 4034633629715551786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_64
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1307
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b43a27d33ebc300800000000000000
+      internalID: 273562055441861506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_65
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1307
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fb611594149cda0800000000000000
+      internalID: -5924132051680313555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1242
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970a9655c66c971b0800000000000000
+      internalID: -5658273288222564231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_67
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1242
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d4b7ea8c7ee3a70800000000000000
+      internalID: 8808732770290060619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_68
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1242
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6182c9d663c860980800000000000000
+      internalID: -8573010675258087402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_69
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1242
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d3653da768034f0800000000000000
+      internalID: -851032467483247281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_70
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1242
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea05ce9132464b660800000000000000
+      internalID: 7400650189598118062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_71
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1242
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bb4569a00016740800000000000000
+      internalID: 5143392294905625464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_72
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1242
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8b6bf1c4a8aab80800000000000000
+      internalID: -8382735696842540868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_73
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1242
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325f438823626a6f0800000000000000
+      internalID: -673809095769918173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_74
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1242
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58b93b135fdd3d30800000000000000
+      internalID: 4412928757925001306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_75
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1242
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da8987e28f08ba70800000000000000
+      internalID: 8842834923246684880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_76
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1242
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73caa59c1672b2510800000000000000
+      internalID: 1525356199738518583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_77
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1242
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef447998072fa0070800000000000000
+      internalID: 8073531847173686526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_78
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1242
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538ca302c81550900800000000000000
+      internalID: 650015383502899253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_79
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1179
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386f8a3a9830a8a10800000000000000
+      internalID: 1912344881463359107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_80
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1179
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5400ff6a91054ab0800000000000000
+      internalID: -5024608046447328164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_81
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1179
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a344c7cd6b77685e0800000000000000
+      internalID: -1907705764877941702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_82
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1179
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b38ecc9701506c60800000000000000
+      internalID: 7809330846997840818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_83
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1179
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfabb55264b093740800000000000000
+      internalID: 5132145646267775741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_84
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1179
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4af54c877166ce70800000000000000
+      internalID: 9135096060250028621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_85
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1179
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fe13bd1dce53500800000000000000
+      internalID: 375466530025107320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_86
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1179
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127cc6e12f1a02d20800000000000000
+      internalID: 3251776992226101025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_87
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1179
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a836f529595cbb200800000000000000
+      internalID: 196968254917272458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_88
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1179
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dad3fa51e1a149c0800000000000000
+      internalID: -3944693809334199594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_89
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1179
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc89f9a8749acd00800000000000000
+      internalID: 993769913757306044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_90
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1179
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4daefc04d2977e0800000000000000
+      internalID: -1767331622376778553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_91
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1179
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b48f1f7fd7795a30800000000000000
+      internalID: 4204523528921253044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1114
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1a9fd73c63048a0800000000000000
+      internalID: -6322993663568141830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_93
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1115
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318664b0d8d2c2030800000000000000
+      internalID: 3471199496598611987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_94
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1116
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91897e0b59b9d4400800000000000000
+      internalID: 310075016578832409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_95
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1117
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485a93dab43478b30800000000000000
+      internalID: 4289471162401531268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_96
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1117
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0298d2712a20acdd0800000000000000
+      internalID: -2465154950835107552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_97
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1115
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7c4e2bb4e4b2850800000000000000
+      internalID: 6353257786367068065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1051
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64101f2a5b8e79eb0800000000000000
+      internalID: -4713042618199506618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_99
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1051
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cbf23b008953a80800000000000000
+      internalID: -8487710793936159711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_100
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1051
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a267965895129dd00800000000000000
+      internalID: 997865460813362730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_101
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1051
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa7162ea1b6c4380800000000000000
+      internalID: -8985689393299621212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_102
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1051
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ea46fd5ef32cba0800000000000000
+      internalID: -6070219091214029303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_103
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1051
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77195849b25094870800000000000000
+      internalID: 8667464642584744311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_104
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 986
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f36e5274bf6cef0800000000000000
+      internalID: -88106859690049684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_105
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 986
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2bee5d8b4c8a170800000000000000
+      internalID: 8190012220515463850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_106
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 986
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf052c76ee3fbd40800000000000000
+      internalID: 5602265621118390192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_107
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 986
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9734fe76ca46e3b0800000000000000
+      internalID: -5483613279883085926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_108
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 986
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9fb1641ce9e2130800000000000000
+      internalID: 3543944509729274363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_109
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 986
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287471f6135fb3f20800000000000000
+      internalID: 3403583536074540930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_110
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 923
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1bc0185293bc010800000000000000
+      internalID: 1210123758120776131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_111
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 923
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8e4606b5cdd2ee0800000000000000
+      internalID: -1284128033713362702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_112
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 923
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f01ad535ad9fc110800000000000000
+      internalID: 1283417751722529011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_113
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 923
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3309f220f4db05f50800000000000000
+      internalID: 6868197578776743987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_114
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 923
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c9478ca01dbd450800000000000000
+      internalID: 6114710763328543808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_115
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 923
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1b4e753ddf4f6b0800000000000000
+      internalID: -5263302980334734930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_116
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 790
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c564374f298496b60800000000000000
+      internalID: 7739797230616528476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_117
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 789
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58d6f3f405648380800000000000000
+      internalID: -8969933485867870113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_118
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 789
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1108a4c44cfc2a0800000000000000
+      internalID: -6714932687439654482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_119
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 790
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fde99ec9241012b0800000000000000
+      internalID: -5615966565538599439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_120
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 784
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdd319b8fa1e6f40800000000000000
+      internalID: 5723541831993777603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_121
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 788
+        width: 82
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a29d9bd4b16db80800000000000000
+      internalID: -8370472836777039319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_122
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 597
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd95881952dabec0800000000000000
+      internalID: -3550294076122882570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_123
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 595
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3100dfbb89fc13ee0800000000000000
+      internalID: -1283016163927982061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_124
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 597
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b8570b26031a580800000000000000
+      internalID: -8817713394989298896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_125
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 596
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d820275256d9250800000000000000
+      internalID: 5953025493954628966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_126
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 596
+        width: 76
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19abfdc3bd8d12c0800000000000000
+      internalID: -4459252252632438499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_127
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 596
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e03acbaed1fdf120800000000000000
+      internalID: 2449379711026606310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_128
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 404
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91401f4d7b97e0cf0800000000000000
+      internalID: -284155896019221479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_129
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 405
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f1e1e50c5936030800000000000000
+      internalID: 3486795189960187805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_130
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 403
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc8f3edc705662a0800000000000000
+      internalID: -6744614894705865487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_131
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 403
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9098d86f1d20a7fa0800000000000000
+      internalID: -5802322069105571575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_132
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 405
+        width: 71
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04ca2166c873b600800000000000000
+      internalID: 482862378487825420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_133
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 405
+        width: 90
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4d5663a75e3f800800000000000000
+      internalID: 645111484705526961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_134
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 211
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a035b00e9a4a18010800000000000000
+      internalID: 1189412826117788426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_135
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 209
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6587bd5bf81bcc7e0800000000000000
+      internalID: -1743823724909725610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_136
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 212
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594af03bb5980a4e0800000000000000
+      internalID: -1972425609849101163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_137
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 211
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc46b6605f1059d60800000000000000
+      internalID: 7896219673550349515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_138
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 212
+        width: 80
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0946744762de7f60800000000000000
+      internalID: 8034090126247610638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_tank3_139
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 210
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b4d6f73a5846700800000000000000
+      internalID: 532697593200593737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 13471ed81dc9abb4b99ea1dbdbc303b8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      homme_tank3_0: 3868753854361754578
+      homme_tank3_1: -3988569994852561061
+      homme_tank3_10: -2684617749114092780
+      homme_tank3_100: 997865460813362730
+      homme_tank3_101: -8985689393299621212
+      homme_tank3_102: -6070219091214029303
+      homme_tank3_103: 8667464642584744311
+      homme_tank3_104: -88106859690049684
+      homme_tank3_105: 8190012220515463850
+      homme_tank3_106: 5602265621118390192
+      homme_tank3_107: -5483613279883085926
+      homme_tank3_108: 3543944509729274363
+      homme_tank3_109: 3403583536074540930
+      homme_tank3_11: -8499514011949888685
+      homme_tank3_110: 1210123758120776131
+      homme_tank3_111: -1284128033713362702
+      homme_tank3_112: 1283417751722529011
+      homme_tank3_113: 6868197578776743987
+      homme_tank3_114: 6114710763328543808
+      homme_tank3_115: -5263302980334734930
+      homme_tank3_116: 7739797230616528476
+      homme_tank3_117: -8969933485867870113
+      homme_tank3_118: -6714932687439654482
+      homme_tank3_119: -5615966565538599439
+      homme_tank3_12: 898255427130311606
+      homme_tank3_120: 5723541831993777603
+      homme_tank3_121: -8370472836777039319
+      homme_tank3_122: -3550294076122882570
+      homme_tank3_123: -1283016163927982061
+      homme_tank3_124: -8817713394989298896
+      homme_tank3_125: 5953025493954628966
+      homme_tank3_126: -4459252252632438499
+      homme_tank3_127: 2449379711026606310
+      homme_tank3_128: -284155896019221479
+      homme_tank3_129: 3486795189960187805
+      homme_tank3_13: -3024820257693808631
+      homme_tank3_130: -6744614894705865487
+      homme_tank3_131: -5802322069105571575
+      homme_tank3_132: 482862378487825420
+      homme_tank3_133: 645111484705526961
+      homme_tank3_134: 1189412826117788426
+      homme_tank3_135: -1743823724909725610
+      homme_tank3_136: -1972425609849101163
+      homme_tank3_137: 7896219673550349515
+      homme_tank3_138: 8034090126247610638
+      homme_tank3_139: 532697593200593737
+      homme_tank3_14: -7190038146027781779
+      homme_tank3_15: -925074828753268201
+      homme_tank3_16: -8068152078474749701
+      homme_tank3_17: -8454972377755739046
+      homme_tank3_18: -4842435552234212109
+      homme_tank3_19: 1791948515409846766
+      homme_tank3_2: 7756712891875307477
+      homme_tank3_20: 9127053771693647949
+      homme_tank3_21: -1719864448788018565
+      homme_tank3_22: 8491187170077592803
+      homme_tank3_23: -4232110855471635176
+      homme_tank3_24: 5626628983521012809
+      homme_tank3_25: 3106632905765872850
+      homme_tank3_26: -364439450492908944
+      homme_tank3_27: -5742692685253396793
+      homme_tank3_28: 3419072234595542048
+      homme_tank3_29: 6588816175205267050
+      homme_tank3_3: 5747024042421790198
+      homme_tank3_30: 1173033989944731719
+      homme_tank3_31: 1820221209626562892
+      homme_tank3_32: -3139871788393021995
+      homme_tank3_33: 3474121635205739427
+      homme_tank3_34: 4782698404629841598
+      homme_tank3_35: 4410360312662867847
+      homme_tank3_36: 3613679004483075965
+      homme_tank3_37: 1682788328169880053
+      homme_tank3_38: 50158222984671156
+      homme_tank3_39: 4940046645289617574
+      homme_tank3_4: 389811727740972585
+      homme_tank3_40: 7156593580789168350
+      homme_tank3_41: -7423046470682377216
+      homme_tank3_42: -2731386638277465072
+      homme_tank3_43: 8997318731759218801
+      homme_tank3_44: 874220790649108446
+      homme_tank3_45: -8680063528181101971
+      homme_tank3_46: 770725666392906867
+      homme_tank3_47: 8665147174795880351
+      homme_tank3_48: -6485771592128325689
+      homme_tank3_49: -4470818079201316741
+      homme_tank3_5: 7645506410439161383
+      homme_tank3_50: 5541356229159662226
+      homme_tank3_51: -3193187034170077238
+      homme_tank3_52: -3191234393196357931
+      homme_tank3_53: 2408818396431652246
+      homme_tank3_54: 4416124453912986012
+      homme_tank3_55: 8495783170413807094
+      homme_tank3_56: 8310426057242215629
+      homme_tank3_57: -7146044732545180978
+      homme_tank3_58: -5490075152378406411
+      homme_tank3_59: -8646017526040114162
+      homme_tank3_6: -3213955075224493553
+      homme_tank3_60: -8081571357406622697
+      homme_tank3_61: 1509120641153006679
+      homme_tank3_62: -135259937094887326
+      homme_tank3_63: 4034633629715551786
+      homme_tank3_64: 273562055441861506
+      homme_tank3_65: -5924132051680313555
+      homme_tank3_66: -5658273288222564231
+      homme_tank3_67: 8808732770290060619
+      homme_tank3_68: -8573010675258087402
+      homme_tank3_69: -851032467483247281
+      homme_tank3_7: -7193200473008930380
+      homme_tank3_70: 7400650189598118062
+      homme_tank3_71: 5143392294905625464
+      homme_tank3_72: -8382735696842540868
+      homme_tank3_73: -673809095769918173
+      homme_tank3_74: 4412928757925001306
+      homme_tank3_75: 8842834923246684880
+      homme_tank3_76: 1525356199738518583
+      homme_tank3_77: 8073531847173686526
+      homme_tank3_78: 650015383502899253
+      homme_tank3_79: 1912344881463359107
+      homme_tank3_8: 2523799633379517729
+      homme_tank3_80: -5024608046447328164
+      homme_tank3_81: -1907705764877941702
+      homme_tank3_82: 7809330846997840818
+      homme_tank3_83: 5132145646267775741
+      homme_tank3_84: 9135096060250028621
+      homme_tank3_85: 375466530025107320
+      homme_tank3_86: 3251776992226101025
+      homme_tank3_87: 196968254917272458
+      homme_tank3_88: -3944693809334199594
+      homme_tank3_89: 993769913757306044
+      homme_tank3_9: 7825366905812193649
+      homme_tank3_90: -1767331622376778553
+      homme_tank3_91: 4204523528921253044
+      homme_tank3_92: -6322993663568141830
+      homme_tank3_93: 3471199496598611987
+      homme_tank3_94: 310075016578832409
+      homme_tank3_95: 4289471162401531268
+      homme_tank3_96: -2465154950835107552
+      homme_tank3_97: 6353257786367068065
+      homme_tank3_98: -4713042618199506618
+      homme_tank3_99: -8487710793936159711
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

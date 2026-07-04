@@ -28,7 +28,7 @@ public class UIPlayer : MonoBehaviour
     private int _coinAmount = 0;
 
     [Header("Audio Settings")]
-    [SerializeField] private AudioSource starAudioSource;
+    [SerializeField] private AudioSource coinAudioSource;
 
     private PlayerInput _playerInput;
 
@@ -92,7 +92,7 @@ public class UIPlayer : MonoBehaviour
 
     private void UpdateXpLevelText()
     {
-        xpLevelText.text = $"Niveau : {xpSystem.levelPlayer}";
+        xpLevelText.text = xpSystem.levelPlayer.ToString();
     }
 
     private void UpdateXpBar()
@@ -114,6 +114,7 @@ public class UIPlayer : MonoBehaviour
     {
         _coinAmount += coinAdded;
         UpdateCoinText();
+        coinAudioSource.PlayOneShot(coinAudioSource.clip);
     }
 
     private void UpdateCoinText()

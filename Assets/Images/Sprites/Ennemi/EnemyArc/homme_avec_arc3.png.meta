@@ -1,0 +1,3250 @@
+fileFormatVersion: 2
+guid: fa600d930a288964e9d8e842eb993367
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5005683760717012204
+    second: homme_avec_arc3_0
+  - first:
+      213: 8245536862302364963
+    second: homme_avec_arc3_1
+  - first:
+      213: -6500669551904096909
+    second: homme_avec_arc3_2
+  - first:
+      213: 6008236075153221007
+    second: homme_avec_arc3_3
+  - first:
+      213: -1815070946483374221
+    second: homme_avec_arc3_4
+  - first:
+      213: 5989356396079044342
+    second: homme_avec_arc3_5
+  - first:
+      213: 683516418952568999
+    second: homme_avec_arc3_6
+  - first:
+      213: -2335006377645809143
+    second: homme_avec_arc3_7
+  - first:
+      213: 2940409237066079822
+    second: homme_avec_arc3_8
+  - first:
+      213: 1446216798192132377
+    second: homme_avec_arc3_9
+  - first:
+      213: -8786907597805590855
+    second: homme_avec_arc3_10
+  - first:
+      213: 4016713096227839586
+    second: homme_avec_arc3_11
+  - first:
+      213: 5283277881071242861
+    second: homme_avec_arc3_12
+  - first:
+      213: -1905611770000468744
+    second: homme_avec_arc3_13
+  - first:
+      213: -2433327991205500981
+    second: homme_avec_arc3_14
+  - first:
+      213: 7446524996817570763
+    second: homme_avec_arc3_15
+  - first:
+      213: 2341144256818766980
+    second: homme_avec_arc3_16
+  - first:
+      213: 5467189246746464599
+    second: homme_avec_arc3_17
+  - first:
+      213: 1508297785364764490
+    second: homme_avec_arc3_18
+  - first:
+      213: 446374089219164276
+    second: homme_avec_arc3_19
+  - first:
+      213: 396290020676290114
+    second: homme_avec_arc3_20
+  - first:
+      213: -8328722728919802796
+    second: homme_avec_arc3_21
+  - first:
+      213: -4577475124140782476
+    second: homme_avec_arc3_22
+  - first:
+      213: -745068935984268263
+    second: homme_avec_arc3_23
+  - first:
+      213: -1449715544552951557
+    second: homme_avec_arc3_24
+  - first:
+      213: 5433560700446338698
+    second: homme_avec_arc3_25
+  - first:
+      213: -2699510576017365128
+    second: homme_avec_arc3_26
+  - first:
+      213: -2194121413102293616
+    second: homme_avec_arc3_27
+  - first:
+      213: -1198340696912350995
+    second: homme_avec_arc3_28
+  - first:
+      213: -2951227760536418084
+    second: homme_avec_arc3_29
+  - first:
+      213: 513493946202361634
+    second: homme_avec_arc3_30
+  - first:
+      213: 19435807377174374
+    second: homme_avec_arc3_31
+  - first:
+      213: -4757463229158748033
+    second: homme_avec_arc3_32
+  - first:
+      213: 8298211268294647417
+    second: homme_avec_arc3_33
+  - first:
+      213: 2633019164026065988
+    second: homme_avec_arc3_34
+  - first:
+      213: 8482748294118647609
+    second: homme_avec_arc3_35
+  - first:
+      213: -5816337177452429152
+    second: homme_avec_arc3_36
+  - first:
+      213: -8999970614484923157
+    second: homme_avec_arc3_37
+  - first:
+      213: -6541211021096475986
+    second: homme_avec_arc3_38
+  - first:
+      213: 6251343465525290102
+    second: homme_avec_arc3_39
+  - first:
+      213: 3907846671249034518
+    second: homme_avec_arc3_40
+  - first:
+      213: 317311496760123795
+    second: homme_avec_arc3_41
+  - first:
+      213: 5813164034090867307
+    second: homme_avec_arc3_42
+  - first:
+      213: -2879593036365447251
+    second: homme_avec_arc3_43
+  - first:
+      213: -6107606053613042353
+    second: homme_avec_arc3_44
+  - first:
+      213: 8682426243537586450
+    second: homme_avec_arc3_45
+  - first:
+      213: 8227211976173990375
+    second: homme_avec_arc3_46
+  - first:
+      213: 6713899423169428151
+    second: homme_avec_arc3_47
+  - first:
+      213: 2030413662156412166
+    second: homme_avec_arc3_48
+  - first:
+      213: -4515838680670759154
+    second: homme_avec_arc3_49
+  - first:
+      213: 6826142338650939466
+    second: homme_avec_arc3_50
+  - first:
+      213: -2788833170377373589
+    second: homme_avec_arc3_51
+  - first:
+      213: 8878279325435036406
+    second: homme_avec_arc3_52
+  - first:
+      213: -2295664016282236822
+    second: homme_avec_arc3_53
+  - first:
+      213: 3090269339359210491
+    second: homme_avec_arc3_54
+  - first:
+      213: 4280920147711490456
+    second: homme_avec_arc3_55
+  - first:
+      213: 8955665846105291616
+    second: homme_avec_arc3_56
+  - first:
+      213: -6877428834658218875
+    second: homme_avec_arc3_57
+  - first:
+      213: -6063552059083676788
+    second: homme_avec_arc3_58
+  - first:
+      213: -2698646059088736093
+    second: homme_avec_arc3_59
+  - first:
+      213: -3608176660204471314
+    second: homme_avec_arc3_60
+  - first:
+      213: 235707052073715786
+    second: homme_avec_arc3_61
+  - first:
+      213: -19176656041031658
+    second: homme_avec_arc3_62
+  - first:
+      213: -3683106626469634974
+    second: homme_avec_arc3_63
+  - first:
+      213: -7071453904440986550
+    second: homme_avec_arc3_64
+  - first:
+      213: 3015918241886755043
+    second: homme_avec_arc3_65
+  - first:
+      213: -7430611709046796964
+    second: homme_avec_arc3_66
+  - first:
+      213: -953009406946434432
+    second: homme_avec_arc3_67
+  - first:
+      213: -5767426040926826083
+    second: homme_avec_arc3_68
+  - first:
+      213: -5302147540844444653
+    second: homme_avec_arc3_69
+  - first:
+      213: 6191156119792701282
+    second: homme_avec_arc3_70
+  - first:
+      213: 1196368999935672265
+    second: homme_avec_arc3_71
+  - first:
+      213: -3060973320906597703
+    second: homme_avec_arc3_72
+  - first:
+      213: -6693795733781245548
+    second: homme_avec_arc3_73
+  - first:
+      213: -7898132046985129619
+    second: homme_avec_arc3_74
+  - first:
+      213: -6451621723285492440
+    second: homme_avec_arc3_75
+  - first:
+      213: -2854520875522077585
+    second: homme_avec_arc3_76
+  - first:
+      213: -4491582451610401585
+    second: homme_avec_arc3_77
+  - first:
+      213: 344910763679987150
+    second: homme_avec_arc3_78
+  - first:
+      213: -6101404654662704841
+    second: homme_avec_arc3_79
+  - first:
+      213: -834551607116705390
+    second: homme_avec_arc3_80
+  - first:
+      213: -1366347498480979213
+    second: homme_avec_arc3_81
+  - first:
+      213: -952442329933243099
+    second: homme_avec_arc3_82
+  - first:
+      213: 5860066306685046864
+    second: homme_avec_arc3_83
+  - first:
+      213: 1615511788912290004
+    second: homme_avec_arc3_84
+  - first:
+      213: 6700109017512063191
+    second: homme_avec_arc3_85
+  - first:
+      213: -175081122153868290
+    second: homme_avec_arc3_86
+  - first:
+      213: 8877232422898942161
+    second: homme_avec_arc3_87
+  - first:
+      213: -992552409073422310
+    second: homme_avec_arc3_88
+  - first:
+      213: 4247849907988087706
+    second: homme_avec_arc3_89
+  - first:
+      213: 7971986777176300971
+    second: homme_avec_arc3_90
+  - first:
+      213: -232742394261274371
+    second: homme_avec_arc3_91
+  - first:
+      213: 7766140583254446701
+    second: homme_avec_arc3_92
+  - first:
+      213: 3140243139912987650
+    second: homme_avec_arc3_93
+  - first:
+      213: 3794722763814127193
+    second: homme_avec_arc3_94
+  - first:
+      213: 5354110982368835608
+    second: homme_avec_arc3_95
+  - first:
+      213: 7466253511620107568
+    second: homme_avec_arc3_96
+  - first:
+      213: 4667561869474852454
+    second: homme_avec_arc3_97
+  - first:
+      213: -1811913629158535948
+    second: homme_avec_arc3_98
+  - first:
+      213: -7872450173403242337
+    second: homme_avec_arc3_99
+  - first:
+      213: 1088994919565817855
+    second: homme_avec_arc3_100
+  - first:
+      213: 4413096565504113670
+    second: homme_avec_arc3_101
+  - first:
+      213: -5155879492879119680
+    second: homme_avec_arc3_102
+  - first:
+      213: 3965947236982822471
+    second: homme_avec_arc3_103
+  - first:
+      213: -7621800454611273489
+    second: homme_avec_arc3_104
+  - first:
+      213: -943242489760390074
+    second: homme_avec_arc3_105
+  - first:
+      213: 2575347546281114887
+    second: homme_avec_arc3_106
+  - first:
+      213: 4056851519668930722
+    second: homme_avec_arc3_107
+  - first:
+      213: 3600273864564559398
+    second: homme_avec_arc3_108
+  - first:
+      213: -7863585861616334156
+    second: homme_avec_arc3_109
+  - first:
+      213: 780317709458069145
+    second: homme_avec_arc3_110
+  - first:
+      213: -1129378181378410161
+    second: homme_avec_arc3_111
+  - first:
+      213: 7952553373360885185
+    second: homme_avec_arc3_112
+  - first:
+      213: 2736933184465401774
+    second: homme_avec_arc3_113
+  - first:
+      213: 4355486280895732561
+    second: homme_avec_arc3_114
+  - first:
+      213: 6864366759163083893
+    second: homme_avec_arc3_115
+  - first:
+      213: -8217010066652601581
+    second: homme_avec_arc3_116
+  - first:
+      213: -4615432051121240665
+    second: homme_avec_arc3_117
+  - first:
+      213: 8100565103136062537
+    second: homme_avec_arc3_118
+  - first:
+      213: -3883687591350253466
+    second: homme_avec_arc3_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: homme_avec_arc3_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1292
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec9a7febd2c77540800000000000000
+      internalID: 5005683760717012204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1292
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325ebebe6180e6270800000000000000
+      internalID: 8245536862302364963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1228
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dfe8c0c7bf8c5a0800000000000000
+      internalID: -6500669551904096909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1228
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85e13a90ea816350800000000000000
+      internalID: 6008236075153221007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1163
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377f9b047929fc6e0800000000000000
+      internalID: -1815070946483374221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1163
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f65185c8e77e1350800000000000000
+      internalID: 5989356396079044342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1100
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0a0d5cf865c7900800000000000000
+      internalID: 683516418952568999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1100
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90266282214689fd0800000000000000
+      internalID: -2335006377645809143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1035
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ed9954f9e6ec820800000000000000
+      internalID: 2940409237066079822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1036
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911e17cf38ef11410800000000000000
+      internalID: 1446216798192132377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1036
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6ed964812ae0680800000000000000
+      internalID: -8786907597805590855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1036
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ed151974b3eb730800000000000000
+      internalID: 4016713096227839586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1036
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e0ee6ad39f15940800000000000000
+      internalID: 5283277881071242861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_13
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1036
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f491590138ed85e0800000000000000
+      internalID: -1905611770000468744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_14
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1036
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc76e2695151b3ed0800000000000000
+      internalID: -2433327991205500981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1036
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbc06ef70f575760800000000000000
+      internalID: 7446524996817570763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1036
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484e0a33c4a6d7020800000000000000
+      internalID: 2341144256818766980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_17
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1036
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751982c47ab5fdb40800000000000000
+      internalID: 5467189246746464599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_18
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1036
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47dc2038dc8ee410800000000000000
+      internalID: 1508297785364764490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_19
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1036
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478c8d08ed6d13600800000000000000
+      internalID: 446374089219164276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_20
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1036
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24641769ca7ef7500800000000000000
+      internalID: 396290020676290114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 972
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c53063ece6a6c80800000000000000
+      internalID: -8328722728919802796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 972
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cc66980aa8970c0800000000000000
+      internalID: -4577475124140782476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_23
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 972
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cba7110cbf8a5f0800000000000000
+      internalID: -745068935984268263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 972
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf03f85a46391ebe0800000000000000
+      internalID: -1449715544552951557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_25
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 972
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e60a73ba2e76b40800000000000000
+      internalID: 5433560700446338698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 972
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87723190f69698ad0800000000000000
+      internalID: -2699510576017365128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 972
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09da5f1233aec81e0800000000000000
+      internalID: -2194121413102293616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 972
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de035a83c73ae5fe0800000000000000
+      internalID: -1198340696912350995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_29
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 972
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd884f1fcf12b07d0800000000000000
+      internalID: -2951227760536418084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_30
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 972
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f84b1060c402700800000000000000
+      internalID: 513493946202361634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_31
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 972
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fa3aa83cc054000800000000000000
+      internalID: 19435807377174374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_32
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 972
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70920236681afdb0800000000000000
+      internalID: -4757463229158748033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_33
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 972
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e98d5ce2b292370800000000000000
+      internalID: 8298211268294647417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 907
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444d196bafc5a8420800000000000000
+      internalID: 2633019164026065988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 907
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9372ef541a6c8b570800000000000000
+      internalID: 8482748294118647609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_36
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 907
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0cc044728384fa0800000000000000
+      internalID: -5816337177452429152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_37
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 907
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec0ca6f86ea91380800000000000000
+      internalID: -8999970614484923157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_38
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 907
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2acaeab33f835a0800000000000000
+      internalID: -6541211021096475986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_39
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 907
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6742897c2cb31c650800000000000000
+      internalID: 6251343465525290102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_40
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 907
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dcd74c7d57b3630800000000000000
+      internalID: 3907846671249034518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_41
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 907
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391e8870021576400800000000000000
+      internalID: 317311496760123795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_42
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 907
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a1019b3e18ca050800000000000000
+      internalID: 5813164034090867307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_43
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 907
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafbfb1e361a908d0800000000000000
+      internalID: -2879593036365447251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_44
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 907
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f458e5a57ac6d3ba0800000000000000
+      internalID: -6107606053613042353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_45
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 907
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2194692caac2e7870800000000000000
+      internalID: 8682426243537586450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_46
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 907
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1b0b3e3bdec2270800000000000000
+      internalID: 8227211976173990375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_47
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 844
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bab6bf14ff8c2d50800000000000000
+      internalID: 6713899423169428151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_48
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 844
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605dee7d77a7d2c10800000000000000
+      internalID: 2030413662156412166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_49
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 844
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0796a755a48451c0800000000000000
+      internalID: -4515838680670759154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_50
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 844
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a402b816a445bbe50800000000000000
+      internalID: 6826142338650939466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_51
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 844
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6884d5e1031c49d0800000000000000
+      internalID: -2788833170377373589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_52
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 844
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f20041e10cf53b70800000000000000
+      internalID: 8878279325435036406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_53
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 844
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68c9d97db92420e0800000000000000
+      internalID: -2295664016282236822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_54
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 844
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb69c85797d2ea20800000000000000
+      internalID: 3090269339359210491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_55
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 844
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899f72c6132e86b30800000000000000
+      internalID: 4280920147711490456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_56
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 844
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b343c43aae84c70800000000000000
+      internalID: 8955665846105291616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 844
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c0b2eb9e67e80a0800000000000000
+      internalID: -6877428834658218875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_58
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 844
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83aa31478fe9dba0800000000000000
+      internalID: -6063552059083676788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_59
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 844
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0128115bb7c8ad0800000000000000
+      internalID: -2698646059088736093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_60
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 779
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb38a9c17e2dedc0800000000000000
+      internalID: -3608176660204471314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 780
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4888e5a056654300800000000000000
+      internalID: 235707052073715786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 781
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618c1b4deeedbbff0800000000000000
+      internalID: -19176656041031658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_63
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 782
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cd363890af2ecc0800000000000000
+      internalID: -3683106626469634974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_64
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 782
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44fe3cd3262ddd90800000000000000
+      internalID: -7071453904440986550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_65
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 780
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8d74779a1bad920800000000000000
+      internalID: 3015918241886755043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_66
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 716
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d486a050a21e890800000000000000
+      internalID: -7430611709046796964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 716
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0822a5f5efa36c2f0800000000000000
+      internalID: -953009406946434432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_68
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 716
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91183aa29cf5ffa0800000000000000
+      internalID: -5767426040926826083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_69
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 716
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314814157ecfa66b0800000000000000
+      internalID: -5302147540844444653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 716
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fca3550b76be550800000000000000
+      internalID: 6191156119792701282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 716
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf747d444b5a9010800000000000000
+      internalID: 1196368999935672265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_72
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 651
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba1a6c7bfc3585d0800000000000000
+      internalID: -3060973320906597703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_73
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 651
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49191f0de3cda13a0800000000000000
+      internalID: -6693795733781245548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_74
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 651
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d619256dfb2346290800000000000000
+      internalID: -7898132046985129619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_75
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 651
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82def5e893c3776a0800000000000000
+      internalID: -6451621723285492440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_76
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 651
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cc19a3364b268d0800000000000000
+      internalID: -2854520875522077585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_77
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 651
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc44264ce81baa1c0800000000000000
+      internalID: -4491582451610401585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_78
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 588
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5ba5c138e59c400800000000000000
+      internalID: 344910763679987150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_79
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 588
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7312aef0bc4735ba0800000000000000
+      internalID: -6101404654662704841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_80
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 588
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291d3172cb31b64f0800000000000000
+      internalID: -834551607116705390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_81
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 588
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f23c497032c90de0800000000000000
+      internalID: -1366347498480979213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_82
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 588
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d98474fbe38c2f0800000000000000
+      internalID: -952442329933243099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 588
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050923a0243235150800000000000000
+      internalID: 5860066306685046864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_84
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 493
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8a294a9637b6610800000000000000
+      internalID: 1615511788912290004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_85
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 493
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0b23917a19bfc50800000000000000
+      internalID: 6700109017512063191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_86
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 492
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef35423a5acf19df0800000000000000
+      internalID: -175081122153868290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_87
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 491
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0c873ead3423b70800000000000000
+      internalID: 8877232422898942161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_88
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 492
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10783cb7deb932f0800000000000000
+      internalID: -992552409073422310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_89
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 493
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a934ec83cf463fa30800000000000000
+      internalID: 4247849907988087706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_90
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 492
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad54b78cbf22ae60800000000000000
+      internalID: 7971986777176300971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_91
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 491
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df002e9860225ccf0800000000000000
+      internalID: -232742394261274371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_92
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 492
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6250a4b6bfd6cb60800000000000000
+      internalID: 7766140583254446701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_93
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 364
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204fede7f72649b20800000000000000
+      internalID: 3140243139912987650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_94
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 364
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956ca369f3099a430800000000000000
+      internalID: 3794722763814127193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_95
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 365
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818bc18329f9d4a40800000000000000
+      internalID: 5354110982368835608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_96
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 365
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d112bc2067d9760800000000000000
+      internalID: 7466253511620107568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_97
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 364
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ee43d5ac286c040800000000000000
+      internalID: 4667561869474852454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_98
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 364
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc015a772acad6e0800000000000000
+      internalID: -1811913629158535948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_99
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 364
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90665ef6407fb290800000000000000
+      internalID: -7872450173403242337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_100
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 364
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7fcee0c13ec1f00800000000000000
+      internalID: 1088994919565817855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_101
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 364
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c7e5ad1f77e3d30800000000000000
+      internalID: 4413096565504113670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_102
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 236
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca08321be2a278b0800000000000000
+      internalID: -5155879492879119680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_103
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 236
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7469d42efffd90730800000000000000
+      internalID: 3965947236982822471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_104
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 235
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8fbf95edce93690800000000000000
+      internalID: -7621800454611273489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_105
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 235
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644e6ccf3fde8e2f0800000000000000
+      internalID: -943242489760390074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_106
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 235
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d7245d2f87db320800000000000000
+      internalID: 2575347546281114887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_107
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 236
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8ce5886f4dc4830800000000000000
+      internalID: 4056851519668930722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_108
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 235
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e4e77310eb6f130800000000000000
+      internalID: 3600273864564559398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_109
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 235
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba0399625eeed290800000000000000
+      internalID: -7863585861616334156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_110
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 235
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996d13c82de34da00800000000000000
+      internalID: 780317709458069145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_111
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 108
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49fcd91784a350f0800000000000000
+      internalID: -1129378181378410161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_112
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 108
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd828c98252d5e60800000000000000
+      internalID: 7952553373360885185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_113
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 109
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7f90afa3a8bf520800000000000000
+      internalID: 2736933184465401774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_114
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 109
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b90e432bbc17c30800000000000000
+      internalID: 4355486280895732561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_115
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 108
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c3aefc231234f50800000000000000
+      internalID: 6864366759163083893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_116
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 108
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313ec5541e057fd80800000000000000
+      internalID: -8217010066652601581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_117
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 108
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a547fbc001b2ffb0800000000000000
+      internalID: -4615432051121240665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_118
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 108
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cb95cea0dfa6070800000000000000
+      internalID: 8100565103136062537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc3_119
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 108
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668c9fa56be5a1ac0800000000000000
+      internalID: -3883687591350253466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      homme_avec_arc3_0: 5005683760717012204
+      homme_avec_arc3_1: 8245536862302364963
+      homme_avec_arc3_10: -8786907597805590855
+      homme_avec_arc3_100: 1088994919565817855
+      homme_avec_arc3_101: 4413096565504113670
+      homme_avec_arc3_102: -5155879492879119680
+      homme_avec_arc3_103: 3965947236982822471
+      homme_avec_arc3_104: -7621800454611273489
+      homme_avec_arc3_105: -943242489760390074
+      homme_avec_arc3_106: 2575347546281114887
+      homme_avec_arc3_107: 4056851519668930722
+      homme_avec_arc3_108: 3600273864564559398
+      homme_avec_arc3_109: -7863585861616334156
+      homme_avec_arc3_11: 4016713096227839586
+      homme_avec_arc3_110: 780317709458069145
+      homme_avec_arc3_111: -1129378181378410161
+      homme_avec_arc3_112: 7952553373360885185
+      homme_avec_arc3_113: 2736933184465401774
+      homme_avec_arc3_114: 4355486280895732561
+      homme_avec_arc3_115: 6864366759163083893
+      homme_avec_arc3_116: -8217010066652601581
+      homme_avec_arc3_117: -4615432051121240665
+      homme_avec_arc3_118: 8100565103136062537
+      homme_avec_arc3_119: -3883687591350253466
+      homme_avec_arc3_12: 5283277881071242861
+      homme_avec_arc3_13: -1905611770000468744
+      homme_avec_arc3_14: -2433327991205500981
+      homme_avec_arc3_15: 7446524996817570763
+      homme_avec_arc3_16: 2341144256818766980
+      homme_avec_arc3_17: 5467189246746464599
+      homme_avec_arc3_18: 1508297785364764490
+      homme_avec_arc3_19: 446374089219164276
+      homme_avec_arc3_2: -6500669551904096909
+      homme_avec_arc3_20: 396290020676290114
+      homme_avec_arc3_21: -8328722728919802796
+      homme_avec_arc3_22: -4577475124140782476
+      homme_avec_arc3_23: -745068935984268263
+      homme_avec_arc3_24: -1449715544552951557
+      homme_avec_arc3_25: 5433560700446338698
+      homme_avec_arc3_26: -2699510576017365128
+      homme_avec_arc3_27: -2194121413102293616
+      homme_avec_arc3_28: -1198340696912350995
+      homme_avec_arc3_29: -2951227760536418084
+      homme_avec_arc3_3: 6008236075153221007
+      homme_avec_arc3_30: 513493946202361634
+      homme_avec_arc3_31: 19435807377174374
+      homme_avec_arc3_32: -4757463229158748033
+      homme_avec_arc3_33: 8298211268294647417
+      homme_avec_arc3_34: 2633019164026065988
+      homme_avec_arc3_35: 8482748294118647609
+      homme_avec_arc3_36: -5816337177452429152
+      homme_avec_arc3_37: -8999970614484923157
+      homme_avec_arc3_38: -6541211021096475986
+      homme_avec_arc3_39: 6251343465525290102
+      homme_avec_arc3_4: -1815070946483374221
+      homme_avec_arc3_40: 3907846671249034518
+      homme_avec_arc3_41: 317311496760123795
+      homme_avec_arc3_42: 5813164034090867307
+      homme_avec_arc3_43: -2879593036365447251
+      homme_avec_arc3_44: -6107606053613042353
+      homme_avec_arc3_45: 8682426243537586450
+      homme_avec_arc3_46: 8227211976173990375
+      homme_avec_arc3_47: 6713899423169428151
+      homme_avec_arc3_48: 2030413662156412166
+      homme_avec_arc3_49: -4515838680670759154
+      homme_avec_arc3_5: 5989356396079044342
+      homme_avec_arc3_50: 6826142338650939466
+      homme_avec_arc3_51: -2788833170377373589
+      homme_avec_arc3_52: 8878279325435036406
+      homme_avec_arc3_53: -2295664016282236822
+      homme_avec_arc3_54: 3090269339359210491
+      homme_avec_arc3_55: 4280920147711490456
+      homme_avec_arc3_56: 8955665846105291616
+      homme_avec_arc3_57: -6877428834658218875
+      homme_avec_arc3_58: -6063552059083676788
+      homme_avec_arc3_59: -2698646059088736093
+      homme_avec_arc3_6: 683516418952568999
+      homme_avec_arc3_60: -3608176660204471314
+      homme_avec_arc3_61: 235707052073715786
+      homme_avec_arc3_62: -19176656041031658
+      homme_avec_arc3_63: -3683106626469634974
+      homme_avec_arc3_64: -7071453904440986550
+      homme_avec_arc3_65: 3015918241886755043
+      homme_avec_arc3_66: -7430611709046796964
+      homme_avec_arc3_67: -953009406946434432
+      homme_avec_arc3_68: -5767426040926826083
+      homme_avec_arc3_69: -5302147540844444653
+      homme_avec_arc3_7: -2335006377645809143
+      homme_avec_arc3_70: 6191156119792701282
+      homme_avec_arc3_71: 1196368999935672265
+      homme_avec_arc3_72: -3060973320906597703
+      homme_avec_arc3_73: -6693795733781245548
+      homme_avec_arc3_74: -7898132046985129619
+      homme_avec_arc3_75: -6451621723285492440
+      homme_avec_arc3_76: -2854520875522077585
+      homme_avec_arc3_77: -4491582451610401585
+      homme_avec_arc3_78: 344910763679987150
+      homme_avec_arc3_79: -6101404654662704841
+      homme_avec_arc3_8: 2940409237066079822
+      homme_avec_arc3_80: -834551607116705390
+      homme_avec_arc3_81: -1366347498480979213
+      homme_avec_arc3_82: -952442329933243099
+      homme_avec_arc3_83: 5860066306685046864
+      homme_avec_arc3_84: 1615511788912290004
+      homme_avec_arc3_85: 6700109017512063191
+      homme_avec_arc3_86: -175081122153868290
+      homme_avec_arc3_87: 8877232422898942161
+      homme_avec_arc3_88: -992552409073422310
+      homme_avec_arc3_89: 4247849907988087706
+      homme_avec_arc3_9: 1446216798192132377
+      homme_avec_arc3_90: 7971986777176300971
+      homme_avec_arc3_91: -232742394261274371
+      homme_avec_arc3_92: 7766140583254446701
+      homme_avec_arc3_93: 3140243139912987650
+      homme_avec_arc3_94: 3794722763814127193
+      homme_avec_arc3_95: 5354110982368835608
+      homme_avec_arc3_96: 7466253511620107568
+      homme_avec_arc3_97: 4667561869474852454
+      homme_avec_arc3_98: -1811913629158535948
+      homme_avec_arc3_99: -7872450173403242337
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

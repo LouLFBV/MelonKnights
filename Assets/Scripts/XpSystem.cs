@@ -14,6 +14,7 @@ public class XpSystem : MonoBehaviour
         if (currentXp > maxXp)
         {
             currentXp -= maxXp;
+            levelPlayer++;
             OnLevelUp?.Invoke();
         }
         OnXpChanged?.Invoke();

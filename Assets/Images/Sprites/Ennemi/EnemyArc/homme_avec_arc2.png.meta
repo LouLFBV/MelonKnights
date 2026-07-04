@@ -1,0 +1,822 @@
+fileFormatVersion: 2
+guid: 71181df15e173544588e6dc40f0cd6be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4377174214895372448
+    second: homme_avec_arc2_0
+  - first:
+      213: 2069084045239177384
+    second: homme_avec_arc2_1
+  - first:
+      213: -8923773387318533943
+    second: homme_avec_arc2_2
+  - first:
+      213: -7241230001788259140
+    second: homme_avec_arc2_3
+  - first:
+      213: -3368584045403295866
+    second: homme_avec_arc2_4
+  - first:
+      213: 4815348285496845922
+    second: homme_avec_arc2_5
+  - first:
+      213: 7632239974241292309
+    second: homme_avec_arc2_6
+  - first:
+      213: -722682660961210360
+    second: homme_avec_arc2_7
+  - first:
+      213: -1556843067245885297
+    second: homme_avec_arc2_8
+  - first:
+      213: 8038599595968700674
+    second: homme_avec_arc2_9
+  - first:
+      213: 4105489572518550434
+    second: homme_avec_arc2_10
+  - first:
+      213: -7724038279728315403
+    second: homme_avec_arc2_11
+  - first:
+      213: 6028974574648011908
+    second: homme_avec_arc2_12
+  - first:
+      213: 7489290214412273580
+    second: homme_avec_arc2_13
+  - first:
+      213: -8064759806855956572
+    second: homme_avec_arc2_14
+  - first:
+      213: -852900632358222755
+    second: homme_avec_arc2_15
+  - first:
+      213: 4141711553643363545
+    second: homme_avec_arc2_16
+  - first:
+      213: 1992152422947079974
+    second: homme_avec_arc2_17
+  - first:
+      213: 4214430073321922032
+    second: homme_avec_arc2_18
+  - first:
+      213: -2416396340856819028
+    second: homme_avec_arc2_19
+  - first:
+      213: -7443510631561579869
+    second: homme_avec_arc2_20
+  - first:
+      213: -8173269666187285449
+    second: homme_avec_arc2_21
+  - first:
+      213: 2398637271631983062
+    second: homme_avec_arc2_22
+  - first:
+      213: 5221237338828933438
+    second: homme_avec_arc2_23
+  - first:
+      213: -750511086403229467
+    second: homme_avec_arc2_24
+  - first:
+      213: 7197388089245569359
+    second: homme_avec_arc2_25
+  - first:
+      213: -6854666216968221557
+    second: homme_avec_arc2_26
+  - first:
+      213: -770248713475237088
+    second: homme_avec_arc2_27
+  - first:
+      213: -694048936183684423
+    second: homme_avec_arc2_28
+  - first:
+      213: 863577132903928590
+    second: homme_avec_arc2_29
+  - first:
+      213: -8094972262310133875
+    second: homme_avec_arc2_30
+  - first:
+      213: -6821166502189574006
+    second: homme_avec_arc2_31
+  - first:
+      213: -2201045103901437320
+    second: homme_avec_arc2_32
+  - first:
+      213: 7810544786250692067
+    second: homme_avec_arc2_33
+  - first:
+      213: 4775540249543144747
+    second: homme_avec_arc2_34
+  - first:
+      213: -1757257042498875191
+    second: homme_avec_arc2_35
+  - first:
+      213: 7644589653272344070
+    second: homme_avec_arc2_36
+  - first:
+      213: -707175580215566210
+    second: homme_avec_arc2_37
+  - first:
+      213: -601412555901572140
+    second: homme_avec_arc2_38
+  - first:
+      213: 5518296626254624959
+    second: homme_avec_arc2_39
+  - first:
+      213: 8494030256970648029
+    second: homme_avec_arc2_40
+  - first:
+      213: -231874176578365352
+    second: homme_avec_arc2_41
+  - first:
+      213: 8133780036778338194
+    second: homme_avec_arc2_42
+  - first:
+      213: -8761193418666177074
+    second: homme_avec_arc2_43
+  - first:
+      213: 6800720927901328424
+    second: homme_avec_arc2_44
+  - first:
+      213: -477131431919169035
+    second: homme_avec_arc2_45
+  - first:
+      213: -8155250236533070174
+    second: homme_avec_arc2_46
+  - first:
+      213: -1904190747498445081
+    second: homme_avec_arc2_47
+  - first:
+      213: -1930386532236149292
+    second: homme_avec_arc2_48
+  - first:
+      213: 4448742899514865942
+    second: homme_avec_arc2_49
+  - first:
+      213: -5378052737941829025
+    second: homme_avec_arc2_50
+  - first:
+      213: -8293300279000969681
+    second: homme_avec_arc2_51
+  - first:
+      213: -2474696324709322709
+    second: homme_avec_arc2_52
+  - first:
+      213: 6236255100060616983
+    second: homme_avec_arc2_53
+  - first:
+      213: 4741653345491849741
+    second: homme_avec_arc2_54
+  - first:
+      213: 6868313949300060660
+    second: homme_avec_arc2_55
+  - first:
+      213: 2372847509420421556
+    second: homme_avec_arc2_56
+  - first:
+      213: 8820855007238223570
+    second: homme_avec_arc2_57
+  - first:
+      213: -2825986810843012187
+    second: homme_avec_arc2_58
+  - first:
+      213: 3387226298492059462
+    second: homme_avec_arc2_59
+  - first:
+      213: 1795910876163985745
+    second: homme_avec_arc2_60
+  - first:
+      213: 4288025617523908403
+    second: homme_avec_arc2_61
+  - first:
+      213: 41395180439390693
+    second: homme_avec_arc2_62
+  - first:
+      213: -6795618477474302369
+    second: homme_avec_arc2_63
+  - first:
+      213: -4294582365689516939
+    second: homme_avec_arc2_64
+  - first:
+      213: -3402362840354862107
+    second: homme_avec_arc2_65
+  - first:
+      213: 3556964152235618627
+    second: homme_avec_arc2_66
+  - first:
+      213: 365237787251054716
+    second: homme_avec_arc2_67
+  - first:
+      213: -5612546297259456073
+    second: homme_avec_arc2_68
+  - first:
+      213: -8234536648294271965
+    second: homme_avec_arc2_69
+  - first:
+      213: -6593087006965108804
+    second: homme_avec_arc2_70
+  - first:
+      213: 374670804427612947
+    second: homme_avec_arc2_71
+  - first:
+      213: -2879380790720657801
+    second: homme_avec_arc2_72
+  - first:
+      213: -5986095534656339062
+    second: homme_avec_arc2_73
+  - first:
+      213: 6349535519716115510
+    second: homme_avec_arc2_74
+  - first:
+      213: -154339267854758174
+    second: homme_avec_arc2_75
+  - first:
+      213: 1521821989437022438
+    second: homme_avec_arc2_76
+  - first:
+      213: -894334942301074084
+    second: homme_avec_arc2_77
+  - first:
+      213: 3876529077790106719
+    second: homme_avec_arc2_78
+  - first:
+      213: 6798014041313303170
+    second: homme_avec_arc2_79
+  - first:
+      213: 5712984472033474832
+    second: homme_avec_arc2_80
+  - first:
+      213: 6774486447596115828
+    second: homme_avec_arc2_81
+  - first:
+      213: 4684405658448620071
+    second: homme_avec_arc2_82
+  - first:
+      213: 7094809379650872921
+    second: homme_avec_arc2_83
+  - first:
+      213: 2463141787385890430
+    second: homme_avec_arc2_84
+  - first:
+      213: -4474699619081823641
+    second: homme_avec_arc2_85
+  - first:
+      213: -6367885241763096851
+    second: homme_avec_arc2_86
+  - first:
+      213: 8532962596152021429
+    second: homme_avec_arc2_87
+  - first:
+      213: 7606939905737850988
+    second: homme_avec_arc2_88
+  - first:
+      213: 7075944330607947166
+    second: homme_avec_arc2_89
+  - first:
+      213: 1835582763938933939
+    second: homme_avec_arc2_90
+  - first:
+      213: 205718979203652976
+    second: homme_avec_arc2_91
+  - first:
+      213: -6316334393537255713
+    second: homme_avec_arc2_92
+  - first:
+      213: -2059203524425194287
+    second: homme_avec_arc2_93
+  - first:
+      213: 5343609291208158124
+    second: homme_avec_arc2_94
+  - first:
+      213: -4050760914299297491
+    second: homme_avec_arc2_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: homme_avec_arc2_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1348
+        width: 39
+        height: 50
+      alignment: 9
+      pivot: {x: 0.40708494, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a886d6d1c8debc30800000000000000
+      internalID: 4377174214895372448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1348
+        width: 46
+        height: 49
+      alignment: 9
+      pivot: {x: 0.38899696, y: 0.47310716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0d8e60afcd6bc10800000000000000
+      internalID: 2069084045239177384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1348
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4333307, y: 0.41764322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c06bc86263682480800000000000000
+      internalID: -8923773387318533943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_3
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1346
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.41096622, y: 0.3674227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb47286ddabf18b90800000000000000
+      internalID: -7241230001788259140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_4
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1347
+        width: 46
+        height: 33
+      alignment: 9
+      pivot: {x: 0.34602755, y: 1.0041282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f20b188a26041d0800000000000000
+      internalID: -3368584045403295866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_5
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1346
+        width: 47
+        height: 38
+      alignment: 9
+      pivot: {x: 0.37033147, y: 1.2585578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26663dab0cd83d240800000000000000
+      internalID: 4815348285496845922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_12
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1220
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ca1c9ce683ba350800000000000000
+      internalID: 6028974574648011908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1220
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca74ad125cd4fe760800000000000000
+      internalID: 7489290214412273580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1156
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7b0814fa7341090800000000000000
+      internalID: -8064759806855956572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1156
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54059bc463e924f0800000000000000
+      internalID: -852900632358222755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1092
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc3b0dd6b05a7930800000000000000
+      internalID: 4141711553643363545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1092
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627c134e21c85ab10800000000000000
+      internalID: 1992152422947079974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1028
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd931b92d9ac7a30800000000000000
+      internalID: 4214430073321922032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: homme_avec_arc2_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1028
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2fca2a45c377ed0800000000000000
+      internalID: -2416396340856819028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1aa492f45e600b6429875212ce189348
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      homme_avec_arc2_0: 4377174214895372448
+      homme_avec_arc2_1: 2069084045239177384
+      homme_avec_arc2_10: 4105489572518550434
+      homme_avec_arc2_11: -7724038279728315403
+      homme_avec_arc2_12: 6028974574648011908
+      homme_avec_arc2_13: 7489290214412273580
+      homme_avec_arc2_14: -8064759806855956572
+      homme_avec_arc2_15: -852900632358222755
+      homme_avec_arc2_16: 4141711553643363545
+      homme_avec_arc2_17: 1992152422947079974
+      homme_avec_arc2_18: 4214430073321922032
+      homme_avec_arc2_19: -2416396340856819028
+      homme_avec_arc2_2: -8923773387318533943
+      homme_avec_arc2_20: -7443510631561579869
+      homme_avec_arc2_21: -8173269666187285449
+      homme_avec_arc2_22: 2398637271631983062
+      homme_avec_arc2_23: 5221237338828933438
+      homme_avec_arc2_24: -750511086403229467
+      homme_avec_arc2_25: 7197388089245569359
+      homme_avec_arc2_26: -6854666216968221557
+      homme_avec_arc2_27: -770248713475237088
+      homme_avec_arc2_28: -694048936183684423
+      homme_avec_arc2_29: 863577132903928590
+      homme_avec_arc2_3: -7241230001788259140
+      homme_avec_arc2_30: -8094972262310133875
+      homme_avec_arc2_31: -6821166502189574006
+      homme_avec_arc2_32: -2201045103901437320
+      homme_avec_arc2_33: 7810544786250692067
+      homme_avec_arc2_34: 4775540249543144747
+      homme_avec_arc2_35: -1757257042498875191
+      homme_avec_arc2_36: 7644589653272344070
+      homme_avec_arc2_37: -707175580215566210
+      homme_avec_arc2_38: -601412555901572140
+      homme_avec_arc2_39: 5518296626254624959
+      homme_avec_arc2_4: -3368584045403295866
+      homme_avec_arc2_40: 8494030256970648029
+      homme_avec_arc2_41: -231874176578365352
+      homme_avec_arc2_42: 8133780036778338194
+      homme_avec_arc2_43: -8761193418666177074
+      homme_avec_arc2_44: 6800720927901328424
+      homme_avec_arc2_45: -477131431919169035
+      homme_avec_arc2_46: -8155250236533070174
+      homme_avec_arc2_47: -1904190747498445081
+      homme_avec_arc2_48: -1930386532236149292
+      homme_avec_arc2_49: 4448742899514865942
+      homme_avec_arc2_5: 4815348285496845922
+      homme_avec_arc2_50: -5378052737941829025
+      homme_avec_arc2_51: -8293300279000969681
+      homme_avec_arc2_52: -2474696324709322709
+      homme_avec_arc2_53: 6236255100060616983
+      homme_avec_arc2_54: 4741653345491849741
+      homme_avec_arc2_55: 6868313949300060660
+      homme_avec_arc2_56: 2372847509420421556
+      homme_avec_arc2_57: 8820855007238223570
+      homme_avec_arc2_58: -2825986810843012187
+      homme_avec_arc2_59: 3387226298492059462
+      homme_avec_arc2_6: 7632239974241292309
+      homme_avec_arc2_60: 1795910876163985745
+      homme_avec_arc2_61: 4288025617523908403
+      homme_avec_arc2_62: 41395180439390693
+      homme_avec_arc2_63: -6795618477474302369
+      homme_avec_arc2_64: -4294582365689516939
+      homme_avec_arc2_65: -3402362840354862107
+      homme_avec_arc2_66: 3556964152235618627
+      homme_avec_arc2_67: 365237787251054716
+      homme_avec_arc2_68: -5612546297259456073
+      homme_avec_arc2_69: -8234536648294271965
+      homme_avec_arc2_7: -722682660961210360
+      homme_avec_arc2_70: -6593087006965108804
+      homme_avec_arc2_71: 374670804427612947
+      homme_avec_arc2_72: -2879380790720657801
+      homme_avec_arc2_73: -5986095534656339062
+      homme_avec_arc2_74: 6349535519716115510
+      homme_avec_arc2_75: -154339267854758174
+      homme_avec_arc2_76: 1521821989437022438
+      homme_avec_arc2_77: -894334942301074084
+      homme_avec_arc2_78: 3876529077790106719
+      homme_avec_arc2_79: 6798014041313303170
+      homme_avec_arc2_8: -1556843067245885297
+      homme_avec_arc2_80: 5712984472033474832
+      homme_avec_arc2_81: 6774486447596115828
+      homme_avec_arc2_82: 4684405658448620071
+      homme_avec_arc2_83: 7094809379650872921
+      homme_avec_arc2_84: 2463141787385890430
+      homme_avec_arc2_85: -4474699619081823641
+      homme_avec_arc2_86: -6367885241763096851
+      homme_avec_arc2_87: 8532962596152021429
+      homme_avec_arc2_88: 7606939905737850988
+      homme_avec_arc2_89: 7075944330607947166
+      homme_avec_arc2_9: 8038599595968700674
+      homme_avec_arc2_90: 1835582763938933939
+      homme_avec_arc2_91: 205718979203652976
+      homme_avec_arc2_92: -6316334393537255713
+      homme_avec_arc2_93: -2059203524425194287
+      homme_avec_arc2_94: 5343609291208158124
+      homme_avec_arc2_95: -4050760914299297491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
