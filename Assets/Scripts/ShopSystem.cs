@@ -125,8 +125,8 @@ public class ShopSystem : MonoBehaviour
             return false;
         }
 
-        bool success = UIPlayer.Instance.SpendCoin(item.cost);
-        if (!success) return false;
+        //bool success = UIPlayer.Instance.SpendCoin(item.cost);
+        //if (!success) return false;
 
         Debug.Log($"Achat réussi : {item.turretName} (-{item.cost} pièces)");
 

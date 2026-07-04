@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -16,6 +17,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private HealthSystem healthSystem;
     [SerializeField] private XpSystem xpSystem;
     [SerializeField] private PlayerAttack playerAttack;
+
+
+    [Header("Weapon Visual")]
+    [SerializeField] private WeaponVisual[] weaponVisuals;
+    private Dictionary<WeaponType, WeaponVisual> visuals;
 
     private WeaponVisual currentWeaponVisual;
 
@@ -52,6 +58,13 @@ public class PlayerController : MonoBehaviour
 
         // On récupère l'action d'annulation (Vérifie bien le nom dans ton Input Action Asset, souvent c'est "Cancel")
         cancelAction = _playerInput.actions["Cancel"];
+
+        visuals = new Dictionary<WeaponType, WeaponVisual>();
+
+        foreach (WeaponVisual visual in weaponVisuals)
+        {
+            visuals.Add(visual.weaponType, visual);
+        }
     }
 
     void Start()
@@ -100,12 +113,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void EquipWeapon(WeaponVisual weapon)
+    public void EquipWeapon(WeaponType weaponType)
     {
+        Debug.Log($"EquipWeapon called with weaponType: {weaponType}");
         if (currentWeaponVisual != null)
             currentWeaponVisual.gameObject.SetActive(false);
 
-        currentWeaponVisual = weapon;
+        currentWeaponVisual = visuals[weaponType];
 
         currentWeaponVisual.gameObject.SetActive(true);
         currentWeaponVisual.SetDirection(_lastDirection);

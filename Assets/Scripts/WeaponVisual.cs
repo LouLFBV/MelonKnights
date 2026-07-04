@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class WeaponVisual : MonoBehaviour
 {
+    public WeaponType weaponType;
     [SerializeField] private GameObject visualForward;
     [SerializeField] private GameObject visualBack;
     [SerializeField] private GameObject visualLeft;

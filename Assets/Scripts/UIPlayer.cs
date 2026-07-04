@@ -22,10 +22,15 @@ public class UIPlayer : MonoBehaviour
     [SerializeField] private XpSystem xpSystem;
 
 
-
     [Header("Coins Settings")]
     [SerializeField] private TextMeshProUGUI coinText;
     private int _coinAmount = 0;
+
+
+    [Header("Weapon Icon Settings")]
+    [SerializeField] private Image iconWeapon;
+    [SerializeField] private PlayerAttack playerAttack;
+
 
     [Header("Audio Settings")]
     [SerializeField] private AudioSource coinAudioSource;
@@ -69,6 +74,11 @@ public class UIPlayer : MonoBehaviour
             xpSystem.OnXpChanged += UpdateXpBar;
             xpSystem.OnLevelUp += UpdateXpLevelText;
         }
+
+        if (playerAttack != null)
+        {
+            playerAttack.OnWeaponEquipped += UpdateIconWeapon;
+        }
     }
 
     private void OnDisable()
@@ -87,6 +97,19 @@ public class UIPlayer : MonoBehaviour
         {
             xpSystem.OnXpChanged -= UpdateXpBar;
             xpSystem.OnLevelUp -= UpdateXpLevelText;
+        }
+
+        if (playerAttack != null)
+        {
+            playerAttack.OnWeaponEquipped -= UpdateIconWeapon;
+        }
+    }
+
+    private void UpdateIconWeapon(WeaponSO weaponSO)
+    {
+        if (weaponSO != null && iconWeapon != null)
+        {
+            iconWeapon.sprite = weaponSO.icon;
         }
     }
 

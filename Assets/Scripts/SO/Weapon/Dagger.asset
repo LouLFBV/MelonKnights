@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa65ef0dd820f941b7fe25995e4f12f, type: 3}
+  m_Name: Dagger
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
+  weaponName: 'Dague '
+  icon: {fileID: -5968089155523183291, guid: bc3c4e1a333cb3241896a413b6b8d8d8, type: 3}
+  damage: 0
+  attackCooldown: 0
+  attackRange: 0
+  animator: {fileID: 0}
+  visualPrefab: {fileID: 0}
+  weaponType: 1
