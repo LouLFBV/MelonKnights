@@ -19,9 +19,6 @@ public class ShopSystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI detailPriceText;
     [SerializeField] private Button buyButton;
 
-    [Header("Affichage des pièces du joueur")]
-    [SerializeField] private TextMeshProUGUI currentCoinText;
-
     private TurretShopItem _selectedItem;
 
     private void Start()
@@ -35,10 +32,6 @@ public class ShopSystem : MonoBehaviour
             buyButton.onClick.AddListener(OnBuyButtonClicked);
     }
 
-    private void OnEnable()
-    {
-        RefreshCoinDisplay();
-    }
 
     private void AssignItemsToSlots()
     {
@@ -58,7 +51,6 @@ public class ShopSystem : MonoBehaviour
 
     private void Update()
     {
-        RefreshCoinDisplay();
 
         if (_selectedItem != null && buyButton != null)
         {
@@ -85,11 +77,6 @@ public class ShopSystem : MonoBehaviour
             buyButton.interactable = GetPlayerCoins() >= item.cost;
     }
 
-    private void RefreshCoinDisplay()
-    {
-        if (currentCoinText != null)
-            currentCoinText.text = GetPlayerCoins().ToString();
-    }
 
     private int GetPlayerCoins()
     {
@@ -118,12 +105,10 @@ public class ShopSystem : MonoBehaviour
         if (!success) return false;
 
         Debug.Log($"Achat réussi : {item.turretName} (-{item.cost} pièces)");
-
         if (InventoryBar.Instance != null)
             InventoryBar.Instance.AddTurretSlot(item);
 
-        // TODO : logique de placement de la tourelle (ex: activer un mode "fantôme"
-        // qui suit la souris jusqu'à ce que le joueur clique sur une case valide)
+        
 
         return true;
     }
