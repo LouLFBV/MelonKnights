@@ -19,5 +19,6 @@ public enum WeaponType
 {
     Sword,
     Dagger,
-    Staff
+    Staff,
+    Outil
 }

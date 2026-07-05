@@ -23,7 +23,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private WeaponVisual[] weaponVisuals;
     private Dictionary<WeaponType, WeaponVisual> visuals;
 
+
+
     private WeaponVisual currentWeaponVisual;
+    public bool outilEquipped = false;
 
 
     public XpSystem XpSystem => xpSystem;
@@ -117,6 +120,15 @@ public class PlayerController : MonoBehaviour
     public void EquipWeapon(WeaponType weaponType)
     {
         Debug.Log($"EquipWeapon called with weaponType: {weaponType}");
+
+        if (weaponType == WeaponType.Outil)
+        {
+            outilEquipped = true;
+        }
+        else
+        {
+            outilEquipped = false;
+        }
         if (currentWeaponVisual != null)
             currentWeaponVisual.gameObject.SetActive(false);
 

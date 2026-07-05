@@ -110,9 +110,12 @@ public class UIPlayer : MonoBehaviour
     {
         if (weaponSO != null)
         {
-            swordVisual.SetActive(false);
-            daggerVisual.SetActive(false);
-            staffVisual.SetActive(false);
+            if (weaponSO.weaponType != WeaponType.Outil)
+            {
+                swordVisual.SetActive(false);
+                daggerVisual.SetActive(false);
+                staffVisual.SetActive(false);
+            }
 
             switch (weaponSO.weaponType)
             {
@@ -124,6 +127,8 @@ public class UIPlayer : MonoBehaviour
                     break;
                 case WeaponType.Staff:
                     staffVisual.SetActive(true);
+                    break;
+                case WeaponType.Outil:
                     break;
             }
         }

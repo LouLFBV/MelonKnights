@@ -7,6 +7,11 @@ public class InventoryBar : MonoBehaviour
 {
     public static InventoryBar Instance { get; private set; }
 
+    [Header("Équipement de base")]
+    [SerializeField] private WeaponSO defaultTool;   // Ton outil (ex: Pioche)
+    [SerializeField] private WeaponSO defaultWeapon; // Ton arme (ex: Épée)
+    [SerializeField] private PlayerAttack playerAttack; // Le script du joueur pour l'équiper
+
     [Header("Slots fixes (Outil, Arme...) déjà présents dans l'UI")]
     [SerializeField] private int fixedSlotCount = 2;
 
@@ -53,6 +58,7 @@ public class InventoryBar : MonoBehaviour
 
     public void SelectSlot(int index)
     {
+        Debug.Log($"InventoryBar : Sélection du slot {index}");
         int totalSlots = fixedSlotCount + _turretSlots.Count;
         if (index < 0 || index >= totalSlots) return;
 
@@ -61,15 +67,37 @@ public class InventoryBar : MonoBehaviour
 
         if (index < fixedSlotCount)
         {
-            OnTurretSelected?.Invoke(null); // Slot fixe (outil/arme)
+            OnTurretSelected?.Invoke(null); // Slot fixe
+
+            if (playerAttack != null)
+            {
+                if (index == 0 && defaultWeapon != null)
+                {
+                    Debug.Log("InventoryBar : Équipe l'arme par défaut");
+                    playerAttack.EquipWeapon(defaultWeapon);
+                }
+                else if (index == 1 && defaultTool != null)
+                {
+                    Debug.Log("InventoryBar : Équipe l'arme par défaut");
+                    playerAttack.EquipWeapon(defaultTool);
+                }
+                Debug.Log($"InventoryBar : Slot fixe sélectionné, index {index}, arme équipée : {playerAttack}");
+            }
         }
         else
         {
+            Debug.Log($"InventoryBar : Slot de tourelle sélectionné, index {index}, item : {_turretSlots[index - fixedSlotCount]?.name}");
             TurretShopItem item = _turretSlots[index - fixedSlotCount];
             OnTurretSelected?.Invoke(item);
         }
 
         RefreshHighlights();
+    }
+
+    // À ajouter dans le script InventoryBar
+    public void SetDefaultWeapon(WeaponSO weapon)
+    {
+        defaultWeapon = weapon;
     }
 
     // Appelée par ShopSystem après un achat réussi

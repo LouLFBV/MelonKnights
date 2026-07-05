@@ -273,20 +273,27 @@ public class BossController : MonoBehaviour
         if (_isDead || _currentTarget == null)
             return;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
-            attackPoint.position,
-            attackPointRange);
-
-        foreach (Collider2D hit in hits)
+        if(enemySO.enemyType != EnemyType.Ranged)
         {
-            if (hit.transform != _currentTarget)
-                continue;
+            Collider2D[] hits = Physics2D.OverlapCircleAll(
+                attackPoint.position,
+                attackPointRange);
 
-            if (hit.TryGetComponent(out HealthSystem health))
+            foreach (Collider2D hit in hits)
             {
-                health.TakeDamage(attackDamage);
-                break;
+                if (hit.transform != _currentTarget)
+                    continue;
+
+                if (hit.TryGetComponent(out HealthSystem health))
+                {
+                    health.TakeDamage(attackDamage);
+                    break;
+                }
             }
+        }
+        else
+        {
+            //Instancier une flèche et l'envoyer vers la cible
         }
     }
 

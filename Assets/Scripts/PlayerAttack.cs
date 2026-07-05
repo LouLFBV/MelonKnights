@@ -33,7 +33,7 @@ public class PlayerAttack : MonoBehaviour
     private void OnAttack(InputAction.CallbackContext context)
     {
         // 1. Vérification du cooldown et si on est autorisé à attaquer
-        if (!canAttack || Time.time < _nextAttackTime || _currentWeapon == null) return;
+        if (!canAttack || Time.time < _nextAttackTime || _currentWeapon == null || PlayerController.Instance.outilEquipped) return;
 
         // 2. On met à jour le timer pour le prochain coup
         _nextAttackTime = Time.time + _attackCooldown;
