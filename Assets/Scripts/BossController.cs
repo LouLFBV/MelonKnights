@@ -17,6 +17,7 @@ public class BossController : MonoBehaviour
     [SerializeField] private int attackDamage = 1;
     [SerializeField] private float attackPointRange = 2f;
     [SerializeField] private float attackRange = 2f;
+    [SerializeField] private float detectionRange = 10f;
 
     [Header("Animation Parameters")]
     [SerializeField] private string attackBoolName = "IsAttacking";
@@ -66,10 +67,7 @@ public class BossController : MonoBehaviour
             Debug.LogError("EnemySO non assigné.", this);
 
         if (playerTransform == null)
-        {
-            Debug.LogWarning("Player Transform non assigné, on le cherche.", this);
-            playerTransform = CoreDefense.Instance.transform;
-        }
+            Debug.LogError("Player Transform non assigné.", this);
 
         if (attackPoint == null)
             Debug.LogError("Attack Point non assigné.", this);
@@ -97,34 +95,35 @@ public class BossController : MonoBehaviour
 
     private void HandleMovement()
     {
-        float distance = Vector2.Distance(transform.position, playerTransform.position);
+        // 1. Déterminer la cible actuelle
+        float distToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+        Transform target = (distToPlayer <= detectionRange) ? playerTransform : coreTransform;
 
-        if (distance <= attackRange)
+        // 2. Vérifier la distance par rapport à la cible active
+        float distToTarget = Vector2.Distance(transform.position, target.position);
+
+        if (distToTarget <= attackRange)
         {
+            // On est à portée d'attaque de la cible active
             _agent.isStopped = true;
 
             if (!_isAttacking && Time.time >= _lastAttackTime + attackCooldown)
             {
                 _lastAttackTime = Time.time;
-
                 _isAttacking = true;
                 _bossAnimator.SetBool(attackBoolName, true);
             }
         }
-        else /*if (distance <= detectionRange)*/
+        else
         {
+            // On doit avancer vers la cible
             _agent.isStopped = false;
 
-            // Evite de recalculer le chemin à chaque frame
-            if (Vector3.Distance(_agent.destination, playerTransform.position) > 0.2f)
+            if (Vector3.Distance(_agent.destination, target.position) > 0.2f)
             {
-                _agent.SetDestination(playerTransform.position);
+                _agent.SetDestination(target.position);
             }
         }
-        //else
-        //{
-        //    _agent.isStopped = true;
-        //}
     }
 
     private void UpdateAnimatorParameters()
@@ -247,8 +246,8 @@ public class BossController : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, attackRange);
 
-        //Gizmos.color = Color.cyan;
-        //Gizmos.DrawWireSphere(transform.position, detectionRange);
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 #endif
 }

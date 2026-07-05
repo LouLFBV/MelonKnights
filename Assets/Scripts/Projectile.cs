@@ -17,9 +17,11 @@ public class Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log($"Projectile collided with: {collision.gameObject.name}");
         // Check if the projectile hits an enemy
         if (collision.CompareTag("Boss"))
         {
+            Debug.Log($"Projectile hit the Boss: {collision.gameObject.name}");
             // Assuming the enemy has a method to take damage
             collision.GetComponent<HealthSystem>().TakeDamage(weaponData.damage);
             Destroy(gameObject);

@@ -15,7 +15,7 @@ MonoBehaviour:
   weaponName: "\xC9p\xE9e"
   icon: {fileID: -3198679051268237854, guid: 0925730f19c33974d80d6e27929746e6, type: 3}
   damage: 3
-  attackCooldown: 1.5
+  attackCooldown: 1
   attackRange: 2
   animator: {fileID: 0}
   weaponType: 0

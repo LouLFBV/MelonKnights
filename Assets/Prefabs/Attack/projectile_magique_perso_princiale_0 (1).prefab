@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 8844282190280313439}
   - component: {fileID: 4317875373718112830}
   - component: {fileID: 8796086673065307533}
-  - component: {fileID: 2204639044149106407}
   - component: {fileID: 8298533667692599105}
+  - component: {fileID: 33260953638907498}
+  - component: {fileID: 1325061175759670478}
   m_Layer: 0
   m_Name: projectile_magique_perso_princiale_0 (1)
   m_TagString: Untagged
@@ -116,8 +117,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &2204639044149106407
-BoxCollider2D:
+--- !u!114 &8298533667692599105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800496497877032576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0d32bbb59e7484691128418a0d1297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Projectile
+  weaponData: {fileID: 11400000, guid: 5c99ab5e68b189349a562afeb7a7987c, type: 2}
+  speed: 7
+  lifetime: 5
+--- !u!58 &33260953638907498
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -151,29 +167,31 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.52, y: 0.5}
-    newSize: {x: 0.52, y: 0.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.52, y: 0.5}
-  m_EdgeRadius: 0
---- !u!114 &8298533667692599105
-MonoBehaviour:
+  m_Radius: 0.26
+--- !u!50 &1325061175759670478
+Rigidbody2D:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5800496497877032576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d0d32bbb59e7484691128418a0d1297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  weaponData: {fileID: 11400000, guid: 5c99ab5e68b189349a562afeb7a7987c, type: 2}
-  speed: 7
-  lifetime: 5
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

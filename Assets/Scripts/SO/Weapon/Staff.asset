@@ -15,7 +15,7 @@ MonoBehaviour:
   weaponName: "B\xE2ton"
   icon: {fileID: 1052420783451498313, guid: ad458e11aee7ac94c9e1e80d57d80a0b, type: 3}
   damage: 3
-  attackCooldown: 1.5
+  attackCooldown: 1
   attackRange: 8
   animator: {fileID: 0}
   weaponType: 2
