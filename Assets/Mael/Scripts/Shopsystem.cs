@@ -119,6 +119,9 @@ public class ShopSystem : MonoBehaviour
 
         Debug.Log($"Achat réussi : {item.turretName} (-{item.cost} pièces)");
 
+        if (InventoryBar.Instance != null)
+            InventoryBar.Instance.AddTurretSlot(item);
+
         // TODO : logique de placement de la tourelle (ex: activer un mode "fantôme"
         // qui suit la souris jusqu'à ce que le joueur clique sur une case valide)
 
