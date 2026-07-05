@@ -34,6 +34,7 @@ Transform:
   m_LocalScale: {x: 2.0253, y: 2.0253, z: 2.0253}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2115453727221596503}
   - {fileID: 1452951253557979861}
   - {fileID: 1317727214208412902}
   m_Father: {fileID: 0}
@@ -143,6 +144,8 @@ MonoBehaviour:
   spriteOK: {fileID: 980471557678844664}
   spriteDestroy: {fileID: 4456567455056460977}
   healthSystem: {fileID: 7347237758117076097}
+  transformTower: {fileID: 2115453727221596503}
+  rebuildDistance: 2.44
 --- !u!61 &2539123660444478977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -280,6 +283,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &6330893770160608607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2115453727221596503}
+  m_Layer: 0
+  m_Name: Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2115453727221596503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6330893770160608607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7390777566970130701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5880926697385419306
 PrefabInstance:
   m_ObjectHideFlags: 0

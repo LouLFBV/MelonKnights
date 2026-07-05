@@ -8,6 +8,7 @@ public class MurTower : MonoBehaviour
     [SerializeField] private HealthSystem healthSystem;
 
     [Header("Configuration Reconstruction")]
+    [SerializeField] private Transform transformTower; // Distance d'approche requise
     [SerializeField] private float rebuildDistance = 2f; // Distance d'approche requise
 
     private bool _isDestroyed = false;
@@ -38,7 +39,7 @@ public class MurTower : MonoBehaviour
         if (PlayerController.Instance != null && PlayerController.Instance.outilEquipped)
         {
             // Calcul de la distance entre le mur et le joueur
-            float distance = Vector2.Distance(transform.position, PlayerController.Instance.transform.position);
+            float distance = Vector2.Distance(transformTower.position, PlayerController.Instance.transform.position);
 
             // Si le joueur est assez proche : RECONSTRUCTION AUTOMATIQUE !
             if (distance <= rebuildDistance)
@@ -65,6 +66,6 @@ public class MurTower : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(transform.position, rebuildDistance);
+        Gizmos.DrawWireSphere(transformTower.position, rebuildDistance);
     }
 }

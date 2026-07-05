@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TowerSO
   towerName: 
   damage: 0
-  hp: 3
+  hp: 30
   stunDuration: 0
   attackSpeed: 0
   range: 0
