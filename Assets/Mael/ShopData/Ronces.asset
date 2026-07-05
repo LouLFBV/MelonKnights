@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a72637102c65a45aecb83794ede86d, type: 3}
+  m_Name: Ronces
+  m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
+  turretName: Ronces
+  description: Ca pique
+  icon: {fileID: 1820993640521608581, guid: 13daf43951e0d5b4087a14017eddda6f, type: 3}
+  turretPrefab: {fileID: 0}
+  cost: 20
