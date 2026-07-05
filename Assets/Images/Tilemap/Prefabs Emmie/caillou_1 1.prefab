@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4203369749796108467}
   - component: {fileID: 7268660852541797655}
-  - component: {fileID: 6682061451799766520}
+  - component: {fileID: 4766147337276073467}
   m_Layer: 0
   m_Name: caillou_1 1
   m_TagString: Untagged
@@ -92,8 +92,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!61 &6682061451799766520
-BoxCollider2D:
+--- !u!58 &4766147337276073467
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -126,15 +126,5 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.004999995, y: 0.165}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5185185, y: -0.47058824}
-    oldSize: {x: 0.27, y: 0.17}
-    newSize: {x: 0.27, y: 0.17}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.27, y: 0.16999999}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.003905679, y: 0.16472651}
+  m_Radius: 0.118306264
