@@ -2,8 +2,6 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
-using System;
-using System.Collections.Generic;
 
 public class UIPlayer : MonoBehaviour
 {
@@ -36,7 +34,7 @@ public class UIPlayer : MonoBehaviour
 
 
     [Header("Audio Settings")]
-    [SerializeField] private AudioSource coinAudioSource;
+    [SerializeField] private AudioClip coinAudioClip;
 
     private PlayerInput _playerInput;
 
@@ -155,7 +153,10 @@ public class UIPlayer : MonoBehaviour
     {
         _coinAmount += coinAdded;
         UpdateCoinText();
-        coinAudioSource.PlayOneShot(coinAudioSource.clip);
+        if(TryGetComponent(out AudioSource coinAudioSource))
+        {
+            coinAudioSource.PlayOneShot(coinAudioClip);
+        }
     }
 
     private void UpdateCoinText()

@@ -3,6 +3,7 @@
 public class HealthSystem : MonoBehaviour
 {
     [SerializeField] private EnemySO enemySO;
+    [SerializeField] private TowerSO towerSO;
     public int maxHealth = 8;
     [HideInInspector] public int currentHealth;
     public event System.Action OnHealthChanged;
@@ -11,7 +12,9 @@ public class HealthSystem : MonoBehaviour
     private void Awake()
     {
         if (enemySO != null)
-            maxHealth = enemySO.pv;
+            maxHealth = enemySO.hp;
+        if (towerSO != null)
+            maxHealth = towerSO.hp;
         currentHealth = maxHealth;
     }
     public void TakeDamage(int damage)

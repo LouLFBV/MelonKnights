@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
-    [SerializeField] private int damage = 1;
+    [SerializeField] private TowerSO towerSO;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Boss"))
         {
             if (collision.TryGetComponent<HealthSystem>(out var health))
             {
-                health.TakeDamage(damage);
+                health.TakeDamage(towerSO.damage);
             }
         }
     }

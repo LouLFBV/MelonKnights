@@ -35,8 +35,13 @@ public class BossController : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Piece coinDropOnDeath;
 
+    [SerializeField] private float targetRefreshRate = 0.2f;
+
+    private float _nextTargetSearch;
     private bool _isAttacking;
     private bool _isDead;
+    private bool _isStunned;
+    private Transform _currentTarget;
 
     private void Awake()
     {
@@ -84,7 +89,7 @@ public class BossController : MonoBehaviour
 
     private void Update()
     {
-        if (_isDead || playerTransform == null)
+        if (_isDead || playerTransform == null || _isStunned)
             return;
 
         if (!_isAttacking)
@@ -95,16 +100,19 @@ public class BossController : MonoBehaviour
 
     private void HandleMovement()
     {
-        // 1. Déterminer la cible actuelle
-        float distToPlayer = Vector2.Distance(transform.position, playerTransform.position);
-        Transform target = (distToPlayer <= detectionRange) ? playerTransform : coreTransform;
-
-        // 2. Vérifier la distance par rapport à la cible active
-        float distToTarget = Vector2.Distance(transform.position, target.position);
-
-        if (distToTarget <= attackRange)
+        if (Time.time >= _nextTargetSearch)
         {
-            // On est à portée d'attaque de la cible active
+            _nextTargetSearch = Time.time + targetRefreshRate;
+            UpdateTarget();
+        }
+
+        if (_currentTarget == null)
+            return;
+
+        float distance = Vector2.Distance(transform.position, _currentTarget.position);
+
+        if (distance <= attackRange)
+        {
             _agent.isStopped = true;
 
             if (!_isAttacking && Time.time >= _lastAttackTime + attackCooldown)
@@ -116,13 +124,84 @@ public class BossController : MonoBehaviour
         }
         else
         {
-            // On doit avancer vers la cible
             _agent.isStopped = false;
 
-            if (Vector3.Distance(_agent.destination, target.position) > 0.2f)
+            if (Vector3.Distance(_agent.destination, _currentTarget.position) > 0.2f)
             {
-                _agent.SetDestination(target.position);
+                _agent.SetDestination(_currentTarget.position);
             }
+        }
+    }
+
+    private void UpdateTarget()
+    {
+        // ===========================
+        // 1. Cherche les tours
+        // ===========================
+
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            transform.position,
+            detectionRange);
+
+        Transform closestTower = null;
+        float closestDistance = Mathf.Infinity;
+
+        foreach (Collider2D hit in hits)
+        {
+            if (!hit.CompareTag("Tower"))
+                continue;
+
+            if (!hit.TryGetComponent(out HealthSystem health))
+                continue;
+
+            if (health.currentHealth <= 0)
+                continue;
+
+            float distance = Vector2.Distance(
+                transform.position,
+                hit.transform.position);
+
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestTower = hit.transform;
+            }
+        }
+
+        if (closestTower != null)
+        {
+            _currentTarget = closestTower;
+            return;
+        }
+
+        // ===========================
+        // 2. Cherche le joueur
+        // ===========================
+
+        if (playerTransform != null)
+        {
+            float playerDistance = Vector2.Distance(
+                transform.position,
+                playerTransform.position);
+
+            if (playerDistance <= detectionRange)
+            {
+                _currentTarget = playerTransform;
+                return;
+            }
+        }
+
+        // ===========================
+        // 3. Sinon Core
+        // ===========================
+
+        if (coreTransform != null)
+        {
+            _currentTarget = coreTransform;
+        }
+        else
+        {
+            _currentTarget = null;
         }
     }
 
@@ -146,6 +225,32 @@ public class BossController : MonoBehaviour
         _bossAnimator.SetFloat(speedFloatName, speed);
     }
 
+
+    public void Stun(float duration)
+    {
+        if (_isDead || _isStunned) return;
+
+        StartCoroutine(StunCoroutine(duration));
+    }
+
+    private System.Collections.IEnumerator StunCoroutine(float duration)
+    {
+        _isStunned = true;
+        _agent.isStopped = true;
+        _bossAnimator.SetBool(attackBoolName, false); // Annule l'attaque en cours si besoin
+
+        yield return new WaitForSeconds(duration);
+
+        _isStunned = false;
+        // On ne remet _agent.isStopped = false que si on n'est pas en train d'attaquer
+        if (!_isAttacking)
+        {
+            _agent.isStopped = false;
+        }
+    }
+
+
+
     //==========================================================================
     // Animation Events
     //==========================================================================
@@ -160,25 +265,22 @@ public class BossController : MonoBehaviour
     // Moment où le coup touche
     public void AE_Attack()
     {
-        if (_isDead)
+        if (_isDead || _currentTarget == null)
             return;
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(
             attackPoint.position,
-            attackPointRange
-        );
+            attackPointRange);
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.CompareTag("Player") &&
-                hit.TryGetComponent(out HealthSystem playerHealth))
+            if (hit.transform != _currentTarget)
+                continue;
+
+            if (hit.TryGetComponent(out HealthSystem health))
             {
-                playerHealth.TakeDamage(attackDamage);
-            }
-            if (hit.CompareTag("Tower") &&
-                hit.TryGetComponent(out HealthSystem towerHealth))
-            {
-                towerHealth.TakeDamage(attackDamage);
+                health.TakeDamage(attackDamage);
+                break;
             }
         }
     }

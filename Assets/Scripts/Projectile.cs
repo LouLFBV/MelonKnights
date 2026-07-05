@@ -3,6 +3,7 @@
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private WeaponSO weaponData;
+    [SerializeField] private int damage = 1;
     [SerializeField] private float speed = 10f;
     [SerializeField] private float lifetime = 5f;
     private Vector2 direction;
@@ -23,7 +24,14 @@ public class Projectile : MonoBehaviour
         {
             Debug.Log($"Projectile hit the Boss: {collision.gameObject.name}");
             // Assuming the enemy has a method to take damage
-            collision.GetComponent<HealthSystem>().TakeDamage(weaponData.damage);
+            if(weaponData != null)
+            {
+                collision.GetComponent<HealthSystem>().TakeDamage(weaponData.damage);
+            }
+            else
+            {
+                collision.GetComponent<HealthSystem>().TakeDamage(damage);
+            }
             Destroy(gameObject);
         }
     }

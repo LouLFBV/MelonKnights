@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Enemy", menuName = "ScriptableObjects/EnemySO", order = 1)]
 public class EnemySO : ScriptableObject
 {
-    public int pv;
+    public int hp;
     public float speed;
     public int xpDrop;
     public int coinDrop;
