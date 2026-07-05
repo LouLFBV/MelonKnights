@@ -31,4 +31,10 @@ public class HealthSystem : MonoBehaviour
             }
         }
     }
+    public void ResetHP()
+    {
+        Debug.Log($"Resetting HP for {this.gameObject.name}");
+        currentHealth = maxHealth;
+        OnHealthChanged?.Invoke();
+    }
 }

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d2dcff4ccc6ec468f8a1f0b974febe, type: 3}
   m_Name: EnemyTank
   m_EditorClassIdentifier: Assembly-CSharp::EnemySO
-  hp: 10
-  speed: 2
-  xpDrop: 30
-  coinDrop: 3
+  hp: 60
+  speed: 1
+  xpDrop: 10
+  coinDrop: 10
   enemyType: 0

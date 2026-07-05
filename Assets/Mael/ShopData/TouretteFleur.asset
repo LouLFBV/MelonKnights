@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: TouretteFleur
   m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
   turretName: Fleur
-  description: Gaz Toxic
+  description: "Une fleur v\xE9n\xE9neuse qui lib\xE8re un nuage toxique, empoisonnant
+    lentement tous les ennemis \xE0 proximit\xE9."
   icon: {fileID: 815043803470088024, guid: d008f05d7405ab240a1993b9229ea540, type: 3}
   turretPrefab: {fileID: 0}
   cost: 50

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d2dcff4ccc6ec468f8a1f0b974febe, type: 3}
   m_Name: EnemyArc
   m_EditorClassIdentifier: Assembly-CSharp::EnemySO
-  hp: 3
-  speed: 2
-  xpDrop: 30
-  coinDrop: 3
+  hp: 16
+  speed: 3
+  xpDrop: 4
+  coinDrop: 8
   enemyType: 1

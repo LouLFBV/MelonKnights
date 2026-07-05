@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: TouretCaillou
   m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
   turretName: Caillou
-  description: Tire et fais mal
+  description: "Une roche ancestrale capable de projeter des \xE9clats tranchants
+    sur une tr\xE8s longue distance."
   icon: {fileID: 8765287002285721316, guid: 67653ce1b89048449ab26d82e420ceab, type: 3}
   turretPrefab: {fileID: 0}
   cost: 50

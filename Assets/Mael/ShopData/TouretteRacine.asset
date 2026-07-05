@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: TouretteRacine
   m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
   turretName: Racines
-  description: Ralentie
+  description: Fait jaillir une racine puissante qui s'enroule autour des ennemis
+    et ralentit leur progression.
   icon: {fileID: -2761866175796892333, guid: 1484b56afafe9fa4390b2a99fdfa1b8e, type: 3}
   turretPrefab: {fileID: 0}
   cost: 120

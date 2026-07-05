@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Caillou
   m_EditorClassIdentifier: Assembly-CSharp::TowerSO
   towerName: 
-  damage: 2
-  hp: 7
+  damage: 10
+  hp: 40
   stunDuration: 0
   attackSpeed: 2
   range: 0

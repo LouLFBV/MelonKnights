@@ -147,7 +147,7 @@ MonoBehaviour:
   coreTransform: {fileID: 0}
   bossUI: {fileID: 8357697721107723918}
   attackPoint: {fileID: 4554675657846857638}
-  attackDamage: 1
+  attackDamage: 6
   attackPointRange: 1
   attackRange: 7
   detectionRange: 10

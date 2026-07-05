@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Ronces
   m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
   turretName: Ronces
-  description: Ca pique
+  description: "Enfouies sous terre, ces \xE9pines ac\xE9r\xE9es transpercent tout
+    ennemi assez imprudent pour marcher dessus."
   icon: {fileID: 1820993640521608581, guid: 13daf43951e0d5b4087a14017eddda6f, type: 3}
   turretPrefab: {fileID: 0}
   cost: 20

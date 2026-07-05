@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Mur
   m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
   turretName: Mur
-  description: Un petit mur
+  description: "Un rempart de pierre robuste. Ne cause aucun d\xE9g\xE2t mais bloque
+    efficacement la route des ennemis gr\xE2ce \xE0 ses 50 points de vie."
   icon: {fileID: 4828593252417767015, guid: aed5d58a2e67bf64c96434b5b8077c8b, type: 3}
   turretPrefab: {fileID: 0}
   cost: 10

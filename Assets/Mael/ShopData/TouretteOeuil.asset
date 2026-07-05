@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: TouretteOeuil
   m_EditorClassIdentifier: Assembly-CSharp::TurretShopItem
   turretName: Oeil
-  description: Stun par la vue
+  description: "Un \u0153il ancien dont le regard per\xE7ant paralyse les ennemis
+    pendant une longue dur\xE9e."
   icon: {fileID: 7086215023369823238, guid: 4c71131900087d64ea4021647ac40413, type: 3}
   turretPrefab: {fileID: 0}
   cost: 100
