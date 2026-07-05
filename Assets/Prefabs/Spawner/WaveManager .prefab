@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1647784014681877981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167174575268204398}
+  - component: {fileID: 8922808126178604245}
+  m_Layer: 0
+  m_Name: 'WaveManager '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1167174575268204398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647784014681877981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.10737, y: 0.08515, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8922808126178604245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647784014681877981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8be7a7eda596f448a68fc6492a1be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaveManager
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waves:
+  - waveName: Vague 1
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 30
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 2
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 50
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 3
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 60
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 4
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 70
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 5
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 80
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 6
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 40
+      spawnInterval: 0.5
+    - enemyPrefab: {fileID: 7548575687148028224, guid: 0249dde76ded8e5419bc4a0593222ff6, type: 3}
+      count: 20
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 6
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 60
+      spawnInterval: 0.5
+    - enemyPrefab: {fileID: 7548575687148028224, guid: 0249dde76ded8e5419bc4a0593222ff6, type: 3}
+      count: 30
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 8
+    enemies:
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 70
+      spawnInterval: 0.5
+    - enemyPrefab: {fileID: 7548575687148028224, guid: 0249dde76ded8e5419bc4a0593222ff6, type: 3}
+      count: 40
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 9
+    enemies:
+    - enemyPrefab: {fileID: 2594423858236318890, guid: 0237a173327055947852468af00192e9, type: 3}
+      count: 10
+      spawnInterval: 0.5
+    - enemyPrefab: {fileID: 7548575687148028224, guid: 0249dde76ded8e5419bc4a0593222ff6, type: 3}
+      count: 20
+      spawnInterval: 0.5
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 50
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  - waveName: Vague 10
+    enemies:
+    - enemyPrefab: {fileID: 2594423858236318890, guid: 0237a173327055947852468af00192e9, type: 3}
+      count: 15
+      spawnInterval: 0.5
+    - enemyPrefab: {fileID: 7548575687148028224, guid: 0249dde76ded8e5419bc4a0593222ff6, type: 3}
+      count: 30
+      spawnInterval: 0.5
+    - enemyPrefab: {fileID: 6748479023549422017, guid: 7f275d1f821fb2047967b3899df7ef58, type: 3}
+      count: 80
+      spawnInterval: 0.5
+    delayBeforeNextWave: 3
+  autoStart: 1
+  delayBeforeFirstWave: 3

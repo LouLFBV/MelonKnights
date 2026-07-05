@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,7 +19,7 @@ public class PlayerAttack : MonoBehaviour
     private float _attackCooldown;
     private float _nextAttackTime;
 
-    // Gard� au cas o� tu as besoin de bloquer l'attaque depuis un autre script (ex: si le joueur est �tourdi)
+    // Gardé au cas où tu as besoin de bloquer l'attaque depuis un autre script (ex: si le joueur est étourdi)
     public bool canAttack = true;
 
     private void Awake()
@@ -32,17 +32,17 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnAttack(InputAction.CallbackContext context)
     {
-        // 1. V�rification du cooldown et si on est autoris� � attaquer
+        // 1. Vérification du cooldown et si on est autorisé à attaquer
         if (!canAttack || Time.time < _nextAttackTime || _currentWeapon == null) return;
 
-        // 2. On met � jour le timer pour le prochain coup
+        // 2. On met à jour le timer pour le prochain coup
         _nextAttackTime = Time.time + _attackCooldown;
 
-        // 3. On lance l'attaque IMM�DIATEMENT
+        // 3. On lance l'attaque IMMÉDIATEMENT
         PerformAttack();
     }
 
-    // Anciennement AE_Attack, maintenant appel�e directement par l'Input
+    // Anciennement AE_Attack, maintenant appelée directement par l'Input
     private void PerformAttack()
     {
         Vector2 dir = PlayerController.Instance.LastDirection;
@@ -100,8 +100,15 @@ public class PlayerAttack : MonoBehaviour
     {
         if (_currentWeapon.slashPrefab == null || attackPoint == null) return;
 
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        Quaternion rotation = Quaternion.Euler(0, 0, angle);
+        // Déterminer la rotation fixe selon le point d'attaque
+        Quaternion rotation = Quaternion.identity;
+
+        WeaponPointAttack points = GetWeaponPoints(); // Petite méthode helper ci-dessous
+
+        if (attackPoint == points.back) rotation = Quaternion.Euler(0, 0, 90);  // Haut
+        else if (attackPoint == points.forward) rotation = Quaternion.Euler(0, 0, -90); // Bas
+        else if (attackPoint == points.left) rotation = Quaternion.Euler(0, 0, 180); // Gauche
+        else if (attackPoint == points.right) rotation = Quaternion.Euler(0, 0, 0);   // Droite
 
         Instantiate(_currentWeapon.slashPrefab, attackPoint.position, rotation, transform);
     }
@@ -116,26 +123,30 @@ public class PlayerAttack : MonoBehaviour
         PlayerController.Instance.EquipWeapon(weapon.weaponType);
         OnWeaponEquipped?.Invoke(weapon);
     }
-
+    private WeaponPointAttack GetWeaponPoints()
+    {
+        return _currentWeapon.weaponType switch
+        {
+            WeaponType.Sword => swordAttackPoints,
+            WeaponType.Dagger => daggerAttackPoints,
+            _ => staffAttackPoints
+        };
+    }
     private Transform GetActiveAttackPoint(Vector2 dir)
     {
-        WeaponPointAttack activeWeaponPoints = swordAttackPoints;
+        WeaponPointAttack activeWeaponPoints = GetWeaponPoints();
+        // Calcul de l'angle en degrés
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        if (angle < 0) angle += 360; // Pour avoir un cercle de 0 à 360
 
-        switch (_currentWeapon.weaponType)
-        {
-            case WeaponType.Sword: activeWeaponPoints = swordAttackPoints; break;
-            case WeaponType.Dagger: activeWeaponPoints = daggerAttackPoints; break;
-            case WeaponType.Staff: activeWeaponPoints = staffAttackPoints; break;
-        }
-
-        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
-        {
-            return dir.x > 0 ? activeWeaponPoints.right : activeWeaponPoints.left;
-        }
-        else
-        {
-            return dir.y > 0 ? activeWeaponPoints.back : activeWeaponPoints.forward;
-        }
+        if (angle >= 22.5f && angle < 67.5f) return activeWeaponPoints.right;   // →
+        if (angle >= 67.5f && angle < 112.5f) return activeWeaponPoints.back;    // ↑
+        if (angle >= 112.5f && angle < 157.5f) return activeWeaponPoints.left; // ←
+        if (angle >= 157.5f && angle < 202.5f) return activeWeaponPoints.left;   // ←
+        if (angle >= 202.5f && angle < 247.5f) return activeWeaponPoints.left; // ←
+        if (angle >= 247.5f && angle < 292.5f) return activeWeaponPoints.forward; // ↓
+        if (angle >= 292.5f && angle < 337.5f) return activeWeaponPoints.forward; // ↓
+        return activeWeaponPoints.right; // → (Par défaut)
     }
 
     private void OnDrawGizmosSelected()

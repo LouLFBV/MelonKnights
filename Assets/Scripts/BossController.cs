@@ -72,7 +72,11 @@ public class BossController : MonoBehaviour
             Debug.LogError("EnemySO non assigné.", this);
 
         if (playerTransform == null)
-            Debug.LogError("Player Transform non assigné.", this);
+            playerTransform = PlayerController.Instance.transform;
+
+
+        if (coreTransform == null)
+            coreTransform = CoreDefense.Instance.transform;
 
         if (attackPoint == null)
             Debug.LogError("Attack Point non assigné.", this);
