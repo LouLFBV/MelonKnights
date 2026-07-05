@@ -144,6 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   enemySO: {fileID: 11400000, guid: 68ad5a738c27d6e4bac80b93b061239e, type: 2}
   playerTransform: {fileID: 0}
+  coreTransform: {fileID: 0}
   bossUI: {fileID: 8293279313532273410}
   attackPoint: {fileID: 3290845453266357693}
   attackDamage: 1
@@ -158,6 +159,7 @@ MonoBehaviour:
   attackCooldown: 3
   spriteRenderer: {fileID: 6478488394605831347}
   coinDropOnDeath: {fileID: 4293979049115109371, guid: 84065d32e3db83d45b28c1726145ead4, type: 3}
+  targetRefreshRate: 0.2
 --- !u!114 &5102976415282266966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthSystem
   enemySO: {fileID: 11400000, guid: 9592c6293373e73418caf1d4e03cab10, type: 2}
+  towerSO: {fileID: 0}
   maxHealth: 10
   currentHealth: 0
 --- !u!114 &8293279313532273410
@@ -243,7 +246,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.05607772, y: -1.0267444}
+  m_Offset: {x: -0.05607772, y: -0.013150871}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -253,7 +256,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5144818, y: 1.9782648}
+  m_Size: {x: 1.5144818, y: 2.4212947}
   m_EdgeRadius: 0
 --- !u!195 &3273350098593943904
 NavMeshAgent:

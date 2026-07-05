@@ -11,7 +11,6 @@ public class BossUI : MonoBehaviour
         _healSystem = GetComponent<HealthSystem>();
     }
 
-
     private void OnEnable()
     {
         _healSystem.OnHealthChanged += UpdateHealthUI;
@@ -24,6 +23,7 @@ public class BossUI : MonoBehaviour
 
     private void UpdateHealthUI()
     {
+        Debug.Log($"Updating Health UI for {this.gameObject.name}");
         float currentHealth = _healSystem.currentHealth;
         float maxHealth = _healSystem.maxHealth;
 

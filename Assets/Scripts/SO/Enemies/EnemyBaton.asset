@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d2dcff4ccc6ec468f8a1f0b974febe, type: 3}
   m_Name: EnemyBaton
   m_EditorClassIdentifier: Assembly-CSharp::EnemySO
-  pv: 3
+  hp: 4
   speed: 3
   xpDrop: 30
   coinDrop: 3

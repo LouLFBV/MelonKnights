@@ -18,20 +18,32 @@ public class Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log($"Projectile collided with: {collision.gameObject.name}");
         // Check if the projectile hits an enemy
         if (collision.CompareTag("Boss"))
         {
-            Debug.Log($"Projectile hit the Boss: {collision.gameObject.name}");
-            // Assuming the enemy has a method to take damage
-            if(weaponData != null)
+            HealthSystem hs = collision.GetComponent<HealthSystem>();
+            if (hs == null)
             {
-                collision.GetComponent<HealthSystem>().TakeDamage(weaponData.damage);
+                hs = collision.GetComponentInParent<HealthSystem>();
+            }
+
+            if (hs != null)
+            {
+                Debug.Log($"Santé trouvée sur : {hs.gameObject.name}");
+                if (weaponData != null)
+                {
+                    hs.TakeDamage(weaponData.damage);
+                    Debug.Log($"Projectile hit {collision.name} for {weaponData.damage} damage.");
+                }
+                else
+                {
+                    hs.TakeDamage(damage);
+                }
             }
             else
             {
-                collision.GetComponent<HealthSystem>().TakeDamage(damage);
-            }
+                Debug.LogError($"Attention : Collision avec {collision.name}, mais aucun HealthSystem trouvé !");
+            }            
             Destroy(gameObject);
         }
     }

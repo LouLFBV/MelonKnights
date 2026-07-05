@@ -23,7 +23,7 @@ public class HealthSystem : MonoBehaviour
         {
             currentHealth -= damage;
             OnHealthChanged?.Invoke();
-            Debug.Log($"Current Health: {currentHealth}/{maxHealth}");
+            Debug.Log($"Current Health: {currentHealth}/{maxHealth}, {this}");
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
