@@ -16,7 +16,7 @@ MonoBehaviour:
   damage: 2
   hp: 5
   stunDuration: 0
-  attackSpeed: 0
-  range: 0
+  attackSpeed: 2
+  range: 2
   towerPrefab: {fileID: 0}
   projectile: {fileID: 0}

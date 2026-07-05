@@ -14,6 +14,7 @@ public class FlowerTower : MonoBehaviour
 
     private float _nextAttackTime;
     private bool _isDestroyed;
+    private Collider2D _currentEnemy;
 
     private void OnEnable()
     {
@@ -27,33 +28,72 @@ public class FlowerTower : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // On vérifie si on est détruit, si c'est un boss, ET si le cooldown est passé
-        if (_isDestroyed || !collision.CompareTag("Boss")) return;
+        if (_isDestroyed)
+            return;
+
+        if (!collision.CompareTag("Boss"))
+            return;
+
+        _currentEnemy = collision;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision == _currentEnemy)
+        {
+            _currentEnemy = null;
+        }
+    }
+
+    private void Update()
+    {
+        if (_isDestroyed)
+            return;
+
+        if (_currentEnemy == null)
+            return;
+
+        if (!_currentEnemy.gameObject.activeInHierarchy)
+        {
+            _currentEnemy = null;
+            return;
+        }
 
         if (Time.time >= _nextAttackTime)
         {
+            _nextAttackTime = Time.time + towerData.attackSpeed;
             animatorFlowerTower.SetTrigger("Attack");
-            _nextAttackTime = Time.time + towerData.attackSpeed; // Utilise ton attackSpeed du SO
         }
     }
     public void AE_AttackFlower()
     {
+        if (_isDestroyed || _currentEnemy == null)
+            return;
+
         animatorNuageToxic.SetTrigger("Attack");
     }
 
     public void AE_Attack()
     {
-        if (_isDestroyed) return;
+        if (_isDestroyed)
+            return;
 
-        Collider2D[] enemiesInRange = Physics2D.OverlapCircleAll(transformNuageToxic.position, towerData.range);
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(
+            transformNuageToxic.position,
+            towerData.range);
 
-        foreach (var enemyCollider in enemiesInRange)
+        foreach (Collider2D hit in enemies)
         {
-            // Vérifie que c'est bien un Boss avant d'infliger des dégâts
-            if (enemyCollider.CompareTag("Boss") && enemyCollider.TryGetComponent<HealthSystem>(out var enemy))
-            {
-                enemy.TakeDamage(towerData.damage);
-            }
+            if (!hit.CompareTag("Boss"))
+                continue;
+
+            if (!hit.TryGetComponent(out HealthSystem health))
+                continue;
+
+            if (health.currentHealth <= 0)
+                continue;
+
+            health.TakeDamage(towerData.damage);
         }
     }
 
@@ -64,5 +104,14 @@ public class FlowerTower : MonoBehaviour
         spriteDestroy.enabled = true;
         animatorNuageToxic.enabled = false; // Arrête l'anim si détruite
         animatorFlowerTower.enabled = false; // Arrête l'anim si détruite
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (transformNuageToxic != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(transformNuageToxic.position, towerData.range);
+        }
     }
 }

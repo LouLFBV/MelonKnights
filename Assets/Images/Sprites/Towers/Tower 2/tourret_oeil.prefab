@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6935534407008025754}
   - component: {fileID: 1318987567266276871}
   - component: {fileID: 4352424494513867244}
+  - component: {fileID: 6070694440735929585}
   m_Layer: 0
   m_Name: tourret_oeil
   m_TagString: Tower
@@ -85,7 +86,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6568866181896906032, guid: 59fe9fcd45a5bec4ea94d9a9dc5078d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -147,8 +148,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.015625, y: 0.46875}
-  m_Radius: 0.390625
+  m_Offset: {x: -0.015625, y: 0.5563154}
+  m_Radius: 1.602046
 --- !u!114 &1318987567266276871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,6 +180,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
   healthBarCore: {fileID: 5905755715596303340}
   healthSystem: {fileID: 1318987567266276871}
+--- !u!50 &6070694440735929585
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101962008547593688}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &9143619932620556327
 GameObject:
   m_ObjectHideFlags: 0

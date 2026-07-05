@@ -11,10 +11,12 @@ public class AnimationRelay : MonoBehaviour
     {
         if (mainTowerScript != null)
         {
+            Debug.Log("AnimationRelay: Calling AE_RacineAttack on mainTowerScript");
             mainTowerScript.AE_RacineAttack();
         }
         if (mainFlowerScript != null)
         {
+            Debug.Log("AnimationRelay: Calling AE_Attack on mainFlowerScript");
             mainFlowerScript.AE_Attack();
         }
     }

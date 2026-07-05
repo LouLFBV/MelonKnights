@@ -12,14 +12,39 @@ public class RacineTower : MonoBehaviour
     private float _nextAttackTime;
     private bool _isDestroyed;
 
+    private Collider2D _currentEnemy;
+
     private void OnEnable()
     {
-        if (healthSystem != null) healthSystem.OnDeath += OnDeath;
+        if (healthSystem != null)
+            healthSystem.OnDeath += OnDeath;
     }
 
     private void OnDisable()
     {
-        if (healthSystem != null) healthSystem.OnDeath -= OnDeath;
+        if (healthSystem != null)
+            healthSystem.OnDeath -= OnDeath;
+    }
+
+    private void Update()
+    {
+        if (_isDestroyed)
+            return;
+
+        if (_currentEnemy == null)
+            return;
+
+        if (!_currentEnemy.gameObject.activeInHierarchy)
+        {
+            _currentEnemy = null;
+            return;
+        }
+
+        if (Time.time >= _nextAttackTime)
+        {
+            _nextAttackTime = Time.time + towerData.attackSpeed;
+            racineAnimator.SetTrigger("Attack");
+        }
     }
 
     private void OnDeath()
@@ -31,43 +56,51 @@ public class RacineTower : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (_isDestroyed || !collision.CompareTag("Boss")) return;
+        if (_isDestroyed)
+            return;
 
-        if (Time.time >= _nextAttackTime)
+        if (!collision.CompareTag("Boss"))
+            return;
+
+        _currentEnemy = collision;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision == _currentEnemy)
         {
-            // 1. Flip le sprite si le boss est à gauche
-            // On compare la position X du boss par rapport à la tour
-            spriteOK.flipX = collision.transform.position.x < transform.position.x;
-
-            // 2. Lance l'animation
-            racineAnimator.SetTrigger("Attack");
-
-            // On met à jour le cooldown
-            _nextAttackTime = Time.time + towerData.attackSpeed;
+            _currentEnemy = null;
         }
     }
 
-    // Appelée par l'Animation Event
+    // Animation Event
     public void AE_RacineAttack()
     {
-        if (_isDestroyed) return;
+        if (_isDestroyed)
+            return;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(racineAttackPoint.position, towerData.range);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            racineAttackPoint.position,
+            towerData.range);
+
         foreach (Collider2D hit in hits)
         {
-            if (hit.CompareTag("Boss") && hit.TryGetComponent(out HealthSystem bossHealth))
+            if (!hit.CompareTag("Boss"))
+                continue;
+
+            if (hit.TryGetComponent(out HealthSystem health))
             {
-                bossHealth.TakeDamage(towerData.damage);
+                health.TakeDamage(towerData.damage);
             }
         }
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmosSelected()
     {
-        if (racineAttackPoint != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(racineAttackPoint.position, towerData.range);
-        }
+        if (racineAttackPoint == null)
+            return;
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(racineAttackPoint.position, towerData.range);
     }
 }

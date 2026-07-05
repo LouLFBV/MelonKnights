@@ -228,6 +228,7 @@ public class BossController : MonoBehaviour
 
     public void Stun(float duration)
     {
+        Debug.Log($"Boss stunned for {duration} seconds.");
         if (_isDead || _isStunned) return;
 
         StartCoroutine(StunCoroutine(duration));

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d2dcff4ccc6ec468f8a1f0b974febe, type: 3}
   m_Name: Boss
   m_EditorClassIdentifier: Assembly-CSharp::EnemySO
-  hp: 15
+  hp: 30
   speed: 1.5
   xpDrop: 90
   coinDrop: 5
-  enemyType: 0
+  enemyType: 4

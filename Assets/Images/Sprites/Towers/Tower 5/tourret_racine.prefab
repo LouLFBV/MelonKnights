@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6044630353832276235}
   - component: {fileID: 2678506845102646170}
   - component: {fileID: 240393835014527651}
+  - component: {fileID: 3824917497693735540}
   m_Layer: 0
   m_Name: tourret_racine
   m_TagString: Tower
@@ -88,7 +89,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2273477822138053713, guid: 28a77c878776c924c9df80be036b2261, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,12 +179,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.010229588, y: 0.33283067}
-  m_Radius: 1.2281439
+  m_Offset: {x: -0.010229588, y: 0.31253052}
+  m_Radius: 1.705183
 --- !u!58 &240393835014527651
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -214,12 +215,39 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.32095838}
   m_Radius: 0.28970838
+--- !u!50 &3824917497693735540
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2222955240212257091}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &2813824566822208341
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e879964229586704a9a46606cee40c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  mainTowerScript: {fileID: 0}
+  mainTowerScript: {fileID: 6044630353832276235}
+  mainFlowerScript: {fileID: 0}
 --- !u!1 &3229980452380971880
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +493,7 @@ Transform:
   m_GameObject: {fileID: 3935558082446486632}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

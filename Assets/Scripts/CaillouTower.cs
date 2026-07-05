@@ -28,35 +28,70 @@ public class CaillouTower : MonoBehaviour
 
     private void Update()
     {
-        if (_isDestroyed) return;
+        if (_isDestroyed)
+            return;
 
-        // On nettoie la liste des ennemis (si un ennemi meurt dans la zone)
         _enemiesInRange.RemoveAll(enemy => enemy == null);
 
-        // Si on a une cible et qu'on peut attaquer
-        if (_enemiesInRange.Count > 0 && Time.time >= _nextAttackTime)
+        if (_enemiesInRange.Count == 0)
+            return;
+
+        if (Time.time >= _nextAttackTime)
         {
+            _nextAttackTime = Time.time + towerData.attackSpeed;
             animatorCaillouTower.SetTrigger("Attack");
         }
     }
 
     public void AE_AttackCaillou()
     {
-        if (_isDestroyed) return;
-        Attack(_enemiesInRange[0]);
+        if (_isDestroyed)
+            return;
+
+        BossController target = GetClosestEnemy();
+
+        if (target != null)
+        {
+            Attack(target);
+        }
+    }
+
+    private BossController GetClosestEnemy()
+    {
+        BossController closest = null;
+        float bestDistance = Mathf.Infinity;
+
+        foreach (BossController enemy in _enemiesInRange)
+        {
+            if (enemy == null)
+                continue;
+
+            float distance = (enemy.transform.position - transform.position).sqrMagnitude;
+
+            if (distance < bestDistance)
+            {
+                bestDistance = distance;
+                closest = enemy;
+            }
+        }
+
+        return closest;
     }
 
     private void Attack(BossController target)
     {
-        _nextAttackTime = Time.time + towerData.attackSpeed; // Suppose un float fireRate dans ton SO
+        if (target == null)
+            return;
 
-        GameObject proj = Instantiate(towerData.projectile, projectileSpawnPoint.position, Quaternion.identity);
+        GameObject proj = Instantiate(
+            towerData.projectile,
+            projectileSpawnPoint.position,
+            Quaternion.identity);
 
-        // Si ton projectile a un script de poursuite ou d'initialisation
-        if (proj.TryGetComponent<Projectile>(out var p))
+        if (proj.TryGetComponent(out Projectile projectile))
         {
             Vector2 dir = (target.transform.position - projectileSpawnPoint.position).normalized;
-            p.Initialize(dir);
+            projectile.Initialize(dir);
         }
     }
 
