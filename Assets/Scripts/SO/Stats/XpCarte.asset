@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d005bcf83dd57241bfa6f22b969d213, type: 3}
+  m_Name: XpCarte
+  m_EditorClassIdentifier: Assembly-CSharp::CarteSO
+  carteType: 5
+  carteName: "Bonus d'exp\xE9rience"
+  carteDescription: "Vous augmentez vos gain d'exp\xE9rience de 30%."
+  carteSprite: {fileID: 21300000, guid: cd7b21ace309f234c82de5b36fab5997, type: 3}
+  boostValue: 0.3

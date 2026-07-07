@@ -22,6 +22,13 @@ public class PlayerAttack : MonoBehaviour
     // Gardé au cas où tu as besoin de bloquer l'attaque depuis un autre script (ex: si le joueur est étourdi)
     public bool canAttack = true;
 
+    [Header("Configuration des Plafonds de Cartes")]
+    [SerializeField] private float maxDamageBonusCap = 2.0f;       // Plafond max Dégâts (ex: +200%)
+    [SerializeField] private float maxAttackSpeedBonusCap = 1.5f;  // Plafond max Vitesse (ex: +150%)
+
+    private float _currentDamageBonus = 0.0f;       // Bonus cumulé (0.2 = +20%)
+    private float _currentAttackSpeedBonus = 0.0f;  // Bonus cumulé
+
     private void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();
@@ -161,6 +168,49 @@ public class PlayerAttack : MonoBehaviour
             Gizmos.DrawWireSphere(activePoint.position, _attackRange);
         }
     }
+
+    // NOUVEAU : Méthode centrale pour appliquer proprement les pourcentages sur l'arme actuelle
+    private void UpdateCalculatedStats()
+    {
+        if (_currentWeapon == null) return;
+
+        // Calcul des dégâts : Dégâts de base * (1 + bonus)
+        _attackDamage = Mathf.RoundToInt(_currentWeapon.damage * (1f + _currentDamageBonus));
+
+        // Calcul de la vitesse d'attaque : plus on va vite, plus le cooldown diminue !
+        _attackCooldown = _currentWeapon.attackCooldown / (1f + _currentAttackSpeedBonus);
+    }
+    public void IncreaseAttackSpeed(float percentage)
+    {
+        if (IsAttackSpeedMaxed()) return;
+
+        _currentAttackSpeedBonus += percentage;
+
+        if (_currentAttackSpeedBonus > maxAttackSpeedBonusCap)
+            _currentAttackSpeedBonus = maxAttackSpeedBonusCap;
+
+        UpdateCalculatedStats();
+        Debug.Log($"Vitesse d'attaque augmentée ! Bonus actuel : +{_currentAttackSpeedBonus * 100}%");
+    }
+
+    // MÉTHODE CARTE : Dégâts
+    public void IncreaseDamage(float percentage)
+    {
+        if (IsDamageMaxed()) return;
+
+        _currentDamageBonus += percentage;
+
+        if (_currentDamageBonus > maxDamageBonusCap)
+            _currentDamageBonus = maxDamageBonusCap;
+
+        UpdateCalculatedStats();
+        Debug.Log($"Dégâts augmentés ! Bonus actuel : +{_currentDamageBonus * 100}% (Total : {_attackDamage} DMG)");
+    }
+
+    // Fonctions de vérification pour le CarteSystem
+    public bool IsAttackSpeedMaxed() => _currentAttackSpeedBonus >= maxAttackSpeedBonusCap;
+    public bool IsDamageMaxed() => _currentDamageBonus >= maxDamageBonusCap;
+
 }
 
 [Serializable]

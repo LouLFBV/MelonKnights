@@ -100,6 +100,21 @@ public class InventoryBar : MonoBehaviour
         defaultWeapon = weapon;
     }
 
+    // À appeler à la fin de AddTurretSlot et RemoveTurretSlot pour garder les chiffres synchronisés
+    private void UpdateSlotNumbers()
+    {
+        for (int i = 0; i < _turretSlotUIs.Count; i++)
+        {
+            int shortcutNumber = fixedSlotCount + 1 + i; // ex: 2 + 1 + 0 = Touche 3
+
+            // On recharget le setup actuel mais avec le nouveau numéro rafraîchi
+            // (Tu peux ajouter une petite méthode publique UpdateNumber dans HotbarSlotUI ou réutiliser Setup)
+            _turretSlotUIs[i].UpdateInputText(shortcutNumber);
+        }
+    }
+
+
+
     // Appelée par ShopSystem après un achat réussi
     public void AddTurretSlot(TurretShopItem item)
     {
@@ -113,10 +128,13 @@ public class InventoryBar : MonoBehaviour
             HotbarSlotUI slotUI = slotObj.GetComponent<HotbarSlotUI>();
             if (slotUI != null)
             {
-                slotUI.Setup(item);
+                int shortcutNumber = fixedSlotCount + _turretSlots.Count;
+
+                slotUI.Setup(item, shortcutNumber);
                 _turretSlotUIs.Add(slotUI);
             }
         }
+        UpdateSlotNumbers();
     }
 
     // A appeler quand le joueur a effectivement utilisé/placé la tourelle sur la map (à brancher plus tard)
@@ -135,6 +153,7 @@ public class InventoryBar : MonoBehaviour
 
         _selectedIndex = -1;
         RefreshHighlights();
+        UpdateSlotNumbers();
     }
 
     private void RefreshHighlights()

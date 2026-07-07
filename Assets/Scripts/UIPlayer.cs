@@ -156,7 +156,7 @@ public class UIPlayer : MonoBehaviour
 
     public void AddCoin(int coinAdded)
     {
-        _coinAmount += coinAdded;
+        _coinAmount += Mathf.RoundToInt(coinAdded * PlayerController.Instance.CoinMultiplier);
         UpdateCoinText();
         if(TryGetComponent(out AudioSource coinAudioSource))
         {

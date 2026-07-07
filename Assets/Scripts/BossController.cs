@@ -346,6 +346,7 @@ public class BossController : MonoBehaviour
         piece.SetCoinAmount(enemySO.coinDrop);
 
         gameObject.SetActive(false);
+        Destroy(gameObject, 0.1f);
     }
 
 #if UNITY_EDITOR
