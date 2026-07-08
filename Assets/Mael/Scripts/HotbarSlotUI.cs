@@ -34,6 +34,7 @@ public class HotbarSlotUI : MonoBehaviour
     }
     public void SetHighlighted(bool isHighlighted)
     {
+        Debug.Log($"HotbarSlotUI : SetHighlighted called with isHighlighted = {isHighlighted}");
         if (highlightOverlay != null)
             highlightOverlay.SetActive(isHighlighted);
     }

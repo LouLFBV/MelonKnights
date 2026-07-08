@@ -32,8 +32,8 @@ public class WaveManager : MonoBehaviour
     private int _enemiesAliveInWave = 0;
 
     // Permet à d'autres scripts (UI, musique, etc.) de réagir au début d'une vague ou à la fin de toutes les vagues
-    public static event System.Action<int> OnWaveStarted;
-    public static event System.Action OnAllWavesCompleted;
+    public event System.Action<int> OnWaveStarted;
+    public event System.Action OnAllWavesCompleted;
 
     private void Start()
     {

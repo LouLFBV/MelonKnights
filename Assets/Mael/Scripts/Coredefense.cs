@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
+using System;
 
 [RequireComponent(typeof(HealthSystem))]
 [RequireComponent(typeof(Collider2D))]
@@ -13,8 +14,14 @@ public class CoreDefense : MonoBehaviour
     [SerializeField] private GameObject shopPanel; // Panel UI du shop, laissé vide pour l'instant
 
     [Header("Game Over")]
-    [SerializeField] private Animator panelTransitionAnimator; // Optionnel, même logique que TriggerScene/PlayerController
-    [SerializeField] private string gameOverSceneName;
+    [SerializeField] private GameObject panelDefeat;
+    [SerializeField] private Animator panelDefeatAnimator;
+
+
+    [Header("Win")]
+    [SerializeField] private WaveManager wazeManager;
+    [SerializeField] private GameObject panelVictory;
+    [SerializeField] private Animator panelVictoryAnimator;
 
     private HealthSystem _healthSystem;
     private Collider2D _collider;
@@ -50,6 +57,9 @@ public class CoreDefense : MonoBehaviour
         // pour fermer le shop avec le même bouton que les autres menus (Cancel)
         if (PlayerController.Instance != null)
             PlayerController.Instance.OnCancelPressed += CloseShop;
+
+        if(wazeManager != null)
+            wazeManager.OnAllWavesCompleted += OnVictory;
     }
 
     private void OnDisable()
@@ -59,6 +69,16 @@ public class CoreDefense : MonoBehaviour
 
         if (PlayerController.Instance != null)
             PlayerController.Instance.OnCancelPressed -= CloseShop;
+
+        if (wazeManager != null)
+            wazeManager.OnAllWavesCompleted -= OnVictory;
+    }
+
+    private void OnVictory()
+    {
+        panelVictory.SetActive(true);
+        Time.timeScale = 0f; // Met le jeu en pause
+        panelVictoryAnimator.SetTrigger("EndGame");
     }
 
     void Update()
@@ -139,26 +159,12 @@ public class CoreDefense : MonoBehaviour
 
         OnCoreDestroyed?.Invoke();
 
+        panelDefeat.SetActive(true);
+        Time.timeScale = 0f; // Met le jeu en pause
+        panelDefeatAnimator.SetTrigger("EndGame");
         Debug.Log("Le Coeur a été détruit. Game Over.");
-
-        if (panelTransitionAnimator != null)
-        {
-            panelTransitionAnimator.SetTrigger("StartTransition");
-        }
-        else if (!string.IsNullOrEmpty(gameOverSceneName))
-        {
-            AE_ChangeToGameOverScene();
-        }
     }
 
-    // A appeler depuis un Animation Event sur la transition (même pattern que TriggerScene.AE_ChangeScene)
-    public void AE_ChangeToGameOverScene()
-    {
-        if (!string.IsNullOrEmpty(gameOverSceneName))
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(gameOverSceneName);
-        }
-    }
 
     private void OnDrawGizmosSelected()
     {

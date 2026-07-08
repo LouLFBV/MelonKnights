@@ -31,6 +31,10 @@ public class BossController : MonoBehaviour
 
     private float _lastAttackTime = -Mathf.Infinity;
 
+    [Header("Archer Settings")]
+    [SerializeField] private GameObject arrowPrefab;
+    [SerializeField] private Transform arrowSpawnPointLeft, arrowSpawnPointRight, arrowSpawnPointForward, arrowSpawnPointBack;
+
     [Header("Other Settings")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Piece coinDropOnDeath;
@@ -293,10 +297,36 @@ public class BossController : MonoBehaviour
         }
         else
         {
-            //Instancier une flèche et l'envoyer vers la cible
+            if (arrowPrefab == null)
+                return;
+
+            Vector2 dir = (_currentTarget.position - transform.position).normalized;
+
+            Transform spawnPoint = GetArrowSpawnPoint(dir);
+
+            GameObject arrow = Instantiate(
+                arrowPrefab,
+                spawnPoint.position,
+                Quaternion.identity);
+
+            arrow.GetComponent<EnemyArrow>().Initialize(dir, attackDamage);
+
         }
     }
 
+    private Transform GetArrowSpawnPoint(Vector2 dir)
+    {
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+        {
+            return dir.x > 0
+                ? arrowSpawnPointRight
+                : arrowSpawnPointLeft;
+        }
+
+        return dir.y > 0
+            ? arrowSpawnPointBack
+            : arrowSpawnPointForward;
+    }
     // Fin de l'animation
     public void AE_EndAttack()
     {

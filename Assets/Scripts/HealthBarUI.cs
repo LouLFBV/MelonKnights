@@ -1,8 +1,10 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthBarUI : MonoBehaviour
 {
+    [SerializeField] private GameObject healthBarParent;
     [SerializeField] private Image healthBarCore;
     [SerializeField] private HealthSystem healthSystem;
     private void Start()
@@ -15,6 +17,7 @@ public class HealthBarUI : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnHealthChanged += UpdateHealthBar;
+            healthSystem.OnDeath += DesactiveUI;
         }
 
     }
@@ -25,6 +28,15 @@ public class HealthBarUI : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnHealthChanged -= UpdateHealthBar;
+            healthSystem.OnDeath -= DesactiveUI;
+        }
+    }
+
+    private void DesactiveUI()
+    {
+        if (healthBarParent != null)
+        {
+            healthBarParent.SetActive(false);
         }
     }
 

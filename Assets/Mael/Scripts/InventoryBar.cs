@@ -13,6 +13,8 @@ public class InventoryBar : MonoBehaviour
     [SerializeField] private PlayerAttack playerAttack; // Le script du joueur pour l'équiper
 
     [Header("Slots fixes (Outil, Arme...) déjà présents dans l'UI")]
+    [SerializeField] private HotbarSlotUI weaponlotUI;
+    [SerializeField] private HotbarSlotUI toolSlotUI; 
     [SerializeField] private int fixedSlotCount = 2;
 
     [Header("UI des slots de tourelles (dynamiques)")]
@@ -158,9 +160,25 @@ public class InventoryBar : MonoBehaviour
 
     private void RefreshHighlights()
     {
+        Debug.Log($"InventoryBar : RefreshHighlights called, selectedIndex = {_selectedIndex}");
+        if (_selectedIndex == 0)
+        {
+            weaponlotUI.SetHighlighted(true);
+            toolSlotUI.SetHighlighted(false);
+        }
+        else if (_selectedIndex == 1)
+        {
+            weaponlotUI.SetHighlighted(false);
+            toolSlotUI.SetHighlighted(true);
+        }
+        else
+        {
+            weaponlotUI.SetHighlighted(false);
+            toolSlotUI.SetHighlighted(false);
+        }
         for (int i = 0; i < _turretSlotUIs.Count; i++)
         {
-            bool isSelected = (i + fixedSlotCount) == _selectedIndex;
+            bool isSelected = i == _selectedIndex;
             _turretSlotUIs[i].SetHighlighted(isSelected);
         }
     }

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Composants")]
     [SerializeField] private Animator panelTransitionAnimator; // Nom de la scène à charger
+    [SerializeField] private GameObject panelDeathGameObject; // Nom de la scène à charger
     [SerializeField] private HealthSystem healthSystem;
     [SerializeField] private XpSystem xpSystem;
     [SerializeField] private PlayerAttack playerAttack;
@@ -224,6 +225,7 @@ public class PlayerController : MonoBehaviour
 
     public void AE_OnPlayerDeath()
     {
+        panelDeathGameObject.SetActive(true);
         panelTransitionAnimator.SetTrigger("StartTransition");
     }
     void FixedUpdate()
