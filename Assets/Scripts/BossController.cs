@@ -46,6 +46,8 @@ public class BossController : MonoBehaviour
     private bool _isDead;
     private bool _isStunned;
     private Transform _currentTarget;
+    private int _lastAttackFrame = -1;
+
 
     private void Awake()
     {
@@ -277,7 +279,14 @@ public class BossController : MonoBehaviour
         if (_isDead || _currentTarget == null)
             return;
 
-        if(enemySO.enemyType != EnemyType.Ranged)
+        if (Time.frameCount == _lastAttackFrame)
+        {
+            Debug.Log($"<color=orange>[AE_Attack Bloqué]</color> Évité sur la même frame pour {gameObject.name}");
+            return;
+        }
+        _lastAttackFrame = Time.frameCount;
+
+        if (enemySO.enemyType != EnemyType.Ranged)
         {
             Collider2D[] hits = Physics2D.OverlapCircleAll(
                 attackPoint.position,
@@ -301,8 +310,9 @@ public class BossController : MonoBehaviour
                 return;
 
             Vector2 dir = (_currentTarget.position - transform.position).normalized;
-
             Transform spawnPoint = GetArrowSpawnPoint(dir);
+
+            Debug.Log($"<color=green>[Arrow Spawned]</color> Flèche créée par {gameObject.name}");
 
             GameObject arrow = Instantiate(
                 arrowPrefab,
@@ -310,7 +320,6 @@ public class BossController : MonoBehaviour
                 Quaternion.identity);
 
             arrow.GetComponent<EnemyArrow>().Initialize(dir, attackDamage);
-
         }
     }
 

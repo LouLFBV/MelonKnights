@@ -130,10 +130,23 @@ public class InventoryBar : MonoBehaviour
             HotbarSlotUI slotUI = slotObj.GetComponent<HotbarSlotUI>();
             if (slotUI != null)
             {
+                // On l'ajoute à la liste immédiatement
+                _turretSlotUIs.Add(slotUI);
+
+                // Calcul du numéro visuel (ex: index 2 -> Touche 3 du clavier)
                 int shortcutNumber = fixedSlotCount + _turretSlots.Count;
 
-                slotUI.Setup(item, shortcutNumber);
-                _turretSlotUIs.Add(slotUI);
+                // Configuration du bouton avec une fonction anonyme dynamique
+                slotUI.Setup(item, shortcutNumber, () =>
+                {
+                    // Piège évité : On recherche l'index actuel de ce slot dans la liste.
+                    // Si un autre slot est supprimé, IndexOf(slotUI) renverra automatiquement la nouvelle bonne position !
+                    int currentUIIndex = _turretSlotUIs.IndexOf(slotUI);
+                    if (currentUIIndex != -1)
+                    {
+                        SelectSlot(fixedSlotCount + currentUIIndex);
+                    }
+                });
             }
         }
         UpdateSlotNumbers();
@@ -161,24 +174,16 @@ public class InventoryBar : MonoBehaviour
     private void RefreshHighlights()
     {
         Debug.Log($"InventoryBar : RefreshHighlights called, selectedIndex = {_selectedIndex}");
-        if (_selectedIndex == 0)
-        {
-            weaponlotUI.SetHighlighted(true);
-            toolSlotUI.SetHighlighted(false);
-        }
-        else if (_selectedIndex == 1)
-        {
-            weaponlotUI.SetHighlighted(false);
-            toolSlotUI.SetHighlighted(true);
-        }
-        else
-        {
-            weaponlotUI.SetHighlighted(false);
-            toolSlotUI.SetHighlighted(false);
-        }
+
+        // Gestion des slots fixes
+        if (weaponlotUI != null) weaponlotUI.SetHighlighted(_selectedIndex == 0);
+        if (toolSlotUI != null) toolSlotUI.SetHighlighted(_selectedIndex == 1);
+
+        // Gestion des tourelles dynamiques
         for (int i = 0; i < _turretSlotUIs.Count; i++)
         {
-            bool isSelected = i == _selectedIndex;
+            // On convertit l'index local de la boucle (0, 1, 2...) en index global de barre (2, 3, 4...)
+            bool isSelected = (i + fixedSlotCount) == _selectedIndex;
             _turretSlotUIs[i].SetHighlighted(isSelected);
         }
     }

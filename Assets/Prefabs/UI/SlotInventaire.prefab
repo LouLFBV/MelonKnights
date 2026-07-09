@@ -151,6 +151,7 @@ MonoBehaviour:
   iconImage: {fileID: 8644891410515658284}
   inputText: {fileID: 231536096723151566}
   highlightOverlay: {fileID: 8157659305537102957}
+  button: {fileID: 5032920506883794495}
   isOutil: 1
 --- !u!1 &2761152723989226183
 GameObject:

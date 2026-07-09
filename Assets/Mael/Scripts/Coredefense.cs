@@ -12,6 +12,7 @@ public class CoreDefense : MonoBehaviour
     [Header("Références")]
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject shopPanel; // Panel UI du shop, laissé vide pour l'instant
+    [SerializeField] private Animator coreAnimator;
 
     [Header("Game Over")]
     [SerializeField] private GameObject panelDefeat;
@@ -156,9 +157,14 @@ public class CoreDefense : MonoBehaviour
 
         _isDead = true;
         CloseShop();
+        coreAnimator.SetTrigger("EndGame");
 
         OnCoreDestroyed?.Invoke();
 
+    }
+
+    public void AE_OnCoreDeath()
+    {
         panelDefeat.SetActive(true);
         Time.timeScale = 0f; // Met le jeu en pause
         panelDefeatAnimator.SetTrigger("EndGame");
