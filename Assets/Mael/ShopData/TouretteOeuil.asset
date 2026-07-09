@@ -16,5 +16,5 @@ MonoBehaviour:
   description: "Un \u0153il ancien dont le regard per\xE7ant paralyse les ennemis
     pendant une longue dur\xE9e."
   icon: {fileID: 7086215023369823238, guid: 4c71131900087d64ea4021647ac40413, type: 3}
-  turretPrefab: {fileID: 0}
+  turretPrefab: {fileID: 3101962008547593688, guid: fe58b7c217077c949bb1c8bf71bcc592, type: 3}
   cost: 100

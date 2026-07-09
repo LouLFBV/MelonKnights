@@ -16,5 +16,5 @@ MonoBehaviour:
   description: "Enfouies sous terre, ces \xE9pines ac\xE9r\xE9es transpercent tout
     ennemi assez imprudent pour marcher dessus."
   icon: {fileID: 1820993640521608581, guid: 13daf43951e0d5b4087a14017eddda6f, type: 3}
-  turretPrefab: {fileID: 0}
+  turretPrefab: {fileID: 1183564129562071851, guid: bbc75ee0f0ce34d488cbb521e7a9be95, type: 3}
   cost: 20

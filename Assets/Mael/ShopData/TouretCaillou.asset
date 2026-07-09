@@ -16,5 +16,5 @@ MonoBehaviour:
   description: "Une roche ancestrale capable de projeter des \xE9clats tranchants
     sur une tr\xE8s longue distance."
   icon: {fileID: 8765287002285721316, guid: 67653ce1b89048449ab26d82e420ceab, type: 3}
-  turretPrefab: {fileID: 0}
+  turretPrefab: {fileID: 3663503113262435134, guid: cacbdf7429bcb4d41b19502d0da2adb2, type: 3}
   cost: 50

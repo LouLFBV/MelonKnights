@@ -16,5 +16,5 @@ MonoBehaviour:
   description: "Un rempart de pierre robuste. Ne cause aucun d\xE9g\xE2t mais bloque
     efficacement la route des ennemis gr\xE2ce \xE0 ses 50 points de vie."
   icon: {fileID: 4828593252417767015, guid: aed5d58a2e67bf64c96434b5b8077c8b, type: 3}
-  turretPrefab: {fileID: 0}
+  turretPrefab: {fileID: 3852734230984440309, guid: dfe41a96d0846f145a72bbcf6f17d997, type: 3}
   cost: 10

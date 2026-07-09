@@ -16,5 +16,5 @@ MonoBehaviour:
   description: Fait jaillir une racine puissante qui s'enroule autour des ennemis
     et ralentit leur progression.
   icon: {fileID: -2761866175796892333, guid: 1484b56afafe9fa4390b2a99fdfa1b8e, type: 3}
-  turretPrefab: {fileID: 0}
+  turretPrefab: {fileID: 2222955240212257091, guid: 6bc6376be1fb44e459afb083c0ef177f, type: 3}
   cost: 120

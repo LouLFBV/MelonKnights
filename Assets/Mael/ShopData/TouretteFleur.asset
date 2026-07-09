@@ -16,5 +16,5 @@ MonoBehaviour:
   description: "Une fleur v\xE9n\xE9neuse qui lib\xE8re un nuage toxique, empoisonnant
     lentement tous les ennemis \xE0 proximit\xE9."
   icon: {fileID: 815043803470088024, guid: d008f05d7405ab240a1993b9229ea540, type: 3}
-  turretPrefab: {fileID: 0}
+  turretPrefab: {fileID: 1668962650162646190, guid: 020ab842067d9a148aeafc6aa1df1c43, type: 3}
   cost: 50
