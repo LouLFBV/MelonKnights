@@ -1,30 +1,15 @@
 using UnityEngine;
 
-public class FlowerTower : MonoBehaviour
+public class FlowerTower : Tower
 {
-    [SerializeField] private TowerSO towerData;
-    [SerializeField] private SpriteRenderer spriteOK;
-    [SerializeField] private SpriteRenderer spriteDestroy;
-    [SerializeField] private HealthSystem healthSystem;
-
     [Header("Nuage Toxic")]
     [SerializeField] private Transform transformNuageToxic;
     [SerializeField] private Animator animatorFlowerTower;
     [SerializeField] private Animator animatorNuageToxic;
 
     private float _nextAttackTime;
-    private bool _isDestroyed;
     private Collider2D _currentEnemy;
 
-    private void OnEnable()
-    {
-        if (healthSystem != null) healthSystem.OnDeath += OnDeath;
-    }
-
-    private void OnDisable()
-    {
-        if (healthSystem != null) healthSystem.OnDeath -= OnDeath;
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -45,8 +30,9 @@ public class FlowerTower : MonoBehaviour
         }
     }
 
-    private void Update()
+    protected override void Update()
     {
+        base.Update();
         if (_isDestroyed)
             return;
 
@@ -97,15 +83,21 @@ public class FlowerTower : MonoBehaviour
         }
     }
 
-    private void OnDeath()
+    protected override void OnDeath()
     {
-        _isDestroyed = true;
-        spriteOK.enabled = false;
-        spriteDestroy.enabled = true;
-        animatorNuageToxic.enabled = false; // Arrête l'anim si détruite
+        base.OnDeath();
+        //animatorNuageToxic.enabled = false; // Arrête l'anim si détruite
         animatorFlowerTower.enabled = false; // Arrête l'anim si détruite
     }
 
+    protected override void Rebuild()
+    {
+        base.Rebuild(); // Fait revivre la tour et restaure les HP
+
+        // On relance les animations !
+        animatorNuageToxic.enabled = true;
+        animatorFlowerTower.enabled = true;
+    }
     private void OnDrawGizmos()
     {
         if (transformNuageToxic != null)

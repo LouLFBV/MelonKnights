@@ -1,33 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class CaillouTower : MonoBehaviour
+public class CaillouTower : Tower
 {
-    [SerializeField] private TowerSO towerData;
-    [SerializeField] private SpriteRenderer spriteOK;
-    [SerializeField] private SpriteRenderer spriteDestroy;
-    [SerializeField] private HealthSystem healthSystem;
     [SerializeField] private Transform projectileSpawnPoint;
     [SerializeField] private Animator animatorCaillouTower;
 
-
-
     private List<BossController> _enemiesInRange = new List<BossController>();
     private float _nextAttackTime;
-    private bool _isDestroyed;
 
-    private void OnEnable()
+    protected override void Update()
     {
-        if (healthSystem != null) healthSystem.OnDeath += OnDeath;
-    }
-
-    private void OnDisable()
-    {
-        if (healthSystem != null) healthSystem.OnDeath -= OnDeath;
-    }
-
-    private void Update()
-    {
+        base.Update();
         if (_isDestroyed)
             return;
 
@@ -113,11 +97,9 @@ public class CaillouTower : MonoBehaviour
         }
     }
 
-    private void OnDeath()
+    protected override void OnDeath()
     {
-        _isDestroyed = true;
-        spriteOK.enabled = false;
-        spriteDestroy.enabled = true;
+        base.OnDeath();
 
         // Empêche la tour d'attaquer une fois détruite
         _enemiesInRange.Clear();

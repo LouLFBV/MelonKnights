@@ -18,6 +18,7 @@ public class HealthBarUI : MonoBehaviour
         {
             healthSystem.OnHealthChanged += UpdateHealthBar;
             healthSystem.OnDeath += DesactiveUI;
+            healthSystem.OnReset += ActiveUI;
         }
 
     }
@@ -29,6 +30,7 @@ public class HealthBarUI : MonoBehaviour
         {
             healthSystem.OnHealthChanged -= UpdateHealthBar;
             healthSystem.OnDeath -= DesactiveUI;
+            healthSystem.OnReset -= ActiveUI;
         }
     }
 
@@ -37,6 +39,14 @@ public class HealthBarUI : MonoBehaviour
         if (healthBarParent != null)
         {
             healthBarParent.SetActive(false);
+        }
+    }
+
+    private void ActiveUI()
+    {
+        if (healthBarParent != null)
+        {
+            healthBarParent.SetActive(true);
         }
     }
 

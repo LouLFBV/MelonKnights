@@ -140,6 +140,8 @@ MonoBehaviour:
   spriteOK: {fileID: 6074130957363589239}
   spriteDestroy: {fileID: 3274524685993727218}
   healthSystem: {fileID: 8314905216842799428}
+  transformTower: {fileID: 9142329996318769339}
+  rebuildDistance: 2
   transformNuageToxic: {fileID: 5952649752662263342}
   animatorFlowerTower: {fileID: 1038052509044003182}
   animatorNuageToxic: {fileID: 6544753091375085304}
@@ -159,6 +161,7 @@ MonoBehaviour:
   towerSO: {fileID: 11400000, guid: fb27cbc7ff797444eafaed40b48fef6b, type: 2}
   maxHealth: 8
   currentHealth: 0
+  maxHealthBonusCap: 1
 --- !u!114 &8105893700764790684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb5111b5f1e5d449bbfe7a031c22460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
+  healthBarParent: {fileID: 8784626703875608878}
   healthBarCore: {fileID: 5433713177114340239}
   healthSystem: {fileID: 8314905216842799428}
 --- !u!58 &5210227124466301600
@@ -636,3 +640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &8784626703875608878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4292765750953896021, guid: aaee35eb3e3812f47b1cbb62596aeb03, type: 3}
+  m_PrefabInstance: {fileID: 4790621388475693435}
+  m_PrefabAsset: {fileID: 0}

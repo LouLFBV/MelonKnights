@@ -8,6 +8,7 @@ public class HealthSystem : MonoBehaviour
     [HideInInspector] public int currentHealth;
     public event System.Action OnHealthChanged;
     public event System.Action OnDeath;
+    public event System.Action OnReset;
 
     [Header("Configuration du Plafond de Carte")]
     [SerializeField] private float maxHealthBonusCap = 1.0f; // Plafond max (ex: 1.0f = +100% de vie max)
@@ -45,6 +46,7 @@ public class HealthSystem : MonoBehaviour
         Debug.Log($"Resetting HP for {this.gameObject.name}");
         currentHealth = maxHealth;
         OnHealthChanged?.Invoke();
+        OnReset?.Invoke();
     }
 
     // La méthode complétée pour ta carte Vie

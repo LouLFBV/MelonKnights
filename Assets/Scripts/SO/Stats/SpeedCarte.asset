@@ -15,5 +15,5 @@ MonoBehaviour:
   carteType: 0
   carteName: 'Gain de Vitesse '
   carteDescription: "Vous augmentez votre vitesse de d\xE9placement de 30%."
-  carteSprite: {fileID: 21300000, guid: 2e5764568fab71e4d9d392bb08c4064e, type: 3}
+  carteSprite: {fileID: 21300000, guid: 62555dc23266e294bb63253562d24cdb, type: 3}
   boostValue: 0.3

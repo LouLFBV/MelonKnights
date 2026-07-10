@@ -1,33 +1,18 @@
 using UnityEngine;
 
-public class RacineTower : MonoBehaviour
+public class RacineTower : Tower
 {
-    [SerializeField] private TowerSO towerData;
-    [SerializeField] private SpriteRenderer spriteOK;
-    [SerializeField] private SpriteRenderer spriteDestroy;
-    [SerializeField] private HealthSystem healthSystem;
     [SerializeField] private Animator racineAnimator;
     [SerializeField] private Transform racineAttackPoint;
 
     private float _nextAttackTime;
-    private bool _isDestroyed;
 
     private Collider2D _currentEnemy;
 
-    private void OnEnable()
-    {
-        if (healthSystem != null)
-            healthSystem.OnDeath += OnDeath;
-    }
 
-    private void OnDisable()
+    protected override void Update()
     {
-        if (healthSystem != null)
-            healthSystem.OnDeath -= OnDeath;
-    }
-
-    private void Update()
-    {
+        base.Update();
         if (_isDestroyed)
             return;
 
@@ -45,13 +30,6 @@ public class RacineTower : MonoBehaviour
             _nextAttackTime = Time.time + towerData.attackSpeed;
             racineAnimator.SetTrigger("Attack");
         }
-    }
-
-    private void OnDeath()
-    {
-        _isDestroyed = true;
-        spriteOK.enabled = false;
-        spriteDestroy.enabled = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

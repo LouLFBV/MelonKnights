@@ -170,6 +170,7 @@ MonoBehaviour:
   towerSO: {fileID: 11400000, guid: 0f1b3e3349b4bf84d86d99871888d399, type: 2}
   maxHealth: 8
   currentHealth: 0
+  maxHealthBonusCap: 1
 --- !u!114 &1713341363620389552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb5111b5f1e5d449bbfe7a031c22460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
+  healthBarParent: {fileID: 7378171211840446543}
   healthBarCore: {fileID: 6117482078761884398}
   healthSystem: {fileID: 715676505084389732}
 --- !u!114 &53906308414153786
@@ -200,6 +202,8 @@ MonoBehaviour:
   spriteOK: {fileID: 9051203828626613019}
   spriteDestroy: {fileID: 2282959290504464378}
   healthSystem: {fileID: 715676505084389732}
+  transformTower: {fileID: 6762345981385617894}
+  rebuildDistance: 2
   projectileSpawnPoint: {fileID: 1947715577268352498}
   animatorCaillouTower: {fileID: 6512003331183774379}
 --- !u!58 &3379936945101773071
@@ -505,3 +509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &7378171211840446543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4292765750953896021, guid: aaee35eb3e3812f47b1cbb62596aeb03, type: 3}
+  m_PrefabInstance: {fileID: 6770722324830390298}
+  m_PrefabAsset: {fileID: 0}

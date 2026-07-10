@@ -114,6 +114,7 @@ MonoBehaviour:
   towerSO: {fileID: 11400000, guid: 6b94bd2b55bb1dd4788a52405b31165f, type: 2}
   maxHealth: 8
   currentHealth: 0
+  maxHealthBonusCap: 1
 --- !u!114 &5672888799742528168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb5111b5f1e5d449bbfe7a031c22460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
+  healthBarParent: {fileID: 7642547101873015423}
   healthBarCore: {fileID: 6381290820963528926}
   healthSystem: {fileID: 7347237758117076097}
 --- !u!114 &5682065566952267273
@@ -427,3 +429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &7642547101873015423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4292765750953896021, guid: aaee35eb3e3812f47b1cbb62596aeb03, type: 3}
+  m_PrefabInstance: {fileID: 5880926697385419306}
+  m_PrefabAsset: {fileID: 0}

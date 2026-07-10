@@ -114,6 +114,8 @@ MonoBehaviour:
   spriteOK: {fileID: 4889984710817652929}
   spriteDestroy: {fileID: 4940799519426527481}
   healthSystem: {fileID: 1318987567266276871}
+  transformTower: {fileID: 8797161962452078631}
+  rebuildDistance: 2
 --- !u!58 &6935534407008025754
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -166,6 +168,7 @@ MonoBehaviour:
   towerSO: {fileID: 11400000, guid: c9172160cf355bf40bf070310601ea52, type: 2}
   maxHealth: 8
   currentHealth: 0
+  maxHealthBonusCap: 1
 --- !u!114 &4352424494513867244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb5111b5f1e5d449bbfe7a031c22460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
+  healthBarParent: {fileID: 7166453655375266125}
   healthBarCore: {fileID: 5905755715596303340}
   healthSystem: {fileID: 1318987567266276871}
 --- !u!50 &6070694440735929585
@@ -411,3 +415,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &7166453655375266125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4292765750953896021, guid: aaee35eb3e3812f47b1cbb62596aeb03, type: 3}
+  m_PrefabInstance: {fileID: 6405996728631208216}
+  m_PrefabAsset: {fileID: 0}
