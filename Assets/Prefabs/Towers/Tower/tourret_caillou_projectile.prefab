@@ -130,9 +130,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   weaponData: {fileID: 0}
-  damage: 1
+  damage: 10
   speed: 10
   lifetime: 5
+  fallbackAttackRange: 2
+  gameObjectExplosive: {fileID: 0}
 --- !u!50 &5872798495335285474
 Rigidbody2D:
   serializedVersion: 5

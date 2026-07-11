@@ -111,11 +111,17 @@ public class CoreDefense : MonoBehaviour
             Vector3 mouseScreenPos = Mouse.current.position.ReadValue();
             Vector2 mouseWorldPos = mainCamera.ScreenToWorldPoint(mouseScreenPos);
 
-            Collider2D hit = Physics2D.OverlapPoint(mouseWorldPos);
+            // 1. On récupère TOUS les colliders sous la souris
+            Collider2D[] hits = Physics2D.OverlapPointAll(mouseWorldPos);
 
-            if (hit == _collider)
+            // 2. On fouille dans la liste pour voir si le Coeur y est
+            foreach (Collider2D hit in hits)
             {
-                ToggleShop();
+                if (hit == _collider)
+                {
+                    ToggleShop();
+                    break; // On a trouvé le Coeur, pas besoin de vérifier le reste !
+                }
             }
         }
     }

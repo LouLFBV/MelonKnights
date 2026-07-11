@@ -26,6 +26,8 @@ public class EnemyArrow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.isTrigger) return;
+
         if (other.TryGetComponent(out HealthSystem health))
         {
             health.TakeDamage(damage);

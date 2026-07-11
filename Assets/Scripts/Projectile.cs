@@ -65,9 +65,12 @@ public class Projectile : MonoBehaviour
     // --- NOUVELLE MÉTHODE CENTRALISÉE ---
     private void DealDamage(Collider2D targetCollider)
     {
-        if(weaponData.weaponType == WeaponType.Staff)
+        if(weaponData != null)
         {
-            AE_Attack();
+            if (weaponData.weaponType == WeaponType.Staff)
+            {
+                AE_Attack();
+            }
         }
         HealthSystem hs = targetCollider.GetComponent<HealthSystem>();
 
@@ -80,7 +83,7 @@ public class Projectile : MonoBehaviour
         {
             // Détermine les dégâts finaux en une seule ligne
             int finalDamage = (weaponData != null) ? weaponData.damage : damage;
-
+            Debug.Log($"Calcul des dégâts pour {targetCollider.name} : {finalDamage} (WeaponSO: {(weaponData != null ? weaponData.weaponName : "null")})");
             hs.TakeDamage(finalDamage);
             Debug.Log($"Projectile a touché {targetCollider.name} pour {finalDamage} dégâts. (Santé trouvée sur : {hs.gameObject.name})");
         }

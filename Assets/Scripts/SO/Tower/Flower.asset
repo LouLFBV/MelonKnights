@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Flower
   m_EditorClassIdentifier: Assembly-CSharp::TowerSO
   towerName: 
-  damage: 5
-  hp: 30
+  damage: 30
+  hp: 75
   stunDuration: 0
   attackSpeed: 1
   range: 2

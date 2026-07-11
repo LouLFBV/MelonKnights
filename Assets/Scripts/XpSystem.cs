@@ -10,9 +10,6 @@ public class XpSystem : MonoBehaviour
     public event System.Action OnXpChanged;
     public event System.Action OnLevelUp;
 
-    [Header("Configuration Progression (Le truc sympa !)")]
-    [Tooltip("Multiplier par 1.2 signifie qu'on demande +20% d'XP en plus au niveau suivant.")]
-    [SerializeField] private float xpRequirementMultiplier = 1.2f;
 
     [Header("Configuration du Plafond de Carte")]
     [SerializeField] private float maxXpBonus = 1.0f; // +100% d'XP max

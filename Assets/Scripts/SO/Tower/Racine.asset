@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Racine
   m_EditorClassIdentifier: Assembly-CSharp::TowerSO
   towerName: 
-  damage: 1
-  hp: 10
+  damage: 10
+  hp: 55
   stunDuration: 0
   attackSpeed: 1
   range: 1.5

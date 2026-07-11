@@ -5,7 +5,8 @@ public class TurretPlacementManager : MonoBehaviour
     [Header("Configuration")]
     [SerializeField] private LayerMask obstacleLayer; // Pour éviter de poser une tour sur un mur/autre tour
     [SerializeField] private bool snapToGrid = true;   // Si tu veux aligner les tours proprement
-    [SerializeField] private float gridSize = 1f;
+    [SerializeField] private float gridSize = 1f; 
+    [SerializeField] private float overlapRadius = 0.1f;
 
     private TurretShopItem _activeItem;
     private GameObject _previewInstance;
@@ -110,10 +111,22 @@ public class TurretPlacementManager : MonoBehaviour
 
     private bool CheckPlacementValidity(Vector3 position)
     {
-        // Vérifie s'il y a un obstacle (un mur, une autre tour) à cette position
-        // On fait un petit cercle virtuel de rayon 0.4f pour tester les collisions
-        Collider2D hit = Physics2D.OverlapCircle(position, 0.2f, obstacleLayer);
-        return hit == null;
+        // 1. On récupère TOUS les colliders présents dans le rayon
+        Collider2D[] hits = Physics2D.OverlapCircleAll(position, overlapRadius, obstacleLayer);
+
+        // 2. On vérifie chaque élément touché un par un
+        foreach (Collider2D hit in hits)
+        {
+            // Si on tombe sur un collider physique qui N'EST PAS un trigger...
+            if (!hit.isTrigger)
+            {
+                // ... alors c'est un vrai obstacle (mur, base d'une autre tour). On bloque le placement !
+                return false;
+            }
+        }
+
+        // 3. Si on arrive ici, c'est qu'on a soit rien touché, soit touché UNIQUEMENT des triggers. Le placement est valide !
+        return true;
     }
 
     private Vector3 GetMouseWorldPosition()
