@@ -191,6 +191,10 @@ public class CarteSystem : MonoBehaviour
                 playerHealthSystem.IncreaseHealth(carteSO.boostValue);
                 break;
 
+            case CarteType.Heal:
+                playerHealthSystem.HealPlayer(carteSO.boostValue);
+                break;
+
             case CarteType.MovementSpeed:
                 PlayerController.Instance.IncreaseMovementSpeed(carteSO.boostValue);
                 break;

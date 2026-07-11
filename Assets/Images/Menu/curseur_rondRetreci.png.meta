@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 336a3b108ffb40141a945c3fc963b8da
+guid: 8b465143abcba8c4a86d8964b21579be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -712725394034665177
-    second: curseur_rond_0
+      213: -3594152670861438132
+    second: curseur_rondRetreci_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -98,14 +98,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -113,11 +113,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: curseur_rond_0
+      name: curseur_rondRetreci_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 17
+        x: 208
+        y: 209
         width: 94
         height: 94
       alignment: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 729d922c704eb16f0800000000000000
-      internalID: -712725394034665177
+      spriteID: c4358c040310f1ec0800000000000000
+      internalID: -3594152670861438132
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      curseur_rond_0: -712725394034665177
+      curseur_rondRetreci_0: -3594152670861438132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
