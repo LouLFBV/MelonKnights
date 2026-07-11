@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4203369749796108467}
   - component: {fileID: 7268660852541797655}
   - component: {fileID: 4766147337276073467}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: caillou_1 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

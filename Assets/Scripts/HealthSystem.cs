@@ -80,6 +80,14 @@ public class HealthSystem : MonoBehaviour
         Debug.Log($"Vie augmentée ! Nouveau Max : {maxHealth} (Bonus total : +{_currentHealthBonus * 100}%)");
     }
 
+    public void HealPlayer(float percentage)
+    {
+        int healAmount = Mathf.RoundToInt(maxHealth * percentage);
+        currentHealth += healAmount;
+        if (currentHealth > maxHealth)
+            currentHealth = maxHealth;
+        OnHealthChanged?.Invoke();
+    }
     public bool IsHealthCardMaxed()
     {
         return _currentHealthBonus >= maxHealthBonusCap;

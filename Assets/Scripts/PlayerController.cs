@@ -226,6 +226,7 @@ public class PlayerController : MonoBehaviour
     public void AE_OnPlayerDeath()
     {
         panelDeathGameObject.SetActive(true);
+        Time.timeScale = 0f; // On met le jeu en pause
         panelTransitionAnimator.SetTrigger("StartTransition");
     }
     void FixedUpdate()

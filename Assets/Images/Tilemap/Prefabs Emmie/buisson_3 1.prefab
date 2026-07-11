@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1723233017811105424}
   - component: {fileID: 2772826474260918696}
   - component: {fileID: 2619405816772459309}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: buisson_3 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

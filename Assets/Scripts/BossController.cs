@@ -296,15 +296,23 @@ public class BossController : MonoBehaviour
                 attackPoint.position,
                 attackPointRange);
 
+            // Création d'une liste pour mémoriser les cibles déjà touchées par CE coup d'épée
+            System.Collections.Generic.HashSet<HealthSystem> damagedTargets = new System.Collections.Generic.HashSet<HealthSystem>();
+
             foreach (Collider2D hit in hits)
             {
-                if (hit.transform != _currentTarget)
-                    continue;
-
-                if (hit.TryGetComponent(out HealthSystem health))
+                // Si on trouve un HealthSystem et que ce n'est pas un Boss
+                if (hit.TryGetComponent(out HealthSystem health) && !hit.CompareTag("Boss"))
                 {
-                    health.TakeDamage(attackDamage);
-                    break;
+                    // On vérifie si on n'a pas déjà infligé des dégâts à cette cible précise
+                    if (!damagedTargets.Contains(health))
+                    {
+                        health.TakeDamage(attackDamage);
+                        damagedTargets.Add(health); // On l'ajoute à la liste pour ne pas la retaper
+
+                        // NOTE : Le mot-clé "break;" a été supprimé ici ! 
+                        // Le boss va donc continuer la boucle et blesser les autres cibles.
+                    }
                 }
             }
         }
@@ -325,7 +333,8 @@ public class BossController : MonoBehaviour
 
             arrow.GetComponent<EnemyArrow>().Initialize(dir, attackDamage);
         }
-        if(TryGetComponent(out AudioSource audioSource) && attackAudioClip != null)
+
+        if (TryGetComponent(out AudioSource audioSource) && attackAudioClip != null)
         {
             audioSource.PlayOneShot(attackAudioClip);
         }

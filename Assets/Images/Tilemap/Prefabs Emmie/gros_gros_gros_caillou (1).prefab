@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4653468063681281134}
   - component: {fileID: 5847692701797415523}
   - component: {fileID: 6530937566921359289}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gros_gros_gros_caillou (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

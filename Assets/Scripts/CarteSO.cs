@@ -17,5 +17,6 @@ public enum CarteType
     Health,
     MovementSpeed,
     Coin,
-    XP
+    XP,
+    Heal
 }
