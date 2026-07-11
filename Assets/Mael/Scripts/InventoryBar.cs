@@ -7,6 +7,9 @@ public class InventoryBar : MonoBehaviour
 {
     public static InventoryBar Instance { get; private set; }
 
+    [Header("Configuration Globale")]
+    [SerializeField] private int maxTotalSlots = 12; // Limite totale de la barre d'inventaire
+
     [Header("Équipement de base")]
     [SerializeField] private WeaponSO defaultTool;   // Ton outil (ex: Pioche)
     [SerializeField] private WeaponSO defaultWeapon; // Ton arme (ex: Épée)
@@ -14,7 +17,7 @@ public class InventoryBar : MonoBehaviour
 
     [Header("Slots fixes (Outil, Arme...) déjà présents dans l'UI")]
     [SerializeField] private HotbarSlotUI weaponlotUI;
-    [SerializeField] private HotbarSlotUI toolSlotUI; 
+    [SerializeField] private HotbarSlotUI toolSlotUI;
     [SerializeField] private int fixedSlotCount = 2;
 
     [Header("UI des slots de tourelles (dynamiques)")]
@@ -80,47 +83,47 @@ public class InventoryBar : MonoBehaviour
                 }
                 else if (index == 1 && defaultTool != null)
                 {
-                    Debug.Log("InventoryBar : Équipe l'arme par défaut");
+                    Debug.Log("InventoryBar : Équipe l'outil par défaut");
                     playerAttack.EquipWeapon(defaultTool);
                 }
-                Debug.Log($"InventoryBar : Slot fixe sélectionné, index {index}, arme équipée : {playerAttack}");
+                Debug.Log($"InventoryBar : Slot fixe sélectionné, index {index}, arme/outil équipé");
             }
         }
         else
         {
-            Debug.Log($"InventoryBar : Slot de tourelle sélectionné, index {index}, item : {_turretSlots[index - fixedSlotCount]?.name}");
             TurretShopItem item = _turretSlots[index - fixedSlotCount];
+            Debug.Log($"InventoryBar : Slot de tourelle sélectionné, index {index}, item : {item?.name}");
             OnTurretSelected?.Invoke(item);
         }
 
         RefreshHighlights();
     }
 
-    // À ajouter dans le script InventoryBar
     public void SetDefaultWeapon(WeaponSO weapon)
     {
         defaultWeapon = weapon;
     }
 
-    // À appeler à la fin de AddTurretSlot et RemoveTurretSlot pour garder les chiffres synchronisés
     private void UpdateSlotNumbers()
     {
         for (int i = 0; i < _turretSlotUIs.Count; i++)
         {
             int shortcutNumber = fixedSlotCount + 1 + i; // ex: 2 + 1 + 0 = Touche 3
-
-            // On recharget le setup actuel mais avec le nouveau numéro rafraîchi
-            // (Tu peux ajouter une petite méthode publique UpdateNumber dans HotbarSlotUI ou réutiliser Setup)
             _turretSlotUIs[i].UpdateInputText(shortcutNumber);
         }
     }
 
-
-
-    // Appelée par ShopSystem après un achat réussi
-    public void AddTurretSlot(TurretShopItem item)
+    // Appelée par ShopSystem après un achat. Renvoie true si succès, false si inventaire plein.
+    public bool AddTurretSlot(TurretShopItem item)
     {
-        if (item == null) return;
+        if (item == null) return false;
+
+        // --- LA VÉRIFICATION DE LA LIMITE EST ICI ---
+        if (fixedSlotCount + _turretSlots.Count >= maxTotalSlots)
+        {
+            Debug.LogWarning("Inventaire plein ! Impossible de stocker plus de tourelles.");
+            return false;
+        }
 
         _turretSlots.Add(item);
 
@@ -130,17 +133,12 @@ public class InventoryBar : MonoBehaviour
             HotbarSlotUI slotUI = slotObj.GetComponent<HotbarSlotUI>();
             if (slotUI != null)
             {
-                // On l'ajoute à la liste immédiatement
                 _turretSlotUIs.Add(slotUI);
 
-                // Calcul du numéro visuel (ex: index 2 -> Touche 3 du clavier)
                 int shortcutNumber = fixedSlotCount + _turretSlots.Count;
 
-                // Configuration du bouton avec une fonction anonyme dynamique
                 slotUI.Setup(item, shortcutNumber, () =>
                 {
-                    // Piège évité : On recherche l'index actuel de ce slot dans la liste.
-                    // Si un autre slot est supprimé, IndexOf(slotUI) renverra automatiquement la nouvelle bonne position !
                     int currentUIIndex = _turretSlotUIs.IndexOf(slotUI);
                     if (currentUIIndex != -1)
                     {
@@ -149,10 +147,11 @@ public class InventoryBar : MonoBehaviour
                 });
             }
         }
+
         UpdateSlotNumbers();
+        return true; // L'ajout a réussi
     }
 
-    // A appeler quand le joueur a effectivement utilisé/placé la tourelle sur la map (à brancher plus tard)
     public void RemoveTurretSlot(TurretShopItem item)
     {
         int slotIndex = _turretSlots.IndexOf(item);
@@ -175,14 +174,11 @@ public class InventoryBar : MonoBehaviour
     {
         Debug.Log($"InventoryBar : RefreshHighlights called, selectedIndex = {_selectedIndex}");
 
-        // Gestion des slots fixes
         if (weaponlotUI != null) weaponlotUI.SetHighlighted(_selectedIndex == 0);
         if (toolSlotUI != null) toolSlotUI.SetHighlighted(_selectedIndex == 1);
 
-        // Gestion des tourelles dynamiques
         for (int i = 0; i < _turretSlotUIs.Count; i++)
         {
-            // On convertit l'index local de la boucle (0, 1, 2...) en index global de barre (2, 3, 4...)
             bool isSelected = (i + fixedSlotCount) == _selectedIndex;
             _turretSlotUIs[i].SetHighlighted(isSelected);
         }

@@ -133,6 +133,8 @@ MonoBehaviour:
   damage: 1
   speed: 7
   lifetime: 5
+  fallbackAttackRange: 2
+  gameObjectExplosive: {fileID: 5886451427012995310, guid: fc1c768ee346b43408fad95eb7579a02, type: 3}
 --- !u!58 &33260953638907498
 CircleCollider2D:
   m_ObjectHideFlags: 0

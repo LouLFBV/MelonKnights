@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5803373774877943619}
   - component: {fileID: 1286597555752946486}
   - component: {fileID: 1932939608007017139}
+  - component: {fileID: 5880130240312794350}
   m_Layer: 0
   m_Name: EnemyTank
   m_TagString: Boss
@@ -126,6 +127,13 @@ MonoBehaviour:
   dieTriggerName: Die
   speedFloatName: Speed
   attackCooldown: 3
+  arrowPrefab: {fileID: 0}
+  arrowSpawnPointLeft: {fileID: 0}
+  arrowSpawnPointRight: {fileID: 0}
+  arrowSpawnPointForward: {fileID: 0}
+  arrowSpawnPointBack: {fileID: 0}
+  attackAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: 6d55dbd03e4ea9140b18e072e1069736, type: 3}
   spriteRenderer: {fileID: 493463219954567786}
   coinDropOnDeath: {fileID: 4293979049115109371, guid: 84065d32e3db83d45b28c1726145ead4, type: 3}
   targetRefreshRate: 0.2
@@ -141,10 +149,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00495b2a480c8324ca4d61f70e25f9b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthSystem
-  enemySO: {fileID: 11400000, guid: 9592c6293373e73418caf1d4e03cab10, type: 2}
+  enemySO: {fileID: 11400000, guid: 90723abcc61738341b99d5a737f86865, type: 2}
   towerSO: {fileID: 0}
   maxHealth: 10
   currentHealth: 0
+  maxHealthBonusCap: 1
 --- !u!114 &2588886289238517458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,6 +258,103 @@ NavMeshAgent:
   m_BaseOffset: 1.21
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!82 &5880130240312794350
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2594423858236318890}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9c125b71aeeefa94087b06bd30240892, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &6150710694818714796
 GameObject:
   m_ObjectHideFlags: 0

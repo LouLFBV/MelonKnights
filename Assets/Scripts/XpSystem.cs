@@ -3,8 +3,7 @@
 public class XpSystem : MonoBehaviour
 {
     [Header("Configuration XP de Base")]
-    public int baseMaxXp = 50; // On garde la valeur de départ
-    [HideInInspector] public int maxXp;
+    [HideInInspector] public int maxXp = 50;
     [HideInInspector] public int currentXp;
     [HideInInspector] public int levelPlayer = 0;
 
@@ -19,10 +18,13 @@ public class XpSystem : MonoBehaviour
     [SerializeField] private float maxXpBonus = 1.0f; // +100% d'XP max
     private float _currentXpBonus = 0.0f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip levelUpAudioClip;
+    [SerializeField] private AudioSource audioSource;
+
+
     private void Awake()
     {
-        // On initialise l'XP max de départ
-        maxXp = baseMaxXp;
         currentXp = 0;
     }
 
@@ -37,9 +39,11 @@ public class XpSystem : MonoBehaviour
             currentXp -= maxXp;
             levelPlayer++;
 
-            maxXp = Mathf.RoundToInt(maxXp * xpRequirementMultiplier);
-
             OnLevelUp?.Invoke();
+            if(audioSource != null && levelUpAudioClip != null)
+            {
+                audioSource.PlayOneShot(levelUpAudioClip);
+            }
         }
         OnXpChanged?.Invoke();
     }

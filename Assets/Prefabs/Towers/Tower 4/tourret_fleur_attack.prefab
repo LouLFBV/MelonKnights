@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5210227124466301600}
   - component: {fileID: 6814760812891607895}
   - component: {fileID: 8201978966496500112}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tourret_fleur_attack
   m_TagString: Tower
   m_Icon: {fileID: 0}

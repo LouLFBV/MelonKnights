@@ -19,6 +19,10 @@ public class ShopSystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI detailPriceText;
     [SerializeField] private Button buyButton;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip buyAudioClip;
+    [SerializeField] private AudioSource audioSource;
+
     private TurretShopItem _selectedItem;
 
     private void Start()
@@ -31,7 +35,6 @@ public class ShopSystem : MonoBehaviour
         if (buyButton != null)
             buyButton.onClick.AddListener(OnBuyButtonClicked);
     }
-
 
     private void AssignItemsToSlots()
     {
@@ -94,6 +97,7 @@ public class ShopSystem : MonoBehaviour
     {
         if (UIPlayer.Instance == null || item == null) return false;
 
+        // 1. Vérification de l'argent
         int playerCoins = GetPlayerCoins();
         if (playerCoins < item.cost)
         {
@@ -101,14 +105,33 @@ public class ShopSystem : MonoBehaviour
             return false;
         }
 
+        // 2. Vérification de l'espace dans l'inventaire et ajout
+        if (InventoryBar.Instance != null)
+        {
+            // On essaie de l'ajouter. Si ça renvoie false, la limite des 12 slots est atteinte.
+            bool itemAdded = InventoryBar.Instance.AddTurretSlot(item);
+
+            if (!itemAdded)
+            {
+                Debug.LogWarning($"Achat annulé : impossible d'acheter {item.turretName}, l'inventaire est plein !");
+                // Optionnel : Tu pourras déclencher un son d'erreur ou afficher un texte "Inventaire Plein" à l'écran ici
+                return false;
+            }
+        }
+        else
+        {
+            Debug.LogError("InventoryBar n'est pas instancié !");
+            return false;
+        }
+
+        // 3. L'ajout a réussi, on peut débiter le joueur en toute sécurité
         bool success = UIPlayer.Instance.SpendCoin(item.cost);
         if (!success) return false;
 
         Debug.Log($"Achat réussi : {item.turretName} (-{item.cost} pièces)");
-        if (InventoryBar.Instance != null)
-            InventoryBar.Instance.AddTurretSlot(item);
 
-        
+        if (audioSource != null && buyAudioClip != null)
+            audioSource.PlayOneShot(buyAudioClip);
 
         return true;
     }

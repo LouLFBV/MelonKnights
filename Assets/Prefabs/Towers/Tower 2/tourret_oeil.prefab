@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1318987567266276871}
   - component: {fileID: 4352424494513867244}
   - component: {fileID: 6070694440735929585}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tourret_oeil
   m_TagString: Tower
   m_Icon: {fileID: 0}

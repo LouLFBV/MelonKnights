@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     private PlayerInput _playerInput;
     private bool _pauseMenuPressed = false;
+    [SerializeField] private GameObject optionPanel;
     public void StartGame(string sceneName)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
@@ -40,6 +41,14 @@ public class MainMenu : MonoBehaviour
             _pauseMenuPressed = false; // On reset l'input
         }
     }
+
+
+    public void SetOptionPanelState()
+    {
+        optionPanel.SetActive(!optionPanel.activeSelf);
+    }
+
+
     public void QuitGame()
     {
         Debug.Log("Quitter le jeu");

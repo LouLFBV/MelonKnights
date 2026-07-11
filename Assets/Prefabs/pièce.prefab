@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d394a3035103e44b067fb329481fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  distanceToMove: 4
+  distanceToMove: 10
   coinAmount: 1
   moveSpeed: 5
   acceleration: 2

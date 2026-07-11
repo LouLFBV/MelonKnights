@@ -112,7 +112,7 @@ public class TurretPlacementManager : MonoBehaviour
     {
         // Vérifie s'il y a un obstacle (un mur, une autre tour) à cette position
         // On fait un petit cercle virtuel de rayon 0.4f pour tester les collisions
-        Collider2D hit = Physics2D.OverlapCircle(position, 0.4f, obstacleLayer);
+        Collider2D hit = Physics2D.OverlapCircle(position, 0.2f, obstacleLayer);
         return hit == null;
     }
 

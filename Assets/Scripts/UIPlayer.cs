@@ -25,6 +25,8 @@ public class UIPlayer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI coinText;
     private int _coinAmount = 0;
 
+    [Header("Options Settings")]
+    [SerializeField] private GameObject optionPanel;
 
     [Header("Weapon Icon Settings")]
     [SerializeField] private PlayerAttack playerAttack;
@@ -196,6 +198,11 @@ public class UIPlayer : MonoBehaviour
         Time.timeScale = isActive ? 0f : 1f;
 
         ManageCursor(isActive);
+    }
+
+    public void SetOptionPanelState()
+    {
+        optionPanel.SetActive(!optionPanel.activeSelf);
     }
 
     public void BackToMainMenu()

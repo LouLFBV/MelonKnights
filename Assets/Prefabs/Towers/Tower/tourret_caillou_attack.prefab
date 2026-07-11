@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 3379936945101773071}
   - component: {fileID: 8653741825424828496}
   - component: {fileID: 4657622997131478660}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tourret_caillou_attack
   m_TagString: Tower
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.015625, y: 0.47972965}
-  m_Radius: 2.3886566
+  m_Radius: 4
 --- !u!50 &4657622997131478660
 Rigidbody2D:
   serializedVersion: 5

@@ -34,6 +34,11 @@ public class CoreDefense : MonoBehaviour
     // Permet à d'autres scripts (game manager, UI, ennemis) de réagir à la destruction du coeur
     public static event System.Action OnCoreDestroyed;
 
+
+    [Header("Audio")]
+    [SerializeField] private AudioClip closeOpenAudioClip;
+    [SerializeField] private AudioSource audioSource;
+
     void Awake()
     {
         Instance = this;
@@ -132,6 +137,9 @@ public class CoreDefense : MonoBehaviour
         if (shopPanel != null)
             shopPanel.SetActive(true);
 
+        if(audioSource != null && closeOpenAudioClip != null)
+            audioSource.PlayOneShot(closeOpenAudioClip);
+
         // Optionnel : on pourrait bloquer le mouvement du joueur ici
         // via PlayerController.Instance.SetCanMove(false) si tu veux
         // que le joueur ne se déplace pas pendant qu'il achète.
@@ -147,6 +155,9 @@ public class CoreDefense : MonoBehaviour
 
         if (shopPanel != null)
             shopPanel.SetActive(false);
+
+        if (audioSource != null && closeOpenAudioClip != null)
+            audioSource.PlayOneShot(closeOpenAudioClip);
 
         Debug.Log("Shop du Coeur fermé.");
     }

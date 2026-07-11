@@ -35,6 +35,10 @@ public class BossController : MonoBehaviour
     [SerializeField] private GameObject arrowPrefab;
     [SerializeField] private Transform arrowSpawnPointLeft, arrowSpawnPointRight, arrowSpawnPointForward, arrowSpawnPointBack;
 
+    [Header("Audio Settings")]
+    [SerializeField] private AudioClip attackAudioClip;
+    [SerializeField] private AudioClip deathAudioClip;
+
     [Header("Other Settings")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Piece coinDropOnDeath;
@@ -321,6 +325,10 @@ public class BossController : MonoBehaviour
 
             arrow.GetComponent<EnemyArrow>().Initialize(dir, attackDamage);
         }
+        if(TryGetComponent(out AudioSource audioSource) && attackAudioClip != null)
+        {
+            audioSource.PlayOneShot(attackAudioClip);
+        }
     }
 
     private Transform GetArrowSpawnPoint(Vector2 dir)
@@ -359,6 +367,10 @@ public class BossController : MonoBehaviour
         if (_isDead)
             return;
 
+        if(TryGetComponent(out AudioSource audioSource) && deathAudioClip != null)
+        {
+            audioSource.PlayOneShot(deathAudioClip);
+        }
         _isDead = true;
         _isAttacking = false;
 
