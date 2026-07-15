@@ -152,4 +152,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyArrow
   speed: 10
-  lifetime: 5
+  lifetime: 3

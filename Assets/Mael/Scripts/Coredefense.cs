@@ -46,6 +46,7 @@ public class CoreDefense : MonoBehaviour
         _healthSystem = GetComponent<HealthSystem>();
         _collider = GetComponent<Collider2D>();
 
+
         if (mainCamera == null)
             mainCamera = Camera.main;
 
@@ -84,7 +85,6 @@ public class CoreDefense : MonoBehaviour
     {
         panelVictory.SetActive(true);
         Time.timeScale = 0f; // Met le jeu en pause
-        panelVictoryAnimator.SetTrigger("EndGame");
     }
 
     void Update()

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d005bcf83dd57241bfa6f22b969d213, type: 3}
   m_Name: HealthCarte 1
   m_EditorClassIdentifier: Assembly-CSharp::CarteSO
-  carteType: 2
+  carteType: 6
   carteName: Gain de points de vie
   carteDescription: Vous regagnez 50 points de vie.
   carteSprite: {fileID: 21300000, guid: 19957b8bb16bc3d4c984200223b083f6, type: 3}

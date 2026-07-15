@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8216754921137340472}
   - component: {fileID: 6787138701023061376}
   - component: {fileID: 2250216135683921976}
-  - component: {fileID: 7185414744894366832}
+  - component: {fileID: 895089519432599115}
   m_Layer: 0
   m_Name: impact_spell_de_zone_0
   m_TagString: Untagged
@@ -115,7 +115,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7185414744894366832
+--- !u!114 &895089519432599115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,12 +124,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5886451427012995310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d0d32bbb59e7484691128418a0d1297, type: 3}
+  m_Script: {fileID: 11500000, guid: e2261b10e5f307849b210509e5036c43, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  weaponData: {fileID: 11400000, guid: 5c99ab5e68b189349a562afeb7a7987c, type: 2}
-  damage: 1
-  speed: 10
-  lifetime: 5
-  fallbackAttackRange: 2
-  gameObjectExplosive: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::AoEExplosion

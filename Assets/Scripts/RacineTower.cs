@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic; // Nécessaire pour la détection de liste
 
 public class RacineTower : Tower
 {
@@ -6,13 +7,27 @@ public class RacineTower : Tower
     [SerializeField] private Transform racineAttackPoint;
 
     private float _nextAttackTime;
-
     private Collider2D _currentEnemy;
 
+    // Détection de la réparation
+    private bool _wasDestroyedLastFrame;
+
+    protected virtual void Start()
+    {
+        _wasDestroyedLastFrame = _isDestroyed;
+    }
 
     protected override void Update()
     {
         base.Update();
+
+        // Si on vient d'être réparé, on cherche immédiatement une cible
+        if (_wasDestroyedLastFrame && !_isDestroyed)
+        {
+            ScanForEnemyAlreadyInside();
+        }
+        _wasDestroyedLastFrame = _isDestroyed;
+
         if (_isDestroyed)
             return;
 
@@ -29,6 +44,43 @@ public class RacineTower : Tower
         {
             _nextAttackTime = Time.time + towerData.attackSpeed;
             racineAnimator.SetTrigger("Attack");
+        }
+    }
+
+    private void ScanForEnemyAlreadyInside()
+    {
+        _currentEnemy = null;
+
+        Collider2D[] colliders = GetComponents<Collider2D>();
+        Collider2D rangeTrigger = null;
+
+        // On cherche le collider configuré en Trigger
+        foreach (var col in colliders)
+        {
+            if (col.isTrigger)
+            {
+                rangeTrigger = col;
+                break;
+            }
+        }
+
+        if (rangeTrigger != null)
+        {
+            ContactFilter2D filter = new ContactFilter2D();
+            filter.useTriggers = true;
+
+            List<Collider2D> results = new List<Collider2D>();
+            int count = rangeTrigger.Overlap(filter, results);
+
+            for (int i = 0; i < count; i++)
+            {
+                if (results[i].CompareTag("Boss"))
+                {
+                    _currentEnemy = results[i];
+                    Debug.Log($"[RacineTower] Réparée ! Cible trouvée dans la zone : {_currentEnemy.name}");
+                    break; // Un seul ennemi suffit pour cette tour
+                }
+            }
         }
     }
 

@@ -4,13 +4,13 @@ public class Projectile : MonoBehaviour
 {
     [Header("Statistiques")]
     [SerializeField] private WeaponSO weaponData;
-    [SerializeField] private int damage = 1;
+    [SerializeField] private int damage = 1; // Utilisé par les tourelles si weaponData est null
     [SerializeField] private float speed = 10f;
     [SerializeField] private float lifetime = 5f;
-    [SerializeField] private float fallbackAttackRange = 2f; // <-- Ajout pour éviter le crash si weaponData est null
+    [SerializeField] private float fallbackAttackRange = 2f;
 
     [Header("Effets")]
-    [SerializeField] private GameObject gameObjectExplosive; // Changé en GameObject (voir note plus bas)
+    [SerializeField] private GameObject gameObjectExplosive; // Effet d'impact (éclair pour le staff, sang/étincelle pour le reste)
 
     private Vector2 direction;
 
@@ -29,49 +29,33 @@ public class Projectile : MonoBehaviour
     {
         if (collision.CompareTag("Boss"))
         {
-            // Fait apparaître l'explosion si elle existe
-            if (gameObjectExplosive != null)
+            // --- LOGIQUE COMMUNE (Dagues, Tourelles, Flèches, Staff...) ---
+            // 1. On applique d'abord les dégâts directs du projectile
+            ApplyDirectDamage(collision);
+
+            // 2. SÉCURITÉ : On vérifie que weaponData n'est pas NULL avant de lire le type d'arme
+            if (weaponData != null && weaponData.weaponType == WeaponType.Staff)
             {
-                Instantiate(gameObjectExplosive, transform.position, Quaternion.identity);
+                // --- LOGIQUE DU BÂTON ---
+                // On crée l'éclair et on lui donne les infos pour qu'il fasse les dégâts de zone à la fin de son animation
+                if (gameObjectExplosive != null)
+                {
+                    GameObject explosionInstance = Instantiate(gameObjectExplosive, transform.position, Quaternion.identity);
+                    if (explosionInstance.TryGetComponent(out AoEExplosion aoe))
+                    {
+                        aoe.Initialize(weaponData.damage, weaponData.attackRange);
+                    }
+                }
             }
 
-            // Applique les dégâts
-            DealDamage(collision);
-
-            // Détruit le projectile après l'impact
+            // Quel que soit le projectile, il se détruit après avoir touché
             Destroy(gameObject);
         }
     }
 
-    // Animation Event
-    public void AE_Attack()
+    // Méthode pour appliquer les dégâts normaux
+    private void ApplyDirectDamage(Collider2D targetCollider)
     {
-        // Sécurise la portée (utilise celle du SO si dispo, sinon la valeur de secours)
-        float range = (weaponData != null) ? weaponData.attackRange : fallbackAttackRange;
-
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, range);
-
-        // Note : Pas besoin de "if (hits.Length > 0)", le foreach gère déjà les listes vides !
-        foreach (Collider2D hit in hits)
-        {
-            if (hit.CompareTag("Boss"))
-            {
-                DealDamage(hit);
-            }
-        }
-        Destroy(gameObject);
-    }
-
-    // --- NOUVELLE MÉTHODE CENTRALISÉE ---
-    private void DealDamage(Collider2D targetCollider)
-    {
-        if(weaponData != null)
-        {
-            if (weaponData.weaponType == WeaponType.Staff)
-            {
-                AE_Attack();
-            }
-        }
         HealthSystem hs = targetCollider.GetComponent<HealthSystem>();
 
         if (hs == null)
@@ -81,11 +65,10 @@ public class Projectile : MonoBehaviour
 
         if (hs != null)
         {
-            // Détermine les dégâts finaux en une seule ligne
+            // Si l'arme a un SO, on prend ses dégâts, sinon on prend la valeur 'damage' (pratique pour les tourelles)
             int finalDamage = (weaponData != null) ? weaponData.damage : damage;
-            Debug.Log($"Calcul des dégâts pour {targetCollider.name} : {finalDamage} (WeaponSO: {(weaponData != null ? weaponData.weaponName : "null")})");
             hs.TakeDamage(finalDamage);
-            Debug.Log($"Projectile a touché {targetCollider.name} pour {finalDamage} dégâts. (Santé trouvée sur : {hs.gameObject.name})");
+            Debug.Log($"Projectile a touché {targetCollider.name} pour {finalDamage} dégâts directs.");
         }
     }
 }

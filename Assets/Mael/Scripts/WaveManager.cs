@@ -69,7 +69,6 @@ public class WaveManager : MonoBehaviour
         }
 
         OnAllWavesCompleted?.Invoke();
-        Debug.Log("Toutes les vagues sont terminées !");
     }
 
     private IEnumerator SpawnWave(Wave wave)
