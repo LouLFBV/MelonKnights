@@ -304,6 +304,7 @@ public class BossController : MonoBehaviour
                 // Si on trouve un HealthSystem et que ce n'est pas un Boss
                 if (hit.TryGetComponent(out HealthSystem health) && !hit.CompareTag("Boss"))
                 {
+                    if (hit.isTrigger) continue;
                     // On vérifie si on n'a pas déjà infligé des dégâts à cette cible précise
                     if (!damagedTargets.Contains(health))
                     {
