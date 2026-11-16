@@ -2093,7 +2093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4380b5626a006394d8acacf4a48b14ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 5
+  moveSpeed: 6
   mainCamera: {fileID: 0}
   panelTransitionAnimator: {fileID: 0}
   panelDeathGameObject: {fileID: 0}
@@ -2107,8 +2107,8 @@ MonoBehaviour:
   - {fileID: 4687500187705707200}
   outilEquipped: 0
   animator: {fileID: 2240082937343246665}
-  maxMoveSpeedBonusCap: 1
-  maxCoinBonusCap: 2
+  maxMoveSpeedBonusCap: 10
+  maxCoinBonusCap: 4
 --- !u!114 &110887041292726812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2179,9 +2179,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthSystem
   enemySO: {fileID: 0}
   towerSO: {fileID: 0}
-  maxHealth: 50
+  maxHealth: 100
   currentHealth: 0
-  maxHealthBonusCap: 1
+  maxHealthBonusCap: 5
 --- !u!81 &2227809437595298373
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2218,8 +2218,8 @@ MonoBehaviour:
     left: {fileID: 4107287629072122419}
     right: {fileID: 8776154640387071477}
   canAttack: 1
-  maxDamageBonusCap: 2
-  maxAttackSpeedBonusCap: 1.5
+  maxDamageBonusCap: 12
+  maxAttackSpeedBonusCap: 3
 --- !u!114 &2850452719096379767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2235,8 +2235,7 @@ MonoBehaviour:
   maxXp: 50
   currentXp: 0
   levelPlayer: 0
-  xpRequirementMultiplier: 1.2
-  maxXpBonus: 1
+  maxXpBonus: 3
   levelUpAudioClip: {fileID: 8300000, guid: 0ecfe26e5b25ee842b9ac1b02f85ace5, type: 3}
   audioSource: {fileID: 5864190852134691795}
 --- !u!82 &5864190852134691795
@@ -2263,7 +2262,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -2296,7 +2295,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2827,12 +2826,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnLeft: {fileID: 4041134986362386903}
+    m_SelectOnRight: {fileID: 5849362979141530543}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3114,9 +3113,9 @@ RectTransform:
   m_Children:
   - {fileID: 254829989605197057}
   - {fileID: 2075940291091443030}
-  - {fileID: 779662810216966194}
-  - {fileID: 2026313324249073308}
   - {fileID: 4801282988487217921}
+  - {fileID: 2026313324249073308}
+  - {fileID: 779662810216966194}
   m_Father: {fileID: 3314627986380673221}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4271,12 +4270,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnLeft: {fileID: 5849362979141530543}
+    m_SelectOnRight: {fileID: 7362720419196720830}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4710,12 +4709,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnLeft: {fileID: 7362720419196720830}
+    m_SelectOnRight: {fileID: 4041134986362386903}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5099,12 +5098,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.HorizontalLayoutGroup
   m_Padding:
-    m_Left: -83
-    m_Right: -7
-    m_Top: -213
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: -254.32
+  m_ChildAlignment: 5
+  m_Spacing: -524.23
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
