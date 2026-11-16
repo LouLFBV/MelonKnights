@@ -13,6 +13,8 @@ public class CoreDefense : MonoBehaviour
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject shopPanel; // Panel UI du shop, laissé vide pour l'instant
     [SerializeField] private Animator coreAnimator;
+    [SerializeField] EventSystem _eventSystem;
+    [SerializeField] GameObject _firstButtonToSelect;
 
     [Header("Game Over")]
     [SerializeField] private GameObject panelDefeat;
@@ -87,56 +89,20 @@ public class CoreDefense : MonoBehaviour
         Time.timeScale = 0f; // Met le jeu en pause
     }
 
-    void Update()
+    public void ToggleShop(InputAction.CallbackContext ctx)
     {
-        if (_isDead) return;
-
-        DetectClick();
-    }
-
-    private void DetectClick()
-    {
-        // Utilise le nouveau Input System (Mouse.current), cohérent avec le reste du projet
-        if (Mouse.current == null || mainCamera == null) return;
-
-        if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            // Si la souris est au-dessus d'un élément UI (bouton du shop, etc.),
-            // on ignore le clic sur le Core pour éviter que ça ne le referme aussitôt
-            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
-            {
-                return;
-            }
-
-            Vector3 mouseScreenPos = Mouse.current.position.ReadValue();
-            Vector2 mouseWorldPos = mainCamera.ScreenToWorldPoint(mouseScreenPos);
-
-            // 1. On récupère TOUS les colliders sous la souris
-            Collider2D[] hits = Physics2D.OverlapPointAll(mouseWorldPos);
-
-            // 2. On fouille dans la liste pour voir si le Coeur y est
-            foreach (Collider2D hit in hits)
-            {
-                if (hit == _collider)
-                {
-                    ToggleShop();
-                    break; // On a trouvé le Coeur, pas besoin de vérifier le reste !
-                }
-            }
-        }
-    }
-
-    public void ToggleShop()
-    {
+        Debug.LogWarning("Tentaive d'ouverture de shop");
         if (_isShopOpen)
             CloseShop();
         else
             OpenShop();
     }
 
-    public void OpenShop()
+    private void OpenShop()
     {
         if (_isShopOpen) return;
+
+        _eventSystem.SetSelectedGameObject(_firstButtonToSelect);
 
         _isShopOpen = true;
 
@@ -153,7 +119,7 @@ public class CoreDefense : MonoBehaviour
         Debug.Log("Shop du Coeur ouvert.");
     }
 
-    public void CloseShop()
+    private void CloseShop()
     {
         if (!_isShopOpen) return;
 

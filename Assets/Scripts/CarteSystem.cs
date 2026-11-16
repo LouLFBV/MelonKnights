@@ -1,7 +1,11 @@
 using System;
 using System.Collections;
+using UnityEngine.UI;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CarteSystem : MonoBehaviour
 {
@@ -9,6 +13,7 @@ public class CarteSystem : MonoBehaviour
     [SerializeField] private HealthSystem playerHealthSystem;
     [SerializeField] private PlayerAttack playerAtatck;
     [SerializeField] private CarteSO[] carteSOs;
+    [SerializeField] private EventSystem _eventSystem;
 
     [Header("UI")]
     [SerializeField] private GameObject cartePrefab;
@@ -63,6 +68,9 @@ public class CarteSystem : MonoBehaviour
             if (!IsCardMaxed(carte))
             {
                 availableCards.Add(carte);
+
+                if (availableCards.Count == 1)
+                    _eventSystem.SetSelectedGameObject(carte.GetComponentInChildren<Button>().gameObject);
             }
         }
 

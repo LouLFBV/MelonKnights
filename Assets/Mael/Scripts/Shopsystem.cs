@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class ShopSystem : MonoBehaviour
 {
@@ -54,11 +55,11 @@ public class ShopSystem : MonoBehaviour
 
     private void Update()
     {
-
         if (_selectedItem != null && buyButton != null)
         {
             buyButton.interactable = GetPlayerCoins() >= _selectedItem.cost;
         }
+        
     }
 
     // Appelée par SlotShop quand le joueur clique sur une case

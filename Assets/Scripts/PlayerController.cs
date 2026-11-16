@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private XpSystem xpSystem;
     [SerializeField] private PlayerAttack playerAttack;
 
+    [SerializeField] private CoreDefense _coreDefense;
+
 
     [Header("Weapon Visual")]
     [SerializeField] private WeaponVisual[] weaponVisuals;
@@ -39,6 +41,7 @@ public class PlayerController : MonoBehaviour
     private InputAction moveAction;
     private InputAction valideAction;
     private InputAction cancelAction;
+    private InputAction _shopAction;
     private bool _canMove = true;
     public bool CanMove => _canMove;
     private Vector2 _lastDirection = Vector2.down;
@@ -72,6 +75,7 @@ public class PlayerController : MonoBehaviour
 
         // On récupère l'action d'annulation (Vérifie bien le nom dans ton Input Action Asset, souvent c'est "Cancel")
         cancelAction = _playerInput.actions["Cancel"];
+        _shopAction = _playerInput.actions["Shop"];
 
         visuals = new Dictionary<WeaponType, WeaponVisual>();
 
@@ -155,6 +159,10 @@ public class PlayerController : MonoBehaviour
             moveAction.performed += OnMovePerformed;
             moveAction.canceled += OnMoveCanceled;
         }
+        if (_shopAction != null)
+        {
+            _shopAction.performed += _coreDefense.ToggleShop;
+        }
         if (valideAction != null)
         {
             valideAction.performed += OnValidePerformed;
@@ -176,6 +184,10 @@ public class PlayerController : MonoBehaviour
         {
             moveAction.performed -= OnMovePerformed;
             moveAction.canceled -= OnMoveCanceled;
+        }
+        if (_shopAction != null)
+        {
+            _shopAction.performed -= _coreDefense.ToggleShop;
         }
         if (valideAction != null)
         {

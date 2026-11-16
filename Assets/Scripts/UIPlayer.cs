@@ -2,12 +2,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class UIPlayer : MonoBehaviour
 {
     public static UIPlayer Instance;
 
     [SerializeField] private GameObject panelMenu;
+    [SerializeField] private GameObject _firstButtonPauseMenu;
+    [SerializeField] private EventSystem _eventSystem;
 
     [Header("Health Settings")]
     [SerializeField] private Image healthBarImage;
@@ -196,7 +199,7 @@ public class UIPlayer : MonoBehaviour
     {
         panelMenu.SetActive(isActive);
         Time.timeScale = isActive ? 0f : 1f;
-
+        if (isActive) _eventSystem.SetSelectedGameObject(_firstButtonPauseMenu);
         ManageCursor(isActive);
     }
 
