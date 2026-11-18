@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private WeaponPointAttack staffAttackPoints;
 
     private PlayerInput _playerInput;
+    private Camera _mainCamera;
 
     public event Action<WeaponSO> OnWeaponEquipped;
     private WeaponSO _currentWeapon;
@@ -32,6 +33,7 @@ public class PlayerAttack : MonoBehaviour
     private void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();
+        _mainCamera = Camera.main;
     }
 
     private void OnEnable() => _playerInput.actions["Attack"].performed += OnAttack;
@@ -49,10 +51,42 @@ public class PlayerAttack : MonoBehaviour
         PerformAttack();
     }
 
+    // Récupère la direction vers le curseur (souris ou manette)
+    private Vector2 GetAimDirection()
+    {
+        Vector3 screenPos;
+
+        if (CursorController.Instance != null)
+        {
+            screenPos = CursorController.Instance.CurrentScreenPosition;
+        }
+        else
+        {
+            screenPos = Input.mousePosition;
+        }
+
+        if (_mainCamera == null) _mainCamera = Camera.main;
+
+        screenPos.z = Mathf.Abs(_mainCamera.transform.position.z);
+        Vector3 worldPos = _mainCamera.ScreenToWorldPoint(screenPos);
+        worldPos.z = 0f;
+
+        Vector2 direction = (worldPos - transform.position);
+
+        // Sécurité si le curseur est exactement sur le joueur pour éviter un vecteur nul (0,0)
+        if (direction.sqrMagnitude < 0.001f)
+        {
+            return PlayerController.Instance.LastDirection;
+        }
+
+        return direction.normalized;
+    }
+
     // Anciennement AE_Attack, maintenant appelée directement par l'Input
     private void PerformAttack()
     {
-        Vector2 dir = PlayerController.Instance.LastDirection;
+        // On récupère la direction du curseur au lieu de la direction des déplacements
+        Vector2 dir = GetAimDirection();
         Transform activeAttackPoint = GetActiveAttackPoint(dir);
 
         if (_currentWeapon.weaponType != WeaponType.Sword)
@@ -160,7 +194,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (!Application.isPlaying || _currentWeapon == null || PlayerController.Instance == null) return;
 
-        Transform activePoint = GetActiveAttackPoint(PlayerController.Instance.LastDirection);
+        Transform activePoint = GetActiveAttackPoint(GetAimDirection());
 
         if (activePoint != null)
         {

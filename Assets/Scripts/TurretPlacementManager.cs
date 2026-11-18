@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TurretPlacementManager : MonoBehaviour
 {
     [Header("Configuration")]
     [SerializeField] private LayerMask obstacleLayer; // Pour éviter de poser une tour sur un mur/autre tour
     [SerializeField] private bool snapToGrid = true;   // Si tu veux aligner les tours proprement
-    [SerializeField] private float gridSize = 1f; 
+    [SerializeField] private float gridSize = 1f;
     [SerializeField] private float overlapRadius = 0.1f;
 
     private TurretShopItem _activeItem;
@@ -22,6 +23,12 @@ public class TurretPlacementManager : MonoBehaviour
         {
             InventoryBar.Instance.OnTurretSelected += OnTurretSelectedFromInventory;
         }
+
+        // On s'abonne à l'événement de validation global du PlayerController (Clavier/Manette)
+        if (PlayerController.Instance != null)
+        {
+            PlayerController.Instance.OnValidatePressed += ExecutePlacement;
+        }
     }
 
     private void OnDestroy()
@@ -30,6 +37,11 @@ public class TurretPlacementManager : MonoBehaviour
         {
             InventoryBar.Instance.OnTurretSelected -= OnTurretSelectedFromInventory;
         }
+
+        if (PlayerController.Instance != null)
+        {
+            PlayerController.Instance.OnValidatePressed -= ExecutePlacement;
+        }
     }
 
     private void Update()
@@ -37,30 +49,37 @@ public class TurretPlacementManager : MonoBehaviour
         // Si aucune tourelle n'est sélectionnée, on ne fait rien
         if (_activeItem == null) return;
 
-        Vector3 mouseWorldPos = GetMouseWorldPosition();
-        Vector3 targetPosition = snapToGrid ? SnapPosition(mouseWorldPos) : mouseWorldPos;
+        Vector3 targetPosition = snapToGrid ? SnapPosition(GetMouseWorldPosition()) : GetMouseWorldPosition();
 
         // 1. Met à jour la position de la preview visuelle
         if (_previewInstance != null)
         {
             _previewInstance.transform.position = targetPosition;
 
-            // Optionnel : Change la couleur de la preview (Rouge si bloqué, Blanc/Vert si OK)
             bool isValid = CheckPlacementValidity(targetPosition);
             _previewSpriteRenderer.color = isValid ? new Color(1, 1, 1, 0.6f) : new Color(1, 0, 0, 0.6f);
         }
 
-        // 2. Clic gauche pour placer
+        // 2. Validation alternative (Clic gauche souris direct)
         if (Input.GetMouseButtonDown(0))
         {
             TryPlaceTurret(targetPosition);
         }
 
-        // 3. Clic droit pour annuler le placement
-        if (Input.GetMouseButtonDown(1))
+        // 3. Annulation (Clic droit souris OU touche Escape)
+        if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Escape))
         {
             CancelPlacement();
         }
+    }
+
+    // Méthode intermédiaire sans paramètre pour s'adapter à OnValidatePressed
+    private void ExecutePlacement()
+    {
+        if (_activeItem == null) return;
+
+        Vector3 targetPosition = snapToGrid ? SnapPosition(GetMouseWorldPosition()) : GetMouseWorldPosition();
+        TryPlaceTurret(targetPosition);
     }
 
     private void OnTurretSelectedFromInventory(TurretShopItem item)
@@ -72,7 +91,7 @@ public class TurretPlacementManager : MonoBehaviour
 
         _activeItem = item;
 
-        // Crée l'objet de preview (le fantôme qui suit la souris)
+        // Crée l'objet de preview (le fantôme qui suit la souris / curseur)
         _previewInstance = new GameObject("TurretPreview");
         _previewSpriteRenderer = _previewInstance.AddComponent<SpriteRenderer>();
         _previewSpriteRenderer.sprite = item.icon; // Utilise l'icône ou le sprite de la tourelle
@@ -131,17 +150,29 @@ public class TurretPlacementManager : MonoBehaviour
 
     private Vector3 GetMouseWorldPosition()
     {
-        Vector3 mouseScreenPos = Input.mousePosition;
+        Vector3 screenPos;
+
+        // Si le CursorController existe, on récupère sa position (Souris ou Curseur Virtuel Manette)
+        if (CursorController.Instance != null)
+        {
+            screenPos = CursorController.Instance.CurrentScreenPosition;
+        }
+        else
+        {
+            // Sécurité de secours si le CursorController n'est pas trouvé dans la scène
+            screenPos = Input.mousePosition;
+        }
+
         // On force la coordonnée Z à la distance de la caméra pour la projection 2D
-        mouseScreenPos.z = Mathf.Abs(_mainCamera.transform.position.z);
-        Vector3 worldPos = _mainCamera.ScreenToWorldPoint(mouseScreenPos);
+        screenPos.z = Mathf.Abs(_mainCamera.transform.position.z);
+        Vector3 worldPos = _mainCamera.ScreenToWorldPoint(screenPos);
         worldPos.z = 0f; // On reste en 2D pure
         return worldPos;
     }
 
     private Vector3 SnapPosition(Vector3 rawPosition)
     {
-        // Aligne la position sur une grille (ex: 0.5, 1.5, 2.5 ou des entiers selon ton repère)
+        // Aligne la position sur une grille
         float snappedX = Mathf.Round(rawPosition.x / gridSize) * gridSize;
         float snappedY = Mathf.Round(rawPosition.y / gridSize) * gridSize;
         return new Vector3(snappedX, snappedY, 0f);
