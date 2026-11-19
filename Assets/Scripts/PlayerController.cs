@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private PlayerAttack playerAttack;
 
     [SerializeField] private CoreDefense _coreDefense;
+    [SerializeField] private InventoryBar _inventoryBar;
 
 
     [Header("Weapon Visual")]
@@ -173,7 +174,7 @@ public class PlayerController : MonoBehaviour
         }
         if (cancelAction != null)
         {
-            cancelAction.performed += OnCancelPerformed; // <--- NOUVEAU
+            cancelAction.performed += OnCancelPerformed;
         }
         if (healthSystem != null)
         {
@@ -181,11 +182,11 @@ public class PlayerController : MonoBehaviour
         }
         if (_previousObject != null)
         {
-            _previousObject.performed += InventoryBar.Instance.PreviousObject;
+            _previousObject.performed += _inventoryBar.PreviousObject;
         }
         if (_nextObject != null)
         {
-            _nextObject.performed += InventoryBar.Instance.NextObject;
+            _nextObject.performed += _inventoryBar.NextObject;
         }
     }
 

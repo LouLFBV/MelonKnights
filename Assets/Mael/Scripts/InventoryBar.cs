@@ -99,20 +99,24 @@ public class InventoryBar : MonoBehaviour
         RefreshHighlights();
     }
 
-    public void NextObject()
+    public void NextObject(InputAction.CallbackContext ctx)
     {
-        if(_selectedIndex <= _turretSlotUIs.Count)
+        Debug.Log("<color=blue> NextObject called</color>");
+        if (_selectedIndex <= _turretSlotUIs.Count)
         {
-            _selectedIndex--;
+            _selectedIndex++;
+            DetectNumberKeyPress();
             RefreshHighlights();
         }
     }
 
-    public void PreviousObject()
+    public void PreviousObject(InputAction.CallbackContext ctx)
     {
-        if (_selectedIndex >= 0)
+        Debug.Log("<color=yellow> PreviousObject called</color>");
+        if (_selectedIndex > 0)
         {
-            _selectedIndex++;
+            _selectedIndex--;
+            DetectNumberKeyPress();
             RefreshHighlights();
         }
     }
@@ -183,7 +187,7 @@ public class InventoryBar : MonoBehaviour
             _turretSlotUIs.RemoveAt(slotIndex);
         }
 
-        _selectedIndex = -1;
+        _selectedIndex = 0;
         RefreshHighlights();
         UpdateSlotNumbers();
     }
