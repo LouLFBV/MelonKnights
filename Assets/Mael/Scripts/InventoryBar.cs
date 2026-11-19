@@ -99,6 +99,24 @@ public class InventoryBar : MonoBehaviour
         RefreshHighlights();
     }
 
+    public void NextObject()
+    {
+        if(_selectedIndex <= _turretSlotUIs.Count)
+        {
+            _selectedIndex--;
+            RefreshHighlights();
+        }
+    }
+
+    public void PreviousObject()
+    {
+        if (_selectedIndex >= 0)
+        {
+            _selectedIndex++;
+            RefreshHighlights();
+        }
+    }
+
     public void SetDefaultWeapon(WeaponSO weapon)
     {
         defaultWeapon = weapon;

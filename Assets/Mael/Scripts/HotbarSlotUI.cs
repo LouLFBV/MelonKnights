@@ -8,8 +8,8 @@ public class HotbarSlotUI : MonoBehaviour
     [Header("Références UI")]
     [SerializeField] private Image iconImage;
     [SerializeField] private TextMeshProUGUI inputText;
-    [SerializeField] private GameObject highlightOverlay; // Ex: un cadre lumineux à activer/désactiver
-    [SerializeField] private Button button; // Ex: un cadre lumineux à activer/désactiver
+    [SerializeField] private GameObject highlightOverlay; 
+    [SerializeField] private Button button; 
     public bool isOutil;
 
     private TurretShopItem _item;

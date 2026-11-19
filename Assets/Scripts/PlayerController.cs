@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     private InputAction valideAction;
     private InputAction cancelAction;
     private InputAction _shopAction;
+    private InputAction _previousObject, _nextObject;
     private bool _canMove = true;
     public bool CanMove => _canMove;
     private Vector2 _lastDirection = Vector2.down;
@@ -76,6 +77,9 @@ public class PlayerController : MonoBehaviour
         // On récupère l'action d'annulation (Vérifie bien le nom dans ton Input Action Asset, souvent c'est "Cancel")
         cancelAction = _playerInput.actions["Cancel"];
         _shopAction = _playerInput.actions["Shop"];
+
+        _previousObject = _playerInput.actions["Previous"];
+        _nextObject = _playerInput.actions["Next"];
 
         visuals = new Dictionary<WeaponType, WeaponVisual>();
 
@@ -175,6 +179,14 @@ public class PlayerController : MonoBehaviour
         {
             healthSystem.OnDeath += PlayerDeath;
         }
+        if (_previousObject != null)
+        {
+            _previousObject.performed += InventoryBar.Instance.PreviousObject;
+        }
+        if (_nextObject != null)
+        {
+            _nextObject.performed += InventoryBar.Instance.NextObject;
+        }
     }
 
 
@@ -200,6 +212,14 @@ public class PlayerController : MonoBehaviour
         if (healthSystem != null)
         {
             healthSystem.OnDeath -= PlayerDeath;
+        }
+        if (_previousObject != null)
+        {
+            _previousObject.performed -= InventoryBar.Instance.PreviousObject;
+        }
+        if (_nextObject != null)
+        {
+            _nextObject.performed -= InventoryBar.Instance.NextObject;
         }
     }
 

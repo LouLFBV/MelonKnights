@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class TurretPlacementManager : MonoBehaviour
@@ -28,6 +29,7 @@ public class TurretPlacementManager : MonoBehaviour
         if (PlayerController.Instance != null)
         {
             PlayerController.Instance.OnValidatePressed += ExecutePlacement;
+            PlayerController.Instance.OnCancelPressed += CancelPlacement;
         }
     }
 
@@ -41,6 +43,7 @@ public class TurretPlacementManager : MonoBehaviour
         if (PlayerController.Instance != null)
         {
             PlayerController.Instance.OnValidatePressed -= ExecutePlacement;
+            PlayerController.Instance.OnCancelPressed -= CancelPlacement;
         }
     }
 
