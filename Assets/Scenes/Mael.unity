@@ -537658,6 +537658,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 9178057469866718127, guid: 2ae2a8cbb6975db42b097766ebcaac1f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3103779483579090754, guid: 0ab3b5b662a03994a86a8db3fbe030bd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

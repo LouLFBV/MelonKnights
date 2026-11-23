@@ -203,7 +203,6 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    // NOUVEAU : Méthode centrale pour appliquer proprement les pourcentages sur l'arme actuelle
     private void UpdateCalculatedStats()
     {
         if (_currentWeapon == null) return;

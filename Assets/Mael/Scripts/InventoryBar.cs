@@ -105,6 +105,7 @@ public class InventoryBar : MonoBehaviour
         if (_selectedIndex <= _turretSlotUIs.Count)
         {
             _selectedIndex++;
+            SelectSlot(_selectedIndex);
             DetectNumberKeyPress();
             RefreshHighlights();
         }
@@ -116,6 +117,7 @@ public class InventoryBar : MonoBehaviour
         if (_selectedIndex > 0)
         {
             _selectedIndex--;
+            SelectSlot(_selectedIndex);
             DetectNumberKeyPress();
             RefreshHighlights();
         }
