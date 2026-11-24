@@ -15,6 +15,7 @@ public class CoreDefense : MonoBehaviour
     [SerializeField] private Animator coreAnimator;
     [SerializeField] EventSystem _eventSystem;
     [SerializeField] GameObject _firstButtonToSelect;
+    [SerializeField] PlayerAttack _playerAttack;
 
     [Header("Game Over")]
     [SerializeField] private GameObject panelDefeat;
@@ -27,7 +28,6 @@ public class CoreDefense : MonoBehaviour
     [SerializeField] private Animator panelVictoryAnimator;
 
     private HealthSystem _healthSystem;
-    private Collider2D _collider;
     private bool _isShopOpen = false;
     private bool _isDead = false;
 
@@ -46,8 +46,6 @@ public class CoreDefense : MonoBehaviour
         Instance = this;
 
         _healthSystem = GetComponent<HealthSystem>();
-        _collider = GetComponent<Collider2D>();
-
 
         if (mainCamera == null)
             mainCamera = Camera.main;
@@ -107,14 +105,16 @@ public class CoreDefense : MonoBehaviour
         _isShopOpen = true;
 
         if (shopPanel != null)
+        {
             shopPanel.SetActive(true);
+            PlayerController.Instance.SetCanMove(false);
+            _playerAttack.SetCanAttack(false);
+
+        }
 
         if(audioSource != null && closeOpenAudioClip != null)
             audioSource.PlayOneShot(closeOpenAudioClip);
 
-        // Optionnel : on pourrait bloquer le mouvement du joueur ici
-        // via PlayerController.Instance.SetCanMove(false) si tu veux
-        // que le joueur ne se déplace pas pendant qu'il achète.
 
         Debug.Log("Shop du Coeur ouvert.");
     }
@@ -126,7 +126,12 @@ public class CoreDefense : MonoBehaviour
         _isShopOpen = false;
 
         if (shopPanel != null)
+        {
             shopPanel.SetActive(false);
+            PlayerController.Instance.SetCanMove(true);
+            _playerAttack.SetCanAttack(true);
+
+        }
 
         if (audioSource != null && closeOpenAudioClip != null)
             audioSource.PlayOneShot(closeOpenAudioClip);

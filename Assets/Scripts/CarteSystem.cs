@@ -2,8 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -69,8 +67,6 @@ public class CarteSystem : MonoBehaviour
             {
                 availableCards.Add(carte);
 
-                if (availableCards.Count == 1)
-                    _eventSystem.SetSelectedGameObject(carte.GetComponentInChildren<Button>().gameObject);
             }
         }
 
@@ -99,6 +95,9 @@ public class CarteSystem : MonoBehaviour
             if (carteScript != null)
             {
                 carteScript.Setup(selectedCard, () => ButtonAction(selectedCard));
+
+                if (availableCards.Count == 1)
+                    _eventSystem.SetSelectedGameObject(card.GetComponentInChildren<Button>().gameObject);
             }
         }
     }

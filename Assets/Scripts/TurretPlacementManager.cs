@@ -120,6 +120,8 @@ public class TurretPlacementManager : MonoBehaviour
 
         // On retire la tourelle de la barre d'inventaire
         InventoryBar.Instance.RemoveTurretSlot(placedItem);
+
+        //InventoryBar.Instance.SelectSlot(0);
     }
 
     private void CancelPlacement()
@@ -129,6 +131,8 @@ public class TurretPlacementManager : MonoBehaviour
         {
             Destroy(_previewInstance);
         }
+
+        //InventoryBar.Instance.SelectSlot(0);
     }
 
     private bool CheckPlacementValidity(Vector3 position)

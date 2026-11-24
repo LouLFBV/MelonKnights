@@ -21,7 +21,7 @@ public class PlayerAttack : MonoBehaviour
     private float _nextAttackTime;
 
     // Gardé au cas où tu as besoin de bloquer l'attaque depuis un autre script (ex: si le joueur est étourdi)
-    public bool canAttack = true;
+    private bool _canAttack = true;
 
     [Header("Configuration des Plafonds de Cartes")]
     [SerializeField] private float maxDamageBonusCap = 2.0f;       // Plafond max Dégâts (ex: +200%)
@@ -42,7 +42,7 @@ public class PlayerAttack : MonoBehaviour
     private void OnAttack(InputAction.CallbackContext context)
     {
         // 1. Vérification du cooldown et si on est autorisé à attaquer
-        if (!canAttack || Time.time < _nextAttackTime || _currentWeapon == null || PlayerController.Instance.outilEquipped) return;
+        if (!_canAttack || Time.time < _nextAttackTime || _currentWeapon == null || PlayerController.Instance.outilEquipped) return;
 
         // 2. On met à jour le timer pour le prochain coup
         _nextAttackTime = Time.time + _attackCooldown;
@@ -121,6 +121,10 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
+    public void SetCanAttack(bool canAttack)
+    {
+        _canAttack = canAttack;
+    }
     private void HandleMeleeAttack(Vector2 dir, Transform attackPoint)
     {
         if (attackPoint == null) return;

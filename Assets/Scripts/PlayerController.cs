@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
     private InputAction cancelAction;
     private InputAction _shopAction;
     private InputAction _previousObject, _nextObject;
-    private bool _canMove = true;
+    private bool _canMove = false;
     public bool CanMove => _canMove;
     private Vector2 _lastDirection = Vector2.down;
     public Vector2 LastDirection => _lastDirection;

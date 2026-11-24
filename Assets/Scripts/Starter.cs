@@ -48,6 +48,7 @@ public class Starter : MonoBehaviour
             InventoryBar.Instance.SelectSlot(0);
         }
 
+        PlayerController.Instance.SetCanMove(true);
         panel.SetActive(false);
     }
 
