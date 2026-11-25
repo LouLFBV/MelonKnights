@@ -1,11 +1,16 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
     private PlayerInput _playerInput;
     private bool _pauseMenuPressed = false;
+    [SerializeField] private GameObject _firstButtonPauseMenu;
     [SerializeField] private GameObject optionPanel;
+    [SerializeField] private Slider _volumeSlider;
+    [SerializeField] private EventSystem _eventSystem;
     public void StartGame(string sceneName)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
@@ -43,11 +48,22 @@ public class MainMenu : MonoBehaviour
     }
 
 
-    public void SetOptionPanelState()
+    public void ActiveOptionPanel()
     {
-        optionPanel.SetActive(!optionPanel.activeSelf);
+        optionPanel.SetActive(true);
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_volumeSlider.gameObject);
+        }
     }
-
+    public void DesactiveOptionPanel()
+    {
+        optionPanel.SetActive(false);
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_firstButtonPauseMenu);
+        }
+    }
 
     public void QuitGame()
     {

@@ -46,8 +46,8 @@ public class CarteSystem : MonoBehaviour
     {
         if(cartesPanel.activeSelf)
             return;
-        GenerateCarteButtons();
         FadeIn();
+        GenerateCarteButtons();
     }
 
     private void GenerateCarteButtons()
@@ -81,6 +81,7 @@ public class CarteSystem : MonoBehaviour
 
         // 4. Tirage aléatoire parmi les cartes valides restantes
         int cardCount = Mathf.Min(3, availableCards.Count);
+        GameObject firstButton = null;
 
         for (int i = 0; i < cardCount; i++)
         {
@@ -95,10 +96,31 @@ public class CarteSystem : MonoBehaviour
             if (carteScript != null)
             {
                 carteScript.Setup(selectedCard, () => ButtonAction(selectedCard));
-
-                if (availableCards.Count == 1)
-                    _eventSystem.SetSelectedGameObject(card.GetComponentInChildren<Button>().gameObject);
             }
+
+            // On récupère uniquement le bouton de la première carte (i == 0)
+            if (i == 0)
+            {
+                Button btn = card.GetComponentInChildren<Button>();
+                if (btn != null)
+                    firstButton = btn.gameObject;
+            }
+        }
+
+        if (firstButton != null)
+        {
+            StartCoroutine(SelectFirstCard(firstButton));
+        }
+    }
+
+    private IEnumerator SelectFirstCard(GameObject firstButton)
+    {
+        // Attend 1 frame que les anciennes cartes soient détruites et l'UI initialisée
+        yield return null;
+
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(firstButton);
         }
     }
 

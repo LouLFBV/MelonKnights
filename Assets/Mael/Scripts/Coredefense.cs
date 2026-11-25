@@ -13,19 +13,21 @@ public class CoreDefense : MonoBehaviour
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject shopPanel; // Panel UI du shop, laissé vide pour l'instant
     [SerializeField] private Animator coreAnimator;
-    [SerializeField] EventSystem _eventSystem;
-    [SerializeField] GameObject _firstButtonToSelect;
-    [SerializeField] PlayerAttack _playerAttack;
+    [SerializeField] private EventSystem _eventSystem;
+    [SerializeField] private GameObject _firstButtonToSelect;
+    [SerializeField] private PlayerAttack _playerAttack;
 
     [Header("Game Over")]
     [SerializeField] private GameObject panelDefeat;
     [SerializeField] private Animator panelDefeatAnimator;
+    [SerializeField] private GameObject _firstDieButtonToSelect;
 
 
     [Header("Win")]
     [SerializeField] private WaveManager wazeManager;
     [SerializeField] private GameObject panelVictory;
     [SerializeField] private Animator panelVictoryAnimator;
+    [SerializeField] private GameObject _firstWinButtonToSelect;
 
     private HealthSystem _healthSystem;
     private bool _isShopOpen = false;
@@ -34,7 +36,7 @@ public class CoreDefense : MonoBehaviour
     public bool IsShopOpen => _isShopOpen;
 
     // Permet à d'autres scripts (game manager, UI, ennemis) de réagir à la destruction du coeur
-    public static event System.Action OnCoreDestroyed;
+    public static event Action OnCoreDestroyed;
 
 
     [Header("Audio")]
@@ -85,6 +87,10 @@ public class CoreDefense : MonoBehaviour
     {
         panelVictory.SetActive(true);
         Time.timeScale = 0f; // Met le jeu en pause
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_firstWinButtonToSelect);
+        }
     }
 
     public void ToggleShop(InputAction.CallbackContext ctx)
@@ -100,8 +106,6 @@ public class CoreDefense : MonoBehaviour
     {
         if (_isShopOpen) return;
 
-        _eventSystem.SetSelectedGameObject(_firstButtonToSelect);
-
         _isShopOpen = true;
 
         if (shopPanel != null)
@@ -109,12 +113,15 @@ public class CoreDefense : MonoBehaviour
             shopPanel.SetActive(true);
             PlayerController.Instance.SetCanMove(false);
             _playerAttack.SetCanAttack(false);
-
         }
 
-        if(audioSource != null && closeOpenAudioClip != null)
-            audioSource.PlayOneShot(closeOpenAudioClip);
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_firstButtonToSelect);
+        }
 
+        if (audioSource != null && closeOpenAudioClip != null)
+            audioSource.PlayOneShot(closeOpenAudioClip);
 
         Debug.Log("Shop du Coeur ouvert.");
     }
@@ -130,7 +137,12 @@ public class CoreDefense : MonoBehaviour
             shopPanel.SetActive(false);
             PlayerController.Instance.SetCanMove(true);
             _playerAttack.SetCanAttack(true);
+        }
 
+        // Vide la sélection mémorisée une fois le shop fermé
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(null);
         }
 
         if (audioSource != null && closeOpenAudioClip != null)
@@ -156,6 +168,10 @@ public class CoreDefense : MonoBehaviour
         panelDefeat.SetActive(true);
         Time.timeScale = 0f; // Met le jeu en pause
         panelDefeatAnimator.SetTrigger("EndGame");
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_firstDieButtonToSelect);
+        }
         Debug.Log("Le Coeur a été détruit. Game Over.");
     }
 

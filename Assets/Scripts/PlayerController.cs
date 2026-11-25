@@ -88,6 +88,7 @@ public class PlayerController : MonoBehaviour
         {
             visuals.Add(visual.weaponType, visual);
         }
+        _lastDirection = Vector3.left;
     }
 
     void Start()
@@ -109,7 +110,7 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimationParameters()
     {
-        if (animator == null || !_canMove) return;
+        if (animator == null || !_canMove || Time.timeScale == 0) return;
 
         if (moveInput != Vector2.zero)
         {

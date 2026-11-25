@@ -4,6 +4,7 @@ public class Starter : MonoBehaviour
 {
     [Header("Weapons")]
     [SerializeField] private WeaponSO sword;
+    [SerializeField] private GameObject _swordButton;
     [SerializeField] private WeaponSO dagger;
     [SerializeField] private WeaponSO staff;
 
@@ -17,6 +18,10 @@ public class Starter : MonoBehaviour
     private void Start()
     {
         panel.SetActive(true);
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_swordButton);
+        }
     }
 
     public void SelectSword()

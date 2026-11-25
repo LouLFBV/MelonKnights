@@ -176,7 +176,7 @@ Transform:
   m_GameObject: {fileID: 99681641859216001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.32, y: -0.81, z: 0}
+  m_LocalPosition: {x: 1.62, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -207,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 222028203338241525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.191, y: 1.25, z: 0}
+  m_LocalPosition: {x: -1.58, y: 1.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -512,7 +512,7 @@ Transform:
   m_GameObject: {fileID: 1255857162378563143}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.04, y: -0.67, z: 0}
+  m_LocalPosition: {x: -1.5, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1412,7 +1412,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1996464940526327524, guid: 248a20918f827f84fa590d2005852d7e, type: 3}
+  m_Sprite: {fileID: -1996464940526327524, guid: bc67d00d96691be44a4ef796bfdfcff0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2178,6 +2178,7 @@ MonoBehaviour:
   xpSystem: {fileID: 2850452719096379767}
   playerAttack: {fileID: 8765066739209466119}
   _coreDefense: {fileID: 0}
+  _inventoryBar: {fileID: 0}
   weaponVisuals:
   - {fileID: 2347315568157498396}
   - {fileID: 6980784194811992200}
@@ -2240,6 +2241,7 @@ MonoBehaviour:
   xpSystem: {fileID: 2850452719096379767}
   coinText: {fileID: 2424192994876617068}
   optionPanel: {fileID: 1446322348087073777}
+  _volumeSlider: {fileID: 1814592145642931145}
   playerAttack: {fileID: 8765066739209466119}
   swordVisual: {fileID: 7119637492795778419}
   daggerVisual: {fileID: 1710159218011364516}
@@ -2297,7 +2299,6 @@ MonoBehaviour:
     back: {fileID: 9111007392674968509}
     left: {fileID: 4107287629072122419}
     right: {fileID: 8776154640387071477}
-  canAttack: 1
   maxDamageBonusCap: 12
   maxAttackSpeedBonusCap: 3
 --- !u!114 &2850452719096379767
@@ -2587,10 +2588,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 2766425386379111696}
+    m_SelectOnDown: {fileID: 1787969127571208451}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 2
@@ -2620,7 +2621,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2343341249004683119}
         m_TargetAssemblyTypeName: UIPlayer, Assembly-CSharp
-        m_MethodName: SetOptionPanelState
+        m_MethodName: ActiveOptionPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4144,10 +4145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 1787969127571208451}
+    m_SelectOnDown: {fileID: 6123678997050607167}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 2
@@ -5179,10 +5180,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 6123678997050607167}
+    m_SelectOnDown: {fileID: 2766425386379111696}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 2
@@ -5516,7 +5517,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 25, y: 25}
+  m_SizeDelta: {x: 15, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2396418956656270789
 CanvasRenderer:
@@ -5581,7 +5582,7 @@ Transform:
   m_GameObject: {fileID: 8858208781813077917}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.14, y: 1.41, z: 0}
+  m_LocalPosition: {x: 1.49, y: 1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6559,6 +6560,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 779662810216966194}
     m_Modifications:
+    - target: {fileID: 2316575939824081619, guid: 3b5da1e2014a0aa42967fe9f03d2ab12, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2343341249004683119}
     - target: {fileID: 6486267384299790191, guid: 3b5da1e2014a0aa42967fe9f03d2ab12, type: 3}
       propertyPath: m_Name
       value: PanelOptions
@@ -6653,6 +6658,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6486267384299790191, guid: 3b5da1e2014a0aa42967fe9f03d2ab12, type: 3}
   m_PrefabInstance: {fileID: 5625426199092413598}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1814592145642931145 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6286812478900176727, guid: 3b5da1e2014a0aa42967fe9f03d2ab12, type: 3}
+  m_PrefabInstance: {fileID: 5625426199092413598}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!224 &3027237463436317067 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211229739790636309, guid: 3b5da1e2014a0aa42967fe9f03d2ab12, type: 3}

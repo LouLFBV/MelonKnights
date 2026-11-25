@@ -30,6 +30,7 @@ public class UIPlayer : MonoBehaviour
 
     [Header("Options Settings")]
     [SerializeField] private GameObject optionPanel;
+    [SerializeField] private Slider _volumeSlider;
 
     [Header("Weapon Icon Settings")]
     [SerializeField] private PlayerAttack playerAttack;
@@ -59,7 +60,6 @@ public class UIPlayer : MonoBehaviour
 
     private void Start()
     {
-        ManageCursor(false);
         UpdateCoinText();
         UpdateHealthBar();
         UpdateCoinText();
@@ -199,15 +199,32 @@ public class UIPlayer : MonoBehaviour
     {
         panelMenu.SetActive(isActive);
         Time.timeScale = isActive ? 0f : 1f;
-        if (isActive) _eventSystem.SetSelectedGameObject(_firstButtonPauseMenu);
-        ManageCursor(isActive);
+
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(isActive ? _firstButtonPauseMenu : null);
+        }
     }
 
-    public void SetOptionPanelState()
+    public void ActiveOptionPanel()
     {
-        optionPanel.SetActive(!optionPanel.activeSelf);
+        optionPanel.SetActive(true);
+
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_volumeSlider.gameObject);
+        }
     }
 
+    public void DesactiveOptionPanel()
+    {
+        optionPanel.SetActive(false);
+
+        if (InputDeviceManager.Instance != null)
+        {
+            InputDeviceManager.Instance.SelectUI(_firstButtonPauseMenu);
+        }
+    }
     public void BackToMainMenu()
     {
         Time.timeScale = 1f;
@@ -216,19 +233,5 @@ public class UIPlayer : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
 
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
-    }
-
-    public void ManageCursor(bool showCursor)
-    {
-        //Cursor.visible = showCursor;
-
-        //if (showCursor)
-        //{
-        //    Cursor.lockState = CursorLockMode.None;
-        //}
-        //else
-        //{
-        //    Cursor.lockState = CursorLockMode.Locked;
-        //}
     }
 }

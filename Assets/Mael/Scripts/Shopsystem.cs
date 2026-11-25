@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 
 public class ShopSystem : MonoBehaviour
@@ -56,9 +57,37 @@ public class ShopSystem : MonoBehaviour
     {
         if (_selectedItem != null && buyButton != null)
         {
-            buyButton.interactable = GetPlayerCoins() >= _selectedItem.cost;
+            bool canAfford = GetPlayerCoins() >= _selectedItem.cost;
+
+            // Si le bouton était actif et devient non-interactable, on rend le focus au slot de la grille
+            if (buyButton.interactable && !canAfford)
+            {
+                buyButton.interactable = false;
+                ReturnFocusToSelectedSlot();
+            }
+            else
+            {
+                buyButton.interactable = canAfford;
+            }
         }
-        
+    }
+
+    private void ReturnFocusToSelectedSlot()
+    {
+        if (EventSystem.current == null || _selectedItem == null) return;
+
+        int index = turretItems.IndexOf(_selectedItem);
+        if (index >= 0 && index < slots.Count && slots[index] != null)
+        {
+            Selectable slotSelectable = slots[index].GetComponentInChildren<Selectable>();
+            if (slotSelectable != null)
+            {
+                if (InputDeviceManager.Instance != null)
+                {
+                    InputDeviceManager.Instance.SelectUI(slotSelectable.gameObject);
+                }
+            }
+        }
     }
 
     // Appelée par SlotShop quand le joueur clique sur une case
@@ -79,7 +108,6 @@ public class ShopSystem : MonoBehaviour
         if (buyButton != null)
             buyButton.interactable = GetPlayerCoins() >= item.cost;
     }
-
 
     private int GetPlayerCoins()
     {
@@ -108,13 +136,11 @@ public class ShopSystem : MonoBehaviour
         // 2. Vérification de l'espace dans l'inventaire et ajout
         if (InventoryBar.Instance != null)
         {
-            // On essaie de l'ajouter. Si ça renvoie false, la limite des 12 slots est atteinte.
             bool itemAdded = InventoryBar.Instance.AddTurretSlot(item);
 
             if (!itemAdded)
             {
                 Debug.LogWarning($"Achat annulé : impossible d'acheter {item.turretName}, l'inventaire est plein !");
-                // Optionnel : Tu pourras déclencher un son d'erreur ou afficher un texte "Inventaire Plein" à l'écran ici
                 return false;
             }
         }

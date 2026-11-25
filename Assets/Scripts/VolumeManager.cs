@@ -11,6 +11,7 @@ public class VolumeManager : MonoBehaviour
     [Tooltip("Le nom du paramètre exposé dans l'Audio Mixer (ex: MasterVolume)")]
     [SerializeField] private string mixerParameter = "MasterVolume";
 
+
     private void Start()
     {
         // 1. Charger la valeur sauvegardée (ou mettre au max (1) par défaut)

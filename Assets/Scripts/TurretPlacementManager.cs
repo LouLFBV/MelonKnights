@@ -85,20 +85,20 @@ public class TurretPlacementManager : MonoBehaviour
         TryPlaceTurret(targetPosition);
     }
 
+
     private void OnTurretSelectedFromInventory(TurretShopItem item)
     {
-        // Si on change d'item ou qu'on sélectionne un outil/arme (item == null)
-        CancelPlacement();
+        // Nettoie uniquement l'aperçu précédent sans toucher à l'InventoryBar
+        ClearPlacement();
 
         if (item == null || item.turretPrefab == null) return;
 
         _activeItem = item;
 
-        // Crée l'objet de preview (le fantôme qui suit la souris / curseur)
         _previewInstance = new GameObject("TurretPreview");
         _previewSpriteRenderer = _previewInstance.AddComponent<SpriteRenderer>();
-        _previewSpriteRenderer.sprite = item.icon; // Utilise l'icône ou le sprite de la tourelle
-        _previewSpriteRenderer.sortingOrder = 10;  // Toujours au-dessus du sol
+        _previewSpriteRenderer.sprite = item.icon;
+        _previewSpriteRenderer.sortingOrder = 10;
     }
 
     private void TryPlaceTurret(Vector3 position)
@@ -109,30 +109,40 @@ public class TurretPlacementManager : MonoBehaviour
             return;
         }
 
-        // Apparition de la vraie tourelle
         Instantiate(_activeItem.turretPrefab, position, Quaternion.identity);
 
-        // On stocke l'item qu'on vient de placer pour le supprimer de la barre
         TurretShopItem placedItem = _activeItem;
 
-        // On nettoie le mode placement
-        CancelPlacement();
+        // 1. On nettoie l'état de placement
+        ClearPlacement();
 
-        // On retire la tourelle de la barre d'inventaire
-        InventoryBar.Instance.RemoveTurretSlot(placedItem);
-
-        //InventoryBar.Instance.SelectSlot(0);
+        // 2. On retire la tourelle et on repasse sur le slot 0 (arme)
+        if (InventoryBar.Instance != null)
+        {
+            InventoryBar.Instance.RemoveTurretSlot(placedItem);
+            InventoryBar.Instance.SelectSlot(0);
+        }
     }
 
     private void CancelPlacement()
+    {
+        ClearPlacement();
+
+        if (InventoryBar.Instance != null)
+        {
+            InventoryBar.Instance.SelectSlot(0);
+        }
+    }
+
+    // Méthode dédiée uniquement à la réinitialisation locale du manager
+    private void ClearPlacement()
     {
         _activeItem = null;
         if (_previewInstance != null)
         {
             Destroy(_previewInstance);
+            _previewInstance = null;
         }
-
-        //InventoryBar.Instance.SelectSlot(0);
     }
 
     private bool CheckPlacementValidity(Vector3 position)
